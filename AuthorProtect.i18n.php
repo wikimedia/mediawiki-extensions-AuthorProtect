@@ -802,6 +802,7 @@ $messages['ia'] = array(
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
  * @author Farras
+ * @author IvanLanin
  * @author Rex
  */
 $messages['id'] = array(
@@ -811,7 +812,7 @@ $messages['id'] = array(
 	'authorprotect-confirm' => 'Mengganti tingkat perlindungan',
 	'authorprotect-edit' => 'Membatasi penyuntingan hanya untuk penulis pertama',
 	'authorprotect-move' => 'Membatasi pemindahan hanya untuk penulis pertama',
-	'authorprotect-expiry' => 'Kadaluwarsa:',
+	'authorprotect-expiry' => 'Kedaluwarsa:',
 	'authorprotect-reason' => 'Alasan:',
 	'authorprotect-intro' => 'Gunakan formulir berikut untuk mengunci halaman ini dari non-penulis pertama',
 	'authorprotect-success' => 'Perlindungan berhasil!',
