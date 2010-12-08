@@ -271,6 +271,7 @@ $messages['bs'] = array(
 );
 
 /** Catalan (Català)
+ * @author El libre
  * @author Jordi Roqué
  * @author Solde
  */
@@ -281,8 +282,8 @@ $messages['ca'] = array(
 	'authorprotect-confirm' => 'Canvi dels nivells de protecció',
 	'authorprotect-edit' => "Restricció d'edició als autors",
 	'authorprotect-move' => 'Restricció de reanomenament als autors',
-	'authorprotect-expiry' => 'Data de caducitat',
-	'authorprotect-reason' => 'Motiu',
+	'authorprotect-expiry' => 'Expira:',
+	'authorprotect-reason' => 'Raó:',
 	'authorprotect-intro' => 'Useu aquesta pantalla per a blocar aquesta pàgina als no-autors',
 	'authorprotect-success' => 'Protegida!',
 	'authorprotect-failure' => 'Desprotegida!',
