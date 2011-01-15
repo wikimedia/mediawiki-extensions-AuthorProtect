@@ -1790,6 +1790,7 @@ $messages['zh-hans'] = array(
  * @author Gzdavidwong
  * @author Horacewai2
  * @author Liangent
+ * @author Mark85296341
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
@@ -1799,7 +1800,7 @@ $messages['zh-hant'] = array(
 	'authorprotect-confirm' => '更改保護等級',
 	'authorprotect-edit' => '禁止除作者以外人士編輯',
 	'authorprotect-move' => '禁止除作者以外人士移動',
-	'authorprotect-expiry' => '到期日:',
+	'authorprotect-expiry' => '到期日：',
 	'authorprotect-reason' => '原因：',
 	'authorprotect-intro' => '使用此表格禁止除作者以外人士編輯',
 	'authorprotect-success' => '保護成功！',
