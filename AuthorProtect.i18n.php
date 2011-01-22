@@ -166,7 +166,7 @@ $messages['az'] = array(
 	'right-authorprotect' => 'Müəllif səhifələrinin mühafizəsi',
 );
 
-/** Bashkir (Башҡорт)
+/** Bashkir (Башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -193,7 +193,7 @@ $messages['be'] = array(
 	'authorprotect-reason' => 'Прычына:',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -387,7 +387,7 @@ $messages['de'] = array(
 	'right-authorprotect' => 'Auf Autorenbearbeitung beschränkte Seiten bearbeiten',
 );
 
-/** German (formal address) (Deutsch (Sie-Form))
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
  * @author Umherirrender
  */
 $messages['de-formal'] = array(
@@ -1481,7 +1481,7 @@ $messages['sl'] = array(
 	'right-authorprotect' => 'Zaščiti avtorske strani',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
@@ -1502,7 +1502,7 @@ $messages['sr-ec'] = array(
 	'right-authorprotect' => 'заштита страница од стране аутора',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Liangent
  * @author Michaello
  */
@@ -1791,6 +1791,7 @@ $messages['zh-hans'] = array(
  * @author Horacewai2
  * @author Liangent
  * @author Mark85296341
+ * @author Waihorace
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
