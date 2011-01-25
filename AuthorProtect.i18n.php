@@ -997,6 +997,14 @@ $messages['ksh'] = array(
 	'right-authorprotect' => 'Sigg jäje Anderlüx Änderunge schötze, die nit draan metjeschrevve han',
 );
 
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'authorprotect-reason' => 'Sedem:',
+	'authorprotect-success' => 'Parastin serkeftî!',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Les Meloures
  * @author Robby
