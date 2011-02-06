@@ -939,13 +939,14 @@ $messages['km'] = array(
 	'authorprotect-confirm' => 'ផ្លាស់ប្តូរកម្រិតការពារ',
 	'authorprotect-edit' => 'មានតែអ្នកនិពន្ឋទេទើបអាចធ្វើការកែប្រែបាន',
 	'authorprotect-move' => 'មានតែអ្នកនិពន្ឋទេទើបអាចធ្វើការប្ដូរទីតាំងបាន',
-	'authorprotect-expiry' => 'កាលបរិច្ឆេទផុតកំណត់',
-	'authorprotect-reason' => 'មូលហេតុ',
+	'authorprotect-expiry' => 'ផុតកំណត់៖',
+	'authorprotect-reason' => 'មូលហេតុ៖',
 	'authorprotect-intro' => 'សូមប្រើប្រាស់សំណុំបែបបទនេះដើម្បីចាក់សោទំព័រនេះ',
 	'authorprotect-success' => 'ការការពារដោយជោគជ័យ!',
 	'authorprotect-failure' => 'ការការពារបានបរាជ័យ',
 	'protect-level-author' => 'ការពារពីអ្នកដែលមិនមែនជាអ្នកនិពន្ឋ',
 	'restriction-level-author' => 'ត្រូវបានការពារដោយអ្នកនិពន្ឋ',
+	'right-authorprotect' => 'ការពារទំព័រដែលមានអ្នកនិពន្ធ',
 );
 
 /** Kannada (ಕನ್ನಡ)
