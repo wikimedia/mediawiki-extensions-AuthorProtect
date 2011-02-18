@@ -1146,9 +1146,10 @@ $messages['myv'] = array(
 
 /** Nahuatl (Nāhuatl)
  * @author Fluence
+ * @author Teòtlalili
  */
 $messages['nah'] = array(
-	'authorprotect-reason' => 'Īxtlamatiliztli',
+	'authorprotect-reason' => 'Tleka:',
 );
 
 /** Dutch (Nederlands)
