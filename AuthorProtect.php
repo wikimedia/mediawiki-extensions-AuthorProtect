@@ -23,7 +23,7 @@ $wgAvailableRights[] = 'authorprotect'; // users without this right cannot prote
 $wgExtensionMessagesFiles['AuthorProtect'] = dirname( __FILE__ ) . '/AuthorProtect.i18n.php';
 $wgGroupPermissions['sysop']['author'] = true; // sysops can edit every page despite author protection
 $wgGroupPermissions['user']['authorprotect'] = true; // registered users can protect pages they author
-$wgHooks['SkinTemplateContentActions'][] = 'efMakeContentAction';
+$wgHooks['SkinTemplateNavigation::Universal'][] = 'efMakeContentAction';
 $wgHooks['UnknownAction'][] = 'efAuthorProtectForm';
 $wgHooks['userCan'][] = 'efAuthorProtectDelay';
 $wgHooks['UserGetRights'][] = 'efAssignAuthor';
@@ -44,7 +44,7 @@ function efAuthorProtectDelay( $title, &$user, $action, $result ) {
 		$user->getRights(); // delay hook execution for compatibility w/ ConfirmAccount
 		$act = ( $action == '' || $action == 'view' ) ? 'edit' : $action;
 		$wgAuthorProtectDelayRun = false;
-		if ( userIsAuthor() && isAuthorProtected( $title, $act ) ) {
+		if ( userIsAuthor( $title ) && isAuthorProtected( $title, $act ) ) {
 			$result = true;
 			return false;
 		}
@@ -83,28 +83,29 @@ function efAuthorProtectUnassignProtect() {
 	$wgUser->getRights();
 }
 
-function efMakeContentAction( &$cactions ) {
-	global $wgUser, $wgRequest, $wgTitle;
-	if ( userIsAuthor() && $wgUser->isAllowed( 'authorprotect' ) && !$wgUser->isAllowed( 'protect' ) ) {
+function efMakeContentAction( $skin, &$cactions ) {
+	global $wgUser, $wgRequest;
+
+	$title = $skin->getTitle();
+	if ( userIsAuthor( $title ) && $wgUser->isAllowed( 'authorprotect' ) && !$wgUser->isAllowed( 'protect' ) ) {
 		$action = $wgRequest->getText( 'action' );
-		$cactions['authorprotect'] = array(
+		$cactions['actions']['authorprotect'] = array(
 			'class' => $action == 'authorprotect' ? 'selected' : false,
-			'text' => wfMsg( efAuthorProtectMessage( $wgTitle ) ),
-			'href' => $wgTitle->getLocalUrl( 'action=authorprotect' ),
+			'text' => wfMsg( efAuthorProtectMessage( $title ) ),
+			'href' => $title->getLocalUrl( 'action=authorprotect' ),
 		);
 	}
 	return true;
 }
 
 function efAuthorProtectForm( $action, $article ) {
-	global $wgTitle, $wgAuthorProtectDoProtect;
 	if ( $action == 'authorprotect' ) {
 		global $wgOut, $wgUser, $wgRequest, $wgRestrictionTypes;
 		if ( $wgUser->isAllowed( 'authorprotect' ) ) {
-			if ( userIsAuthor() ) {
+			if ( userIsAuthor( $article->getTitle() ) ) {
 				$wgOut->setPageTitle( wfMsg( 'authorprotect' ) );
 				if ( !$wgRequest->wasPosted() ) {
-					$wgOut->addHTML( efAuthorProtectMakeProtectForm() );
+					$wgOut->addHTML( efAuthorProtectMakeProtectForm( $article->getTitle() ) );
 				} else {
 					if ( !$wgUser->matchEditToken( $wgRequest->getText( 'wpToken' ) ) ) {
 						$wgOut->setPageTitle( wfMsg( 'errorpagetitle' ) );
@@ -115,7 +116,7 @@ function efAuthorProtectForm( $action, $article ) {
 					$expiration = array();
 					$expiry = efAuthorProtectExpiry( $wgRequest->getText( 'wpExpiryTime' ) );
 					foreach ( $wgRestrictionTypes as $type ) {
-						$rest = $wgTitle->getRestrictions( $type );
+						$rest = $article->getTitle()->getRestrictions( $type );
 						if ( $rest !== array() ) {
 							if ( !$wgUser->isAllowed( $rest[0] ) && !in_array( 'author', $rest ) ) {
 								$restrictions[$type] = $rest[0]; // don't let them lower the protection level
@@ -164,17 +165,17 @@ function efAuthorProtectForm( $action, $article ) {
 	return true; // unknown action, so state that the action doesn't exist
 }
 
-function efAuthorProtectMakeProtectForm() {
-	global $wgRestrictionTypes, $wgTitle, $wgUser;
+function efAuthorProtectMakeProtectForm( $title ) {
+	global $wgRestrictionTypes, $wgUser;
 	$token = $wgUser->editToken();
 	// FIXME: raw html messages
 	$form = Xml::openElement( 'p' ) . wfMsg( 'authorprotect-intro' ) . Xml::closeElement( 'p' );
-	$form .= Xml::openElement( 'form', array( 'method' => 'post', 'action' => $wgTitle->getLocalUrl( 'action=authorprotect' ) ) );
+	$form .= Xml::openElement( 'form', array( 'method' => 'post', 'action' => $title->getLocalUrl( 'action=authorprotect' ) ) );
 
 	$br = Html::element( 'br' );
 
 	foreach ( $wgRestrictionTypes as $type ) {
-		$rest = $wgTitle->getRestrictions( $type );
+		$rest = $title->getRestrictions( $type );
 		if ( $rest !== array() ) {
 			if ( !$wgUser->isAllowed( $rest[0] ) && !in_array( 'author', $rest ) )
 				continue; // it's protected at a level higher than them, so don't let them change it so they can now mess with stuff
@@ -195,11 +196,14 @@ function efAuthorProtectMakeProtectForm() {
 	return $form;
 }
 
-function userIsAuthor() {
-	global $wgTitle, $wgUser;
-	if ( !$wgTitle instanceOf Title )
+function userIsAuthor( $title = null ) {
+	global $wgUser;
+
+	if ( !$title instanceOf Title ) {
 		return false; // quick hack to prevent the API from messing up.
-	$id = $wgTitle->getArticleId();
+	}
+
+	$id = $title->getArticleId();
 	$dbr = wfGetDB( DB_SLAVE ); // grab the slave for reading
 	$aid = $dbr->selectField( 'revision', 'rev_user',  array( 'rev_page' => $id ), __METHOD__ );
 	// FIXME: weak comparison
