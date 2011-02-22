@@ -54,9 +54,11 @@ function efAuthorProtectDelay( $title, &$user, $action, $result ) {
 }
 
 function efAssignAuthor( $user, &$aRights ) {
+	global $wgTitle;
+
 	// don't assign author to anons... messes up logging stuff.
 	// plus it's all user_id based so it is impossible to differentiate one anon from another
-	if ( userIsAuthor() && $user->isLoggedIn() ) {
+	if ( userIsAuthor( $wgTitle ) && $user->isLoggedIn() ) {
 		$aRights[] = 'author';
 		$aRights = array_unique( $aRights );
 	}
@@ -196,7 +198,7 @@ function efAuthorProtectMakeProtectForm( $title ) {
 	return $form;
 }
 
-function userIsAuthor( $title = null ) {
+function userIsAuthor( $title ) {
 	global $wgUser;
 
 	if ( !$title instanceOf Title ) {
