@@ -1056,6 +1056,20 @@ $messages['lt'] = array(
 	'authorprotect-reason' => 'Priežastis',
 );
 
+/** Malagasy (Malagasy)
+ * @author Jagwar
+ */
+$messages['mg'] = array(
+	'authorprotect' => "Hiaro ny pejy amin'ny tsy mpamorona",
+	'authorprotect-confirm' => 'Hanova ny lentam-piarovana',
+	'authorprotect-expiry' => 'Mitsahatra :',
+	'authorprotect-reason' => 'Antony :',
+	'authorprotect-success' => 'Voaaro soa aman-tsara!',
+	'authorprotect-failure' => 'Tsy voaaro',
+	'protect-level-author' => "Hiaro ny pejy amin'ny tsy mpamorona",
+	'restriction-level-author' => 'Voaaro-mpamorona',
+);
+
 /** Eastern Mari (Олык Марий)
  * @author Сай
  */
