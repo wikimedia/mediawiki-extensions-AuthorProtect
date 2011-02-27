@@ -147,6 +147,7 @@ $messages['avk'] = array(
 );
 
 /** Azerbaijani (Azərbaycanca)
+ * @author PPerviz
  * @author Sortilegus
  */
 $messages['az'] = array(
@@ -156,8 +157,8 @@ $messages['az'] = array(
 	'authorprotect-confirm' => 'Mühafizə səviyyələrini dəyişdir',
 	'authorprotect-edit' => 'Yalnız müəlliflər redaktə edə bilərlər',
 	'authorprotect-move' => 'Yalnız müəlliflər adını dəyişdirə bilərlər',
-	'authorprotect-expiry' => 'Mühafizə müddəti',
-	'authorprotect-reason' => 'Səbəb',
+	'authorprotect-expiry' => 'Mühafizə müddəti:',
+	'authorprotect-reason' => 'Səbəb:',
 	'authorprotect-intro' => 'Səhifəni onun müəllifi olmayan istifadəçilərin redaktələrindən mühafizə etmək üçün bu formadan istifadə edin',
 	'authorprotect-success' => 'Mühafizə olundu!',
 	'authorprotect-failure' => 'Mühafizə etmək mümkün deyil',
