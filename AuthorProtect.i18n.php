@@ -1836,3 +1836,18 @@ $messages['zh-hant'] = array(
 	'right-authorprotect' => '保護自己創作的頁面禁止他人編輯',
 );
 
+/** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Oapbtommy
+ */
+$messages['zh-hk'] = array(
+	'authorprotect' => '來自非作者的保護頁面',
+	'authorprotect-notauthor' => '你不是此頁面的作者',
+	'authorprotect-confirm' => '更改保護等級',
+	'authorprotect-reason' => '原因：',
+	'authorprotect-success' => '保護成功！',
+	'authorprotect-failure' => '保護不成功',
+	'protect-level-author' => '來自非作者的保護',
+	'restriction-level-author' => '作者被保護',
+	'right-authorprotect' => '保護已授權的頁面',
+);
+
