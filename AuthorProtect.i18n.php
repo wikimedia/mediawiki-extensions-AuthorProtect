@@ -1729,6 +1729,12 @@ $messages['vec'] = array(
  */
 $messages['vep'] = array(
 	'authorprotect-reason' => 'Sü',
+	'authorprotect-intro' => "Kävutagat nece form, miše lukloita lehtpol' laptaližišpäi",
+	'authorprotect-success' => 'Kaičend om aktiviziruidud!',
+	'authorprotect-failure' => 'Ei voi aktiviziruida kaičendad',
+	'protect-level-author' => 'Kaičend laptaližišpäi',
+	'restriction-level-author' => 'Avtoran kaičend',
+	'right-authorprotect' => 'Avtoran lehtpoliden kaičend',
 );
 
 /** Vietnamese (Tiếng Việt)
