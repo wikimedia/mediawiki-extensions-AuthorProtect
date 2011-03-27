@@ -223,8 +223,8 @@ $messages['bg'] = array(
 	'authorprotect-desc' => 'Позволява на автора на страница да я защити от другите потребители',
 	'authorprotect-notauthor' => 'Не сте автор на тази страница',
 	'authorprotect-confirm' => 'Промяна степента на защита',
-	'authorprotect-expiry' => 'Срок на изтичане',
-	'authorprotect-reason' => 'Причина',
+	'authorprotect-expiry' => 'Срок на изтичане:',
+	'authorprotect-reason' => 'Причина:',
 	'authorprotect-success' => 'Защитата беше успешна!',
 	'authorprotect-failure' => 'Защитата беше неуспешна',
 );
@@ -274,6 +274,7 @@ $messages['bs'] = array(
 /** Catalan (Català)
  * @author El libre
  * @author Jordi Roqué
+ * @author SMP
  * @author Solde
  */
 $messages['ca'] = array(
@@ -284,7 +285,7 @@ $messages['ca'] = array(
 	'authorprotect-edit' => "Restricció d'edició als autors",
 	'authorprotect-move' => 'Restricció de reanomenament als autors',
 	'authorprotect-expiry' => 'Expira:',
-	'authorprotect-reason' => 'Raó:',
+	'authorprotect-reason' => 'Motiu:',
 	'authorprotect-intro' => 'Useu aquesta pantalla per a blocar aquesta pàgina als no-autors',
 	'authorprotect-success' => 'Protegida!',
 	'authorprotect-failure' => 'Desprotegida!',
