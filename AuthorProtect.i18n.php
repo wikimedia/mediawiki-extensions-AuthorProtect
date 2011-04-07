@@ -1140,13 +1140,14 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Zamwan
  */
 $messages['ms'] = array(
 	'authorprotect-notauthor' => 'Anda bukan seorang penulis laman ini',
 	'authorprotect-confirm' => 'Ubah tahap perlindungan',
 	'authorprotect-expiry' => 'Tempoh tamat',
-	'authorprotect-reason' => 'Alasan',
+	'authorprotect-reason' => 'Sebab:',
 	'authorprotect-success' => 'Perlindungan berjaya!',
 	'authorprotect-failure' => 'Perlindungan tidak berjaya',
 	'restriction-level-author' => 'Dilindungi oleh penulis',
