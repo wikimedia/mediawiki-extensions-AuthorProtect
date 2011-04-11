@@ -291,7 +291,7 @@ $messages['ca'] = array(
 	'authorprotect-failure' => 'Desprotegida!',
 	'protect-level-author' => 'Protecció dels no-autors',
 	'restriction-level-author' => "Restringida a l'autor",
-	'right-authorprotect' => "Pàgines d'autor protegides",
+	'right-authorprotect' => 'Protegir les pàgines amb autoria',
 );
 
 /** Chechen (Нохчийн) */
