@@ -525,15 +525,19 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Ebraminio
  * @author Huji
  * @author Mardetanha
  */
 $messages['fa'] = array(
+	'authorprotect' => 'حفاظت از صفحه در برابر غیرنویسنده‌ها',
 	'authorprotect-desc' => 'به نویسنده اجازه بده تا صفحه را در مقابل سایر کاربرها محافظت کند',
 	'authorprotect-notauthor' => 'شما نویسندهٔ این صفحه نیستید',
-	'authorprotect-confirm' => 'حفاظت',
-	'authorprotect-expiry' => 'زمان انقضا',
-	'authorprotect-reason' => 'دلیل',
+	'authorprotect-confirm' => 'تغییر سطح‌های حفاظت',
+	'authorprotect-edit' => 'محدودکردن ویرایش به نویسنده‌ها',
+	'authorprotect-move' => 'محدودکردن انتقال به نویسنده‌ها',
+	'authorprotect-expiry' => 'انقضا:',
+	'authorprotect-reason' => 'دلیل:',
 	'authorprotect-success' => 'محافظت موفقیت‌آمیز بود!',
 	'authorprotect-failure' => 'محافظت موفقیت‌آمیز نبود!',
 );
