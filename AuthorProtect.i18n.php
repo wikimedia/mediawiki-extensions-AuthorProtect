@@ -229,6 +229,26 @@ $messages['bg'] = array(
 	'authorprotect-failure' => 'Защитата беше неуспешна',
 );
 
+/** Bengali (বাংলা)
+ * @author Wikitanvir
+ */
+$messages['bn'] = array(
+	'authorprotect' => 'প্রণেতা ছাড়া বাকিদের কাছ থেক পাতা সুরক্ষা করুন',
+	'authorprotect-desc' => 'প্রণেতাকে অপর ব্যবহারকারীদের থেকে পাতাটি সুরক্ষার অধিকার দিন',
+	'authorprotect-notauthor' => 'আপনি এই পাতাটির প্রণেতা নন',
+	'authorprotect-confirm' => 'সুরক্ষার মাত্রা পরিবর্তন করুন',
+	'authorprotect-edit' => 'শুধুমাত্র প্রণেতাদের জন্য সম্পাদনা সীমাবদ্ধ করুন',
+	'authorprotect-move' => 'শুধুমাত্র প্রণেতাদের জন্য স্থানান্তর সীমাবদ্ধ করুন',
+	'authorprotect-expiry' => 'মেয়াদোত্তীর্ণ হবে:',
+	'authorprotect-reason' => 'কারণ:',
+	'authorprotect-intro' => 'এই ফর্মটি ব্যবহার করে অ-প্রণেতাদের কাছে এই পাতাটি সুরক্ষিত করুন',
+	'authorprotect-success' => 'সুরক্ষা সফল!',
+	'authorprotect-failure' => 'সুরক্ষা ব্যর্থ',
+	'protect-level-author' => 'প্রণেতা ছাড়া সবার কাছে সুরক্ষিত করুন',
+	'restriction-level-author' => 'প্রণেতা-সুরক্ষিত',
+	'right-authorprotect' => 'প্রণেতার পাতা সুরক্ষা করুন',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  * @author Y-M D
