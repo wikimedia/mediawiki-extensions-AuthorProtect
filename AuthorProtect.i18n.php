@@ -1076,10 +1076,11 @@ $messages['li'] = array(
 
 /** Lithuanian (Lietuvių)
  * @author Hugo.arg
+ * @author Perkunas
  */
 $messages['lt'] = array(
-	'authorprotect-confirm' => 'Apsaugoti',
-	'authorprotect-reason' => 'Priežastis',
+	'authorprotect-confirm' => 'Keisti apsaugos lygius',
+	'authorprotect-reason' => 'Priežastis:',
 );
 
 /** Malagasy (Malagasy)
