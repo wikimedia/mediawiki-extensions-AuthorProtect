@@ -1083,6 +1083,18 @@ $messages['lt'] = array(
 	'authorprotect-reason' => 'Priežastis:',
 );
 
+/** Latvian (Latviešu)
+ * @author GreenZeb
+ */
+$messages['lv'] = array(
+	'authorprotect' => 'Aizsargāt lapu no tiem, kas nav autori',
+	'authorprotect-desc' => 'Atļaut lapas autoram aizsargāt lapu no citiem lietotājiem',
+	'authorprotect-notauthor' => 'Tu neesi šīs lapas autors',
+	'authorprotect-confirm' => 'Mainīt aizsardzības līmeņus',
+	'authorprotect-success' => 'Aizsardzība veiksmīga!',
+	'authorprotect-failure' => 'Aizsardzība neveiksmīga!',
+);
+
 /** Malagasy (Malagasy)
  * @author Jagwar
  */
