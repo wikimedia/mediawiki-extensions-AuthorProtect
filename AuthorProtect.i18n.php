@@ -1158,6 +1158,7 @@ $messages['ml'] = array(
 );
 
 /** Marathi (मराठी)
+ * @author Htt
  * @author Kaustubh
  */
 $messages['mr'] = array(
@@ -1168,7 +1169,7 @@ $messages['mr'] = array(
 	'authorprotect-edit' => 'फक्त लेखकांनाच संपादन करू द्या',
 	'authorprotect-move' => 'फक्त लेखकांनाच स्थानांतरण करू द्या',
 	'authorprotect-expiry' => 'रद्दीकरण वेळ',
-	'authorprotect-reason' => 'कारण',
+	'authorprotect-reason' => 'कारण:',
 	'authorprotect-intro' => 'लेखक नसणार्‍यांपासून हे पान सुरक्षित करण्यासाठी हा अर्ज वापरा',
 	'authorprotect-success' => 'सुरक्षित केले!',
 	'authorprotect-failure' => 'सुरक्षित करू शकलेलो नाही',
