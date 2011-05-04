@@ -1227,6 +1227,13 @@ $messages['nl'] = array(
 	'right-authorprotect' => "Zelf bewerkte pagina's beveiligen",
 );
 
+/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'authorprotect-notauthor' => 'Je bent niet de auteur van deze pagina',
+);
+
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Gunnernett
  * @author Harald Khan
