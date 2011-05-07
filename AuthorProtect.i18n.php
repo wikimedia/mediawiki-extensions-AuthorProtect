@@ -1075,12 +1075,19 @@ $messages['li'] = array(
 );
 
 /** Lithuanian (Lietuvių)
+ * @author Eitvys200
  * @author Hugo.arg
  * @author Perkunas
  */
 $messages['lt'] = array(
+	'authorprotect' => 'Apsaugoti puslapį nuo ne autorių',
+	'authorprotect-desc' => 'Leisti puslapio autoriui apsaugoti puslapį nuo kitų vartotojų',
+	'authorprotect-notauthor' => 'Jūs neesate šio puslapio autorius',
 	'authorprotect-confirm' => 'Keisti apsaugos lygius',
 	'authorprotect-reason' => 'Priežastis:',
+	'authorprotect-intro' => 'Naudokite šią formą norėdami užrakinti puslapi nuo ne autorių',
+	'authorprotect-success' => 'Apsauga sėkminga!',
+	'authorprotect-failure' => 'Apsauga nesėkminga',
 );
 
 /** Latvian (Latviešu)
@@ -1302,6 +1309,13 @@ $messages['oc'] = array(
 	'protect-level-author' => 'Protegir de non-autors',
 	'restriction-level-author' => 'Autor protegit',
 	'right-authorprotect' => 'Protegir la pagina dels autors',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Odisha1
+ */
+$messages['or'] = array(
+	'authorprotect-reason' => 'କାରଣ:',
 );
 
 /** Ossetic (Иронау)
