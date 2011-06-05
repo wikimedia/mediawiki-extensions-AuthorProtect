@@ -550,10 +550,10 @@ $messages['eu'] = array(
  * @author Mardetanha
  */
 $messages['fa'] = array(
-	'authorprotect' => 'حفاظت از صفحه در برابر غیرنویسنده‌ها',
+	'authorprotect' => 'محافظت از صفحه در برابر غیرنویسنده‌ها',
 	'authorprotect-desc' => 'به نویسنده اجازه بده تا صفحه را در مقابل سایر کاربرها محافظت کند',
 	'authorprotect-notauthor' => 'شما نویسندهٔ این صفحه نیستید',
-	'authorprotect-confirm' => 'تغییر سطح‌های حفاظت',
+	'authorprotect-confirm' => 'تغییر سطح‌های محافظت',
 	'authorprotect-edit' => 'محدودکردن ویرایش به نویسنده‌ها',
 	'authorprotect-move' => 'محدودکردن انتقال به نویسنده‌ها',
 	'authorprotect-expiry' => 'انقضا:',
