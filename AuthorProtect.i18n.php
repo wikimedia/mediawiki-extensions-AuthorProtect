@@ -1084,6 +1084,7 @@ $messages['lt'] = array(
 	'authorprotect-desc' => 'Leisti puslapio autoriui apsaugoti puslapį nuo kitų vartotojų',
 	'authorprotect-notauthor' => 'Jūs neesate šio puslapio autorius',
 	'authorprotect-confirm' => 'Keisti apsaugos lygius',
+	'authorprotect-expiry' => 'Galioja iki:',
 	'authorprotect-reason' => 'Priežastis:',
 	'authorprotect-intro' => 'Naudokite šią formą norėdami užrakinti puslapi nuo ne autorių',
 	'authorprotect-success' => 'Apsauga sėkminga!',
