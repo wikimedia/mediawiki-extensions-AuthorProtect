@@ -1190,13 +1190,20 @@ $messages['mr'] = array(
  * @author Zamwan
  */
 $messages['ms'] = array(
+	'authorprotect' => 'Lindungi laman daripada bukan pengarang',
+	'authorprotect-desc' => 'Membolehkan pengarang laman untuk melindunginya daripada pengguna-pengguna lain',
 	'authorprotect-notauthor' => 'Anda bukan seorang penulis laman ini',
 	'authorprotect-confirm' => 'Ubah tahap perlindungan',
+	'authorprotect-edit' => 'Hadkan hak menyunting kepada pengarang',
+	'authorprotect-move' => 'Hadkan hak memindahkan laman kepada pengarang',
 	'authorprotect-expiry' => 'Sehingga:',
 	'authorprotect-reason' => 'Sebab:',
+	'authorprotect-intro' => 'Gunakan borang ini untuk mengunci laman ini daripada bukan pengarang',
 	'authorprotect-success' => 'Perlindungan berjaya!',
 	'authorprotect-failure' => 'Perlindungan tidak berjaya',
+	'protect-level-author' => 'Lindungi daripada bukan pengarang',
 	'restriction-level-author' => 'Dilindungi oleh penulis',
+	'right-authorprotect' => 'Lindungi laman-laman yang dikarang',
 );
 
 /** Erzya (Эрзянь)
