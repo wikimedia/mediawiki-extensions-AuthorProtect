@@ -1203,7 +1203,7 @@ $messages['ms'] = array(
 	'authorprotect-failure' => 'Perlindungan tidak berjaya',
 	'protect-level-author' => 'Lindungi daripada bukan pengarang',
 	'restriction-level-author' => 'Dilindungi oleh penulis',
-	'right-authorprotect' => 'Lindungi laman-laman yang dikarang',
+	'right-authorprotect' => 'Melindungi laman-laman yang dikarang',
 );
 
 /** Erzya (Эрзянь)
