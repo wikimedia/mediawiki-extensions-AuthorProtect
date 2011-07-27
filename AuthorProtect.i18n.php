@@ -187,6 +187,26 @@ $messages['ba'] = array(
 	'right-authorprotect' => 'Автор биттәрен һаҡлау',
 );
 
+/** Bavarian (Boarisch)
+ * @author Mucalexx
+ */
+$messages['bar'] = array(
+	'authorprotect' => "D' Seitenbeorweitung auf Autorn bschränken",
+	'authorprotect-desc' => "Daméglicht d' Seitenbeorweitung auf 'n Autor z' bschränken",
+	'authorprotect-notauthor' => 'Du bist néd da Autor voh derer Seiten',
+	'authorprotect-confirm' => 'Schytzen',
+	'authorprotect-edit' => 'Bschränk Beorweitung auf Autorn',
+	'authorprotect-move' => 'Bschränk Vaschiawung auf Autorn',
+	'authorprotect-expiry' => 'Sperrdauer:',
+	'authorprotect-reason' => 'Grund:',
+	'authorprotect-intro' => "Mid dém Formular kå d' Seitenbeorweitung auf Autorn bschränkd wern.",
+	'authorprotect-success' => "D' Seiten is gschytzd worn!",
+	'authorprotect-failure' => "D' Seiten hod néd gschytzd wern kenner!",
+	'protect-level-author' => "D' Seitenbeorweitung auf Autorn bschränken",
+	'restriction-level-author' => 'Autor is gschytzd',
+	'right-authorprotect' => 'Auf Autornbeorweitung bschränkde Seiten beorweiden',
+);
+
 /** Belarusian (Беларуская)
  * @author Тест
  */
