@@ -199,6 +199,7 @@ $messages['be-tarask'] = array(
 	'protect-level-author' => 'Абарона ад не-аўтараў',
 	'restriction-level-author' => 'Аўтарская абарона',
 	'right-authorprotect' => 'абарона аўтарскіх старонак',
+	'right-author' => 'рэдагаваньне абароненых аўтарамі старонак',
 );
 
 /** Bulgarian (Български)
@@ -351,18 +352,19 @@ $messages['da'] = array(
  * @author Umherirrender
  */
 $messages['de'] = array(
-	'authorprotect' => 'Seitenbearbeitung auf Autoren beschränken',
-	'authorprotect-desc' => 'Ermöglicht die Seitenbearbeitung auf den Autor zu beschränken',
+	'authorprotect' => 'Seitenbearbeitung auf den Autor der Seite beschränken',
+	'authorprotect-desc' => 'Ermöglicht es, die Seitenbearbeitung auf den Autor zu beschränken',
 	'authorprotect-notauthor' => 'Du bist nicht der Autor dieser Seite',
 	'authorprotect-confirm' => 'Schützen',
-	'authorprotect-edit' => 'Beschränke Bearbeitung auf Autoren',
-	'authorprotect-move' => 'Beschränke Verschiebung auf Autoren',
+	'authorprotect-edit' => 'Beschränke Bearbeitungen auf Autoren',
+	'authorprotect-move' => 'Beschränke Verschiebungen auf Autoren',
 	'authorprotect-intro' => 'Mit diesem Formular kann die Seitenbearbeitung auf Autoren beschränkt werden.',
-	'authorprotect-success' => 'Seite wurde geschützt!',
-	'authorprotect-failure' => 'Seite konnte nicht geschützt werden!',
+	'authorprotect-success' => 'Die Seite wurde geschützt.',
+	'authorprotect-failure' => 'Die Seite konnte nicht geschützt werden.',
 	'protect-level-author' => 'Seitenbearbeitung auf Autoren beschränken',
-	'restriction-level-author' => 'Autor-geschützt',
-	'right-authorprotect' => 'Auf Autorenbearbeitung beschränkte Seiten bearbeiten',
+	'restriction-level-author' => 'Auf die Bearbeitung durch den Autor beschränkt',
+	'right-authorprotect' => 'Seiten auf die Bearbeitung durch den Autor beschränken',
+	'right-author' => 'Auf die Bearbeitung durch den Autor beschränkte Seiten bearbeiten',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
@@ -985,6 +987,7 @@ $messages['mk'] = array(
 	'protect-level-author' => 'Заштити од неавтори',
 	'restriction-level-author' => 'Авторска заштита',
 	'right-authorprotect' => 'Заштити авторски страници',
+	'right-author' => 'Уредување на страници заштитени од авторот',
 );
 
 /** Malayalam (മലയാളം)
@@ -1327,6 +1330,7 @@ $messages['sl'] = array(
 	'protect-level-author' => 'Zaščiti pred ne avtorji',
 	'restriction-level-author' => 'Zaščiteno na avtorje',
 	'right-authorprotect' => 'Zaščiti avtorske strani',
+	'right-author' => 'Urejanje strani, ki so jih zaščitili avtorji',
 );
 
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
