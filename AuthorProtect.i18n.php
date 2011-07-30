@@ -911,6 +911,7 @@ $messages['lb'] = array(
 	'protect-level-author' => "Protegéiert virun ''Net-Auteuren''",
 	'restriction-level-author' => 'Auteur-protegéiert',
 	'right-authorprotect' => 'Säite mat engem Auteur schützen',
+	'right-author' => 'Säiten déi, ausser fir den Auteur, gespaart sinn, änneren',
 );
 
 /** Limburgish (Limburgs)
@@ -1195,18 +1196,19 @@ $messages['ps'] = array(
  * @author Malafaya
  */
 $messages['pt'] = array(
-	'authorprotect' => 'Proteger página contra não-autores',
+	'authorprotect' => 'Proteger a página de edições por utilizadores que não são autores',
 	'authorprotect-desc' => 'Permite ao autor de uma página protegê-la de outros utilizadores',
 	'authorprotect-notauthor' => 'Não é o autor desta página',
 	'authorprotect-confirm' => 'Alterar níveis de protecção',
 	'authorprotect-edit' => 'Restringir edição a autores',
-	'authorprotect-move' => 'Restringir mover da página a autores',
-	'authorprotect-intro' => 'Use este formulário para bloquear a página a não-autores',
-	'authorprotect-success' => 'Protecção com sucesso!',
-	'authorprotect-failure' => 'Protecção sem sucesso',
-	'protect-level-author' => 'Proteger de não-autores',
+	'authorprotect-move' => 'Restringir a movimentação da página a autores',
+	'authorprotect-intro' => 'Use este formulário para bloquear a página contra edições por utilizadores que não são autores',
+	'authorprotect-success' => 'Protecção ocorreu com sucesso!',
+	'authorprotect-failure' => 'Protecção não foi bem sucedida',
+	'protect-level-author' => 'Proteger de edições por utilizadores que não são autores',
 	'restriction-level-author' => 'Protegida pelo autor',
 	'right-authorprotect' => 'Proteger páginas com autor',
+	'right-author' => 'Editar páginas protegidas pelo autor',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
