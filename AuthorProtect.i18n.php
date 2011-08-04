@@ -437,6 +437,7 @@ $messages['eo'] = array(
  * @author Crazymadlover
  * @author Dferg
  * @author Drini
+ * @author Fitoschido
  * @author Imre
  * @author Sanbec
  */
@@ -453,6 +454,7 @@ $messages['es'] = array(
 	'protect-level-author' => 'Proteger de no-autores.',
 	'restriction-level-author' => 'Protegido por autor',
 	'right-authorprotect' => 'proteger las páginas con autor',
+	'right-author' => 'Editar páginas protegidas por el autor',
 );
 
 /** Estonian (Eesti)
@@ -526,6 +528,7 @@ $messages['fi'] = array(
  * @author Crochet.david
  * @author Grondin
  * @author Peter17
+ * @author Sherbrooke
  */
 $messages['fr'] = array(
 	'authorprotect' => 'Protéger la page des non-auteurs',
@@ -540,6 +543,7 @@ $messages['fr'] = array(
 	'protect-level-author' => 'Protéger des non-auteurs',
 	'restriction-level-author' => 'Auteur-protégé',
 	'right-authorprotect' => 'Protéger la page des auteurs',
+	'right-author' => 'Modifier les pages protégées par son auteur',
 );
 
 /** Franco-Provençal (Arpetan)
@@ -569,13 +573,14 @@ $messages['gl'] = array(
 	'authorprotect-notauthor' => 'Non é o autor desta páxina',
 	'authorprotect-confirm' => 'Cambiar os niveis de protección',
 	'authorprotect-edit' => 'Restrinxir o editado aos autores',
-	'authorprotect-move' => 'Restrinxir o movemento aos usuarios',
+	'authorprotect-move' => 'Restrinxir o movemento aos autores',
 	'authorprotect-intro' => 'Use isto para protexer esta páxina fronte á edición dos que non son os seus autores',
 	'authorprotect-success' => 'A protección foi un éxito!',
 	'authorprotect-failure' => 'A protección non se puido levar a cabo',
 	'protect-level-author' => 'Protexer fronte á edición dos que non son os seus autores',
 	'restriction-level-author' => 'Protexido polo autor',
 	'right-authorprotect' => 'Protexer as páxinas de autores',
+	'right-author' => 'Editar as páxinas protexidas polo seu autor',
 );
 
 /** Swiss German (Alemannisch)
@@ -724,6 +729,7 @@ $messages['ia'] = array(
 	'protect-level-author' => 'Proteger contra non-autores',
 	'restriction-level-author' => 'Protegite per le autor',
 	'right-authorprotect' => 'Proteger paginas scribite per autores',
+	'right-author' => 'Modificar paginas protegite per le autor',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1045,6 +1051,7 @@ $messages['ms'] = array(
 	'protect-level-author' => 'Lindungi daripada bukan pengarang',
 	'restriction-level-author' => 'Dilindungi oleh penulis',
 	'right-authorprotect' => 'Melindungi laman-laman yang dikarang',
+	'right-author' => 'Menyunting laman yang dilindungi oleh pengarang',
 );
 
 /** Dutch (Nederlands)
@@ -1063,6 +1070,7 @@ $messages['nl'] = array(
 	'protect-level-author' => 'Beveiligen voor niet-auteurs',
 	'restriction-level-author' => 'Alleen te bewerken door auteurs',
 	'right-authorprotect' => "Zelf bewerkte pagina's beveiligen",
+	'right-author' => "Pagina's die alleen door auteurs te bewerken zijn te bewerken",
 );
 
 /** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
