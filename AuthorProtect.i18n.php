@@ -562,6 +562,7 @@ $messages['frp'] = array(
 	'protect-level-author' => 'Protègiér des nan-ôtors',
 	'restriction-level-author' => 'Ôtor-protègiê',
 	'right-authorprotect' => 'Protègiér les pâges des ôtors',
+	'right-author' => 'Changiér les pâges protègiês per son ôtor',
 );
 
 /** Galician (Galego)
