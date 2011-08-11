@@ -1118,6 +1118,7 @@ $messages['no'] = array(
 	'protect-level-author' => 'Beskytt for andre enn forfattere',
 	'restriction-level-author' => 'Beskyttet for forfattere',
 	'right-authorprotect' => 'Beskytt forfattede sider',
+	'right-author' => 'Rediger forfatter-beskyttede sider',
 );
 
 /** Occitan (Occitan)
