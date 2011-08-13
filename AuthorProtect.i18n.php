@@ -1288,6 +1288,7 @@ $messages['ru'] = array(
 	'protect-level-author' => 'Защита от не-авторов',
 	'restriction-level-author' => 'Авторская защита',
 	'right-authorprotect' => 'защита авторских страниц',
+	'right-author' => 'правка авторски-защищённых страниц',
 );
 
 /** Yakut (Саха тыла)
