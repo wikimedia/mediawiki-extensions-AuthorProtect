@@ -621,6 +621,7 @@ $messages['gv'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Rotemliss
  * @author StuB
  * @author YaronSh
@@ -638,6 +639,7 @@ $messages['he'] = array(
 	'protect-level-author' => 'הגנה מפני לא־יוצרים',
 	'restriction-level-author' => 'מוגן ליוצר',
 	'right-authorprotect' => 'הגנה על דפים שנכתבו על ידי אותו המשתמש',
+	'right-author' => 'לערוך דפים המוגנים על־ידי המחבר',
 );
 
 /** Hindi (हिन्दी)
@@ -854,7 +856,6 @@ $messages['km'] = array(
 	'restriction-level-author' => 'ត្រូវបានការពារដោយអ្នកនិពន្ឋ',
 	'right-authorprotect' => 'ការពារទំព័រដែលមានអ្នកនិពន្ធ',
 );
-
 
 /** Korean (한국어)
  * @author Klutzy
@@ -1139,7 +1140,7 @@ $messages['oc'] = array(
 	'right-authorprotect' => 'Protegir la pagina dels autors',
 );
 
-/** Ossetic (Иронау)
+/** Ossetic (Ирон)
  * @author Amikeco
  */
 $messages['os'] = array(
@@ -1257,7 +1258,8 @@ $messages['ro'] = array(
 	'authorprotect-failure' => 'Protejare fără succes',
 	'protect-level-author' => 'Protejare de non-autori',
 	'restriction-level-author' => 'Autor-protejat',
-	'right-authorprotect' => 'Protejare pagini de autor',
+	'right-authorprotect' => 'Protejează pagini de autor',
+	'right-author' => 'Modifică pagini protejate de autor',
 );
 
 /** Tarandíne (Tarandíne)
@@ -1291,7 +1293,7 @@ $messages['ru'] = array(
 	'right-author' => 'правка авторски-защищённых страниц',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
