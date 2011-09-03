@@ -739,6 +739,7 @@ $messages['ia'] = array(
  * @author Bennylin
  * @author Farras
  * @author IvanLanin
+ * @author Kenrick95
  * @author Rex
  */
 $messages['id'] = array(
@@ -754,6 +755,7 @@ $messages['id'] = array(
 	'protect-level-author' => 'Melindungi dari non-penulis pertama',
 	'restriction-level-author' => 'Dilindungi penulis pertama',
 	'right-authorprotect' => 'Lindungi halaman dengan penulis pertama',
+	'right-author' => 'Menyunting halaman yang dilindungi penulis',
 );
 
 /** Ido (Ido)
