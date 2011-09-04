@@ -805,6 +805,7 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Schu
  * @author 青子守歌
  */
 $messages['ja'] = array(
@@ -820,6 +821,7 @@ $messages['ja'] = array(
 	'protect-level-author' => '非作成者から保護',
 	'restriction-level-author' => '作成者保護',
 	'right-authorprotect' => '作成したページを保護する',
+	'right-author' => '著者が保護したページを編集',
 );
 
 /** Javanese (Basa Jawa)
