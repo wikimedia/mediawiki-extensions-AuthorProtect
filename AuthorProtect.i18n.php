@@ -1194,6 +1194,7 @@ $messages['pms'] = array(
 	'protect-level-author' => 'Protegg dai nen-autor',
 	'restriction-level-author' => "Protegiùa da l'autor",
 	'right-authorprotect' => 'Protegg le pàgine con autor',
+	'right-author' => "Modifiché le pàgine protegiùe d'autor",
 );
 
 /** Pashto (پښتو)
