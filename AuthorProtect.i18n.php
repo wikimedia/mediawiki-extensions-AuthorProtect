@@ -1179,6 +1179,7 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
@@ -1194,7 +1195,7 @@ $messages['pms'] = array(
 	'protect-level-author' => 'Protegg dai nen-autor',
 	'restriction-level-author' => "Protegiùa da l'autor",
 	'right-authorprotect' => 'Protegg le pàgine con autor',
-	'right-author' => "Modifiché le pàgine protegiùe d'autor",
+	'right-author' => "Modifiché le pàgine protegiùe da l'autor",
 );
 
 /** Pashto (پښتو)
