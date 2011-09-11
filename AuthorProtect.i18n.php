@@ -1162,6 +1162,7 @@ $messages['os'] = array(
  * @author Derbeth
  * @author Leinad
  * @author Sp5uhe
+ * @author Woytecr
  */
 $messages['pl'] = array(
 	'authorprotect' => 'Zabezpiecz stronę przed wszystkimi poza autorami',
@@ -1176,6 +1177,7 @@ $messages['pl'] = array(
 	'protect-level-author' => 'Zabezpieczenie przed wszystkimi poza autorami',
 	'restriction-level-author' => 'Tylko autorzy',
 	'right-authorprotect' => 'Zabezpieczanie stron autorskich',
+	'right-author' => 'Edycja stron zabezpieczonych przez autora',
 );
 
 /** Piedmontese (Piemontèis)
