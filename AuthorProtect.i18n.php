@@ -248,6 +248,7 @@ $messages['br'] = array(
 	'protect-level-author' => "Gwareziñ diouzh ar re n'int ket aozerien",
 	'restriction-level-author' => 'Aozer-gwarezet',
 	'right-authorprotect' => 'Gwareziñ pajenn an aozerien',
+	'right-author' => 'Kemmañ ar pajennoù gwarezet gant an aozer anezho',
 );
 
 /** Bosnian (Bosanski)
