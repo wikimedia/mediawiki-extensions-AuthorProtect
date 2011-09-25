@@ -31,10 +31,12 @@ $messages['en'] = array(
  * @author Darth Kule
  * @author Purodha
  * @author Raymond
+ * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'authorprotect-desc' => 'Extension description displayed on [[Special:Version]].',
 	'right-authorprotect' => '{{doc-right|authorprotect}}',
+	'right-author' => '{{doc-right|author}}',
 );
 
 /** Afrikaans (Afrikaans)
