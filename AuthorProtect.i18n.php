@@ -900,6 +900,7 @@ $messages['ksh'] = array(
 	'protect-level-author' => 'Schötze jähje Nit-Met-Schriiver aan dä Sigg',
 	'restriction-level-author' => 'Metschriiver-jeschötz',
 	'right-authorprotect' => 'Sigg jäje Anderlüx Änderunge schötze, die nit draan metjeschrevve han',
+	'right-author' => 'Vum Schriever jeschözde Sigge ändere',
 );
 
 /** Kurdish (Latin) (Kurdî (Latin))
