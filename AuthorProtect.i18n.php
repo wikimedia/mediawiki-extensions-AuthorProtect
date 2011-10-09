@@ -330,6 +330,7 @@ $messages['cy'] = array(
 	'protect-level-author' => 'Diogeler rhag cael ei newid gan neb ond ei hawduron',
 	'restriction-level-author' => 'Cyfyngedig-i-awduron',
 	'right-authorprotect' => "Gallu awdur i ddiogelu tudalennau o'i waith ei hun",
+	'right-author' => 'Golygu tudalennau sydd wedi eu diogelu rhag pawb ond yr awdur',
 );
 
 /** Danish (Dansk)
