@@ -291,6 +291,7 @@ $messages['ca'] = array(
 	'protect-level-author' => 'Protecció dels no-autors',
 	'restriction-level-author' => "Restringida a l'autor",
 	'right-authorprotect' => 'Protegir les pàgines amb autoria',
+	'right-author' => 'Modificar pàgines protegides pel seu autor',
 );
 
 /** Czech (Česky)
