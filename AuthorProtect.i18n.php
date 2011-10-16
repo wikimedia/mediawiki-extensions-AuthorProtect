@@ -590,6 +590,7 @@ $messages['gl'] = array(
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Chlämens
  * @author Als-Holder
  */
 $messages['gsw'] = array(
@@ -605,6 +606,7 @@ $messages['gsw'] = array(
 	'protect-level-author' => 'Sytebearbeitig uf Autore bschränke',
 	'restriction-level-author' => 'Autor-gschitzt',
 	'right-authorprotect' => 'Autorisierti Syte schitze',
+	'right-author' => 'Syte bearbeite, wo uff de Autor beschränkt sin',
 );
 
 /** Manx (Gaelg)
