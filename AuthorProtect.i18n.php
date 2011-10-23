@@ -1483,6 +1483,7 @@ $messages['tl'] = array(
 /** Turkish (Türkçe)
  * @author Joseph
  * @author Karduelis
+ * @author Khutuck
  */
 $messages['tr'] = array(
 	'authorprotect' => 'Sayfayı yazar-olmayanlardan koru',
@@ -1497,6 +1498,7 @@ $messages['tr'] = array(
 	'protect-level-author' => 'Yazar-olmayanlardan koru',
 	'restriction-level-author' => 'Yazar-korumalı',
 	'right-authorprotect' => 'Yazarlı sayfaları koru',
+	'right-author' => 'Yarı korumadaki sayfaları düzenle',
 );
 
 /** Ukrainian (Українська)
