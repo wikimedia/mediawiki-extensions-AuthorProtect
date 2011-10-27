@@ -702,6 +702,7 @@ $messages['hsb'] = array(
 	'protect-level-author' => 'Přećiwo wužiwarjam škitać, kotřiž awtorojo njejsu',
 	'restriction-level-author' => 'Za awtorow škitane',
 	'right-authorprotect' => 'Strony awtora škitać',
+	'right-author' => 'Jenož přez awtora wobdźěłojumne strony wobdźěłać',
 );
 
 /** Hungarian (Magyar)
