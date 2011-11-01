@@ -395,6 +395,7 @@ $messages['dsb'] = array(
 	'protect-level-author' => 'Pśed njeawtorami šćitaś',
 	'restriction-level-author' => 'Za awtorow šćitany',
 	'right-authorprotect' => 'Boki awtorow šćitaś',
+	'right-author' => 'Jano pśez awtora wobgranicowane boki wobźěłaś',
 );
 
 /** Greek (Ελληνικά)
