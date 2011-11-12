@@ -1507,6 +1507,7 @@ $messages['tr'] = array(
  * @author AS
  * @author Ahonc
  * @author Prima klasy4na
+ * @author Sodmy
  * @author Тест
  */
 $messages['uk'] = array(
@@ -1522,6 +1523,7 @@ $messages['uk'] = array(
 	'protect-level-author' => 'Захист від не-авторів',
 	'restriction-level-author' => 'Авторський захист',
 	'right-authorprotect' => 'Захист авторських сторінок',
+	'right-author' => 'Редагування захищених автором сторінок',
 );
 
 /** Vèneto (Vèneto)
