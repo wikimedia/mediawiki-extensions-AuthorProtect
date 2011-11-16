@@ -888,6 +888,7 @@ $messages['ko'] = array(
 	'protect-level-author' => '저자가 아닌 사용자로부터 보호',
 	'restriction-level-author' => '저자보호',
 	'right-authorprotect' => '작성한 문서를 보호하기',
+	'right-author' => '저자 보호된 문서를 편집하기',
 );
 
 /** Colognian (Ripoarisch)
@@ -1416,16 +1417,16 @@ $messages['sr-el'] = array(
  */
 $messages['stq'] = array(
 	'authorprotect' => 'Siedenbeoarbaidenge bloot foar Autoren touläite',
-	'authorprotect-desc' => 'Moaket dät muugelk foar n Autor fon ne Siede, ju juun uur Benutsere tou beschutsjen.',
+	'authorprotect-desc' => 'Moaket dät muugelk foar n Autor fon ne Siede, ju juun uur Benutsere tou beskutsjen.',
 	'authorprotect-notauthor' => 'Du bäst nit die Autor fon disse Siede',
-	'authorprotect-confirm' => 'Annerje Schuts-Ieuwenen',
+	'authorprotect-confirm' => 'Annerje Skuts-Ieuwenen',
 	'authorprotect-edit' => 'Bloot Beoarbaidenge truch Autore',
-	'authorprotect-move' => 'Ferschuuwenge bloot foar Autore',
+	'authorprotect-move' => 'Ferskuuwenge bloot foar Autore',
 	'authorprotect-intro' => 'Mäd dit Formular koast du ju Beoarbaidenge fon disse Siede speere foar nit-Autore',
-	'authorprotect-success' => 'Siede wuud schutsed!',
-	'authorprotect-failure' => 'Siede kuud nit schutsed wäide!',
+	'authorprotect-success' => 'Siede wuud skutsed!',
+	'authorprotect-failure' => 'Siede kuud nit skutsed wäide!',
 	'protect-level-author' => 'Siedenbeoarbaidenge bloot foar Autore',
-	'restriction-level-author' => 'Autor-schutsed',
+	'restriction-level-author' => 'Autor-skutsed',
 );
 
 /** Swedish (Svenska)
