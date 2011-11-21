@@ -708,6 +708,7 @@ $messages['hsb'] = array(
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Dj
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -723,6 +724,7 @@ $messages['hu'] = array(
 	'protect-level-author' => 'Csak a szerző',
 	'restriction-level-author' => 'Szerző-védett',
 	'right-authorprotect' => 'szerzői lapok védelme',
+	'right-author' => 'szerzői védelem alatt álló lapok szerkesztése',
 );
 
 /** Interlingua (Interlingua)
