@@ -912,7 +912,7 @@ $messages['ksh'] = array(
 	'right-author' => 'Vum Schriever jeschözde Sigge ändere',
 );
 
-/** Kurdish (Latin) (Kurdî (Latin))
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1376,7 +1376,7 @@ $messages['sl'] = array(
 	'right-author' => 'Urejanje strani, ki so jih zaščitili avtorji',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
@@ -1395,7 +1395,7 @@ $messages['sr-ec'] = array(
 	'right-authorprotect' => 'заштита страница од стране аутора',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Liangent
  * @author Michaello
  */
