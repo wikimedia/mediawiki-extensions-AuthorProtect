@@ -1436,6 +1436,7 @@ $messages['stq'] = array(
  * @author M.M.S.
  * @author Najami
  * @author Sertion
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'authorprotect' => 'Skydda sidan från andra än författaren',
@@ -1450,6 +1451,7 @@ $messages['sv'] = array(
 	'protect-level-author' => 'Skydda från andra än författaren',
 	'restriction-level-author' => 'författarskyddad',
 	'right-authorprotect' => 'Skydda författade sidor',
+	'right-author' => 'Redigera författarlåsta sidor',
 );
 
 /** Telugu (తెలుగు)
