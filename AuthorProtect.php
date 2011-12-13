@@ -13,7 +13,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Author Protect',
 	'author' => 'Ryan Schmidt',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:AuthorProtect',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:AuthorProtect',
 	'version' => '1.3',
 	'descriptionmsg' => 'authorprotect-desc',
 );
