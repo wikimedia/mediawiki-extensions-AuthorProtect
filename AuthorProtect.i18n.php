@@ -1130,7 +1130,7 @@ $messages['nn'] = array(
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'authorprotect' => 'Beskytt siden for andre enn forfatteren',
 	'authorprotect-desc' => 'Lar forfatteren av en side beskytte den mot endringer fra andre brukere',
 	'authorprotect-notauthor' => 'Du er ikke forfatteren av denne siden',
