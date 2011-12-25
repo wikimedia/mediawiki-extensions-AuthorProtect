@@ -1080,6 +1080,26 @@ $messages['ms'] = array(
 	'right-author' => 'Menyunting laman yang dilindungi oleh pengarang',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'authorprotect' => 'Beskytt siden for andre enn forfatteren',
+	'authorprotect-desc' => 'Lar forfatteren av en side beskytte den mot endringer fra andre brukere',
+	'authorprotect-notauthor' => 'Du er ikke forfatteren av denne siden',
+	'authorprotect-confirm' => 'Endre beskyttelsesnivåer',
+	'authorprotect-edit' => 'Begrens redigering til forfattere',
+	'authorprotect-move' => 'Begrens flytting til forfattere',
+	'authorprotect-intro' => 'Bruk dette skjemaet for å låse denne siden for andre enn forfattere',
+	'authorprotect-success' => 'Beskytting lyktes.',
+	'authorprotect-failure' => 'Beskytting mislyktes',
+	'protect-level-author' => 'Beskytt for andre enn forfattere',
+	'restriction-level-author' => 'Beskyttet for forfattere',
+	'right-authorprotect' => 'Beskytt forfattede sider',
+	'right-author' => 'Rediger forfatter-beskyttede sider',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
@@ -1124,26 +1144,6 @@ $messages['nn'] = array(
 	'protect-level-author' => 'Vern for andre enn forfattarar',
 	'restriction-level-author' => 'Forfattarverna',
 	'right-authorprotect' => 'Vern forfatta sider',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'authorprotect' => 'Beskytt siden for andre enn forfatteren',
-	'authorprotect-desc' => 'Lar forfatteren av en side beskytte den mot endringer fra andre brukere',
-	'authorprotect-notauthor' => 'Du er ikke forfatteren av denne siden',
-	'authorprotect-confirm' => 'Endre beskyttelsesnivåer',
-	'authorprotect-edit' => 'Begrens redigering til forfattere',
-	'authorprotect-move' => 'Begrens flytting til forfattere',
-	'authorprotect-intro' => 'Bruk dette skjemaet for å låse denne siden for andre enn forfattere',
-	'authorprotect-success' => 'Beskytting lyktes.',
-	'authorprotect-failure' => 'Beskytting mislyktes',
-	'protect-level-author' => 'Beskytt for andre enn forfattere',
-	'restriction-level-author' => 'Beskyttet for forfattere',
-	'right-authorprotect' => 'Beskytt forfattede sider',
-	'right-author' => 'Rediger forfatter-beskyttede sider',
 );
 
 /** Occitan (Occitan)
@@ -1398,6 +1398,7 @@ $messages['sr-ec'] = array(
 /** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Liangent
  * @author Michaello
+ * @author Rancher
  */
 $messages['sr-el'] = array(
 	'authorprotect' => 'Zaštiti članak od ne-autora',
@@ -1411,7 +1412,7 @@ $messages['sr-el'] = array(
 	'authorprotect-failure' => 'Zaštita neuspešna',
 	'protect-level-author' => 'Zaštiti od ne-autora',
 	'restriction-level-author' => 'Korisnički zaštićeno',
-	'right-authorprotect' => 'Zaštita strana od strane autora',
+	'right-authorprotect' => 'zaštita stranica od strane autora',
 );
 
 /** Seeltersk (Seeltersk)
