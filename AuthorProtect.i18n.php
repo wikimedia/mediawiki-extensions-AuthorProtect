@@ -956,6 +956,7 @@ $messages['li'] = array(
 	'protect-level-author' => 'Beveilige veur neet-auteurs',
 	'restriction-level-author' => 'Elein te bewirke door auteurs',
 	'right-authorprotect' => 'Beveilig zèlfbewèrkdje ziej',
+	'right-author' => "Bewirk pagina's die allein door outäörs te bewirke zeen",
 );
 
 /** Lithuanian (Lietuvių)
