@@ -1651,6 +1651,7 @@ $messages['zh-hant'] = array(
 	'protect-level-author' => '保護非作家用戶編輯',
 	'restriction-level-author' => '作者保護',
 	'right-authorprotect' => '保護自己創作的頁面禁止他人編輯',
+	'right-author' => '編輯被作者保護的頁面',
 );
 
 /** Chinese (Hong Kong) (‪中文(香港)‬)
