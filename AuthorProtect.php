@@ -221,7 +221,7 @@ class AuthorProtect {
 			return false; // don't allow anons, they shouldn't even get this far but just in case...
 		}
 
-		$id = $title->getArticleId();
+		$id = $title->getArticleID();
 		$dbr = wfGetDB( DB_SLAVE ); // grab the slave for reading
 		$aid = $dbr->selectField( 'revision', 'rev_user',  array( 'rev_page' => $id ), __METHOD__ );
 		return $wgUser->getID() == $aid;
