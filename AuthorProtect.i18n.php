@@ -1342,6 +1342,7 @@ $messages['sah'] = array(
 
 /** Slovak (Slovenčina)
  * @author Helix84
+ * @author Teslaton
  */
 $messages['sk'] = array(
 	'authorprotect' => 'Zabrániť neautorským úpravám',
@@ -1356,6 +1357,7 @@ $messages['sk'] = array(
 	'protect-level-author' => 'Ochrániť pred neautorskými úpravami',
 	'restriction-level-author' => 'Len pre autorov',
 	'right-authorprotect' => 'Chrániť autorské stránky',
+	'right-author' => 'Upravovať stránky chránené pred neautorskými úpravami',
 );
 
 /** Slovenian (Slovenščina)
