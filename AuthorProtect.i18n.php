@@ -1615,6 +1615,7 @@ $messages['yi'] = array(
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gzdavidwong
  * @author PhiLiP
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'authorprotect' => '防止非作者编辑页面',
@@ -1629,6 +1630,7 @@ $messages['zh-hans'] = array(
 	'protect-level-author' => '保护非作家用户编辑',
 	'restriction-level-author' => '作者保护',
 	'right-authorprotect' => '保护自己创作的页面禁止他人编辑',
+	'right-author' => '编辑被作者保护的页面',
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
