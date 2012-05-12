@@ -68,6 +68,7 @@ $messages['am'] = array(
 
 /** Arabic (العربية)
  * @author Alnokta
+ * @author DRIHEM
  * @author Majid Al-Dharrab
  * @author Meno25
  */
@@ -84,6 +85,7 @@ $messages['ar'] = array(
 	'protect-level-author' => 'احمي من غير المؤلفين',
 	'restriction-level-author' => 'حماية المؤلف',
 	'right-authorprotect' => 'حماية الصفحات المؤلفة',
+	'right-author' => 'تعديل الصفحات المحمية من طرف المؤلف',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
@@ -557,7 +559,7 @@ $messages['fr'] = array(
  */
 $messages['frp'] = array(
 	'authorprotect' => 'Protègiér la pâge des nan-ôtors',
-	'authorprotect-desc' => 'Pèrmèt a l’ôtor d’una pâge de la protègiér des ôtros utilisators.',
+	'authorprotect-desc' => 'Pèrmèt a l’ôtor d’una pâge de la protègiér des ôtros usanciérs.',
 	'authorprotect-notauthor' => 'Vos éte pas l’ôtor de cela pâge',
 	'authorprotect-confirm' => 'Changiér lo nivél de protèccion',
 	'authorprotect-edit' => 'Rètrendre l’èdicion ux ôtors',
@@ -817,6 +819,7 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Schu
+ * @author Shirayuki
  * @author 青子守歌
  */
 $messages['ja'] = array(
@@ -826,13 +829,13 @@ $messages['ja'] = array(
 	'authorprotect-confirm' => '保護レベルを変更',
 	'authorprotect-edit' => '編集を作成者に制限',
 	'authorprotect-move' => '移動を作成者に制限',
-	'authorprotect-intro' => 'このページを非作成者から保護するのにこのフォームを使ってください',
+	'authorprotect-intro' => 'このページを非作成者から保護するには、このフォームを使用してください',
 	'authorprotect-success' => '保護成功！',
 	'authorprotect-failure' => '保護失敗',
 	'protect-level-author' => '非作成者から保護',
 	'restriction-level-author' => '作成者保護',
-	'right-authorprotect' => '作成したページを保護する',
-	'right-author' => '著者が保護したページを編集',
+	'right-authorprotect' => '作成したページを保護',
+	'right-author' => '作成者が保護したページを編集',
 );
 
 /** Javanese (Basa Jawa)
@@ -1131,6 +1134,7 @@ $messages['nl-informal'] = array(
  * @author Gunnernett
  * @author Harald Khan
  * @author Nghtwlkr
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'authorprotect' => 'Vern sida for andre enn forfattarar av ho',
@@ -1553,7 +1557,7 @@ $messages['vec'] = array(
 	'right-authorprotect' => 'Protegere le pagine con autori',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
