@@ -796,6 +796,7 @@ $messages['is'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
  * @author OrbiliusMagister
@@ -814,6 +815,7 @@ $messages['it'] = array(
 	'protect-level-author' => 'Protetta dai non-autori',
 	'restriction-level-author' => "Protetta dall'autore",
 	'right-authorprotect' => 'Protegge le pagine con autori',
+	'right-author' => "Modifica le pagine protette dall'autore",
 );
 
 /** Japanese (日本語)
