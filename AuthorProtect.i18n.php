@@ -130,7 +130,7 @@ $messages['avk'] = array(
 	'restriction-level-author' => 'Sutesikafa nendara',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author PPerviz
  * @author Sortilegus
  */
@@ -206,7 +206,7 @@ $messages['be-tarask'] = array(
 	'right-author' => 'рэдагаваньне абароненых аўтарамі старонак',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -235,7 +235,7 @@ $messages['bn'] = array(
 	'right-authorprotect' => 'প্রণেতার পাতা সুরক্ষা করুন',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -255,7 +255,7 @@ $messages['br'] = array(
 	'right-author' => 'Kemmañ ar pajennoù gwarezet gant an aozer anezho',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  * @author Seha
  */
@@ -274,7 +274,7 @@ $messages['bs'] = array(
 	'right-authorprotect' => 'Stavljanje zaštite na autorizirane stranice',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author El libre
  * @author Jordi Roqué
  * @author SMP
@@ -296,7 +296,7 @@ $messages['ca'] = array(
 	'right-author' => 'Modificar pàgines protegides pel seu autor',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  * @author Mormegil
  * @author Reaperman
@@ -336,7 +336,7 @@ $messages['cy'] = array(
 	'right-author' => 'Golygu tudalennau sydd wedi eu diogelu rhag pawb ond yr awdur',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Sarrus
  */
 $messages['da'] = array(
@@ -440,7 +440,7 @@ $messages['eo'] = array(
 	'right-authorprotect' => 'Protekti aŭtorajn paĝojn',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Academo
  * @author Crazymadlover
  * @author Dferg
@@ -465,7 +465,7 @@ $messages['es'] = array(
 	'right-author' => 'Editar páginas protegidas por el autor',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author Pikne
  */
@@ -473,7 +473,7 @@ $messages['et'] = array(
 	'authorprotect-success' => 'Kaitse edukas!',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
  * @author Pi
@@ -510,7 +510,7 @@ $messages['fa'] = array(
 	'authorprotect-failure' => 'محافظت موفقیت‌آمیز نبود!',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Jaakonam
  * @author Nike
  * @author Olli
@@ -532,7 +532,7 @@ $messages['fi'] = array(
 	'right-authorprotect' => 'Tekijäsivujen suojaus',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Grondin
  * @author Peter17
@@ -554,7 +554,7 @@ $messages['fr'] = array(
 	'right-author' => 'Modifier les pages protégées par son auteur',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -669,7 +669,7 @@ $messages['hi'] = array(
 	'restriction-level-author' => 'लेखक-सुरक्षित',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author Ex13
  * @author Tivek
@@ -708,7 +708,7 @@ $messages['hsb'] = array(
 	'right-author' => 'Jenož přez awtora wobdźěłojumne strony wobdźěłać',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Dj
  * @author Glanthor Reviol
@@ -729,7 +729,7 @@ $messages['hu'] = array(
 	'right-author' => 'szerzői védelem alatt álló lapok szerkesztése',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -778,7 +778,7 @@ $messages['io'] = array(
 	'authorprotect-notauthor' => "Vu ne es l'autoro di ca pagino",
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author S.Örvarr.S
  */
 $messages['is'] = array(
@@ -795,7 +795,7 @@ $messages['is'] = array(
 	'restriction-level-author' => 'Höfundavarið',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author BrokenArrow
  * @author Darth Kule
@@ -964,7 +964,7 @@ $messages['li'] = array(
 	'right-author' => "Bewirk pagina's die allein door outäörs te bewirke zeen",
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Hugo.arg
  * @author Ignas693
@@ -986,7 +986,7 @@ $messages['lt'] = array(
 	'right-author' => 'Redaguoti pusiau užrakintus puslapius',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author GreenZeb
  */
 $messages['lv'] = array(
@@ -1010,7 +1010,7 @@ $messages['mg'] = array(
 	'restriction-level-author' => 'Voaaro-mpamorona',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1132,7 +1132,7 @@ $messages['nl-informal'] = array(
 	'authorprotect-notauthor' => 'Je bent niet de auteur van deze pagina',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Gunnernett
  * @author Harald Khan
  * @author Nghtwlkr
@@ -1153,7 +1153,7 @@ $messages['nn'] = array(
 	'right-authorprotect' => 'Vern forfatta sider',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1178,7 +1178,7 @@ $messages['os'] = array(
 	'authorprotect-notauthor' => 'Ды ацы фарсы автор нæ дæ',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author Leinad
  * @author Sp5uhe
@@ -1235,7 +1235,7 @@ $messages['ps'] = array(
 	'restriction-level-author' => 'د ليکوالۍ-ژغورلی',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author 555
  * @author Giro720
  * @author Hamilton Abreu
@@ -1257,7 +1257,7 @@ $messages['pt'] = array(
 	'right-author' => 'Editar páginas protegidas pelo autor',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Giro720
  */
@@ -1276,7 +1276,7 @@ $messages['pt-br'] = array(
 	'right-authorprotect' => 'Proteger páginas de autoria própria',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  * @author Mihai
  * @author Minisarm
@@ -1297,7 +1297,7 @@ $messages['ro'] = array(
 	'right-author' => 'Modifică pagini protejate de autor',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1308,7 +1308,7 @@ $messages['roa-tara'] = array(
 	'right-authorprotect' => 'protette le pàggene autorizzate',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Александр Сигачёв
  */
@@ -1328,7 +1328,7 @@ $messages['ru'] = array(
 	'right-author' => 'правка авторски-защищённых страниц',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -1346,7 +1346,7 @@ $messages['sah'] = array(
 	'right-authorprotect' => 'Ааптар суруйуутун көмүскээһин',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  * @author Teslaton
  */
@@ -1366,7 +1366,7 @@ $messages['sk'] = array(
 	'right-author' => 'Upravovať stránky chránené pred neautorskými úpravami',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1385,7 +1385,7 @@ $messages['sl'] = array(
 	'right-author' => 'Urejanje strani, ki so jih zaščitili avtorji',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
@@ -1404,7 +1404,7 @@ $messages['sr-ec'] = array(
 	'right-authorprotect' => 'заштита страница од стране аутора',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Liangent
  * @author Michaello
  * @author Rancher
@@ -1441,7 +1441,7 @@ $messages['stq'] = array(
 	'restriction-level-author' => 'Autor-skutsed',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lejonel
  * @author M.M.S.
  * @author Najami
@@ -1518,7 +1518,7 @@ $messages['tr'] = array(
 	'right-author' => 'Yarı korumadaki sayfaları düzenle',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Ahonc
  * @author Prima klasy4na
@@ -1541,7 +1541,7 @@ $messages['uk'] = array(
 	'right-author' => 'Редагування захищених автором сторінок',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -1618,7 +1618,7 @@ $messages['yi'] = array(
 	'authorprotect-move' => 'באַגרענעצן באַוועגן צו מחברים',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Gzdavidwong
  * @author PhiLiP
  * @author Yfdyh000
@@ -1639,7 +1639,7 @@ $messages['zh-hans'] = array(
 	'right-author' => '编辑被作者保护的页面',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Frankou
  * @author Gzdavidwong
  * @author Horacewai2
