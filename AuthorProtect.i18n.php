@@ -1495,6 +1495,7 @@ $messages['tl'] = array(
 	'protect-level-author' => 'Isanggalang mula sa hindi mga may-akda',
 	'restriction-level-author' => 'Nakasanggalang para sa may-akda',
 	'right-authorprotect' => 'Prutektahan ang inakdaang mga pahina',
+	'right-author' => 'Baguhin ang mga pahinang pinuprutekatahan ng may-akda',
 );
 
 /** Turkish (Türkçe)
