@@ -881,12 +881,13 @@ $messages['km'] = array(
  * @author Klutzy
  * @author Kwj2772
  * @author Yknok29
+ * @author 아라
  */
 $messages['ko'] = array(
 	'authorprotect' => '저자가 아닌 사람의 편집을 보호',
 	'authorprotect-desc' => '문서의 저자에게 문서 보호 기능 제공',
 	'authorprotect-notauthor' => '이 문서의 저자가 아닙니다',
-	'authorprotect-confirm' => '보호 수준 변경',
+	'authorprotect-confirm' => '보호 수준 바꾸기',
 	'authorprotect-edit' => '저자의 편집 제한하기',
 	'authorprotect-move' => '저자의 이동 제한',
 	'authorprotect-intro' => '이 양식을 이용해 저자가 아닌 사람의 조작을 제한합니다',
