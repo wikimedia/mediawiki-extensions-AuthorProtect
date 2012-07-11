@@ -149,7 +149,7 @@ $messages['az'] = array(
 	'right-authorprotect' => 'Müəllif səhifələrinin mühafizəsi',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  */
 $messages['ba'] = array(
@@ -1087,8 +1087,7 @@ $messages['ms'] = array(
 	'right-author' => 'Menyunting laman yang dilindungi oleh pengarang',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1561,7 +1560,7 @@ $messages['vec'] = array(
 	'right-authorprotect' => 'Protegere le pagine con autori',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
