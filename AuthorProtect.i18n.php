@@ -313,7 +313,8 @@ $messages['cs'] = array(
 	'authorprotect-failure' => 'Zamknutí neproběhlo úspěšně',
 	'protect-level-author' => 'Ochránit před neautorskými úpravami',
 	'restriction-level-author' => 'Jen pro autory',
-	'right-authorprotect' => 'Nastavení omezení editace pro uživatele, kteří nejsou autory stránky',
+	'right-authorprotect' => 'Zamykání autorských stránek',
+	'right-author' => 'Editace autorsky zamčených stránek',
 );
 
 /** Welsh (Cymraeg)
@@ -360,25 +361,26 @@ $messages['da'] = array(
  */
 $messages['de'] = array(
 	'authorprotect' => 'Seitenbearbeitung auf den Autor der Seite beschränken',
-	'authorprotect-desc' => 'Ermöglicht es, die Seitenbearbeitung auf den Autor zu beschränken',
-	'authorprotect-notauthor' => 'Du bist nicht der Autor dieser Seite',
-	'authorprotect-confirm' => 'Schützen',
-	'authorprotect-edit' => 'Beschränke Bearbeitungen auf Autoren',
-	'authorprotect-move' => 'Beschränke Verschiebungen auf Autoren',
-	'authorprotect-intro' => 'Mit diesem Formular kann die Seitenbearbeitung auf Autoren beschränkt werden.',
+	'authorprotect-desc' => 'Ermöglicht es dem Autor einer Seite, diese für die Bearbeitung durch andere Benutzer zu sperren',
+	'authorprotect-notauthor' => 'Du bist nicht der Autor dieser Seite.',
+	'authorprotect-confirm' => 'Seitenschutz ändern',
+	'authorprotect-edit' => 'Bearbeitungen auf die Autoren beschränken',
+	'authorprotect-move' => 'Verschiebungen auf die Autoren beschränken',
+	'authorprotect-intro' => 'Mit diesem Formular kann die Bearbeitung dieser Seite auf den Autor beschränkt werden.',
 	'authorprotect-success' => 'Die Seite wurde geschützt.',
 	'authorprotect-failure' => 'Die Seite konnte nicht geschützt werden.',
-	'protect-level-author' => 'Seitenbearbeitung auf Autoren beschränken',
-	'restriction-level-author' => 'Auf die Bearbeitung durch den Autor beschränkt',
+	'protect-level-author' => 'Bearbeitungen auf den Autor beschränken',
+	'restriction-level-author' => 'Bearbeitungen sind auf den Autor beschränkt',
 	'right-authorprotect' => 'Seiten auf die Bearbeitung durch den Autor beschränken',
 	'right-author' => 'Auf die Bearbeitung durch den Autor beschränkte Seiten bearbeiten',
 );
 
 /** German (formal address) (‪Deutsch (Sie-Form)‬)
+ * @author Kghbln
  * @author Umherirrender
  */
 $messages['de-formal'] = array(
-	'authorprotect-notauthor' => 'Sie sind nicht der Autor dieser Seite',
+	'authorprotect-notauthor' => 'Sie sind nicht der Autor dieser Seite.',
 );
 
 /** Lower Sorbian (dolnoserbski)
