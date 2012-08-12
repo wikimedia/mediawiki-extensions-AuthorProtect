@@ -1348,6 +1348,14 @@ $messages['sah'] = array(
 	'right-authorprotect' => 'Ааптар суруйуутун көмүскээһин',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'authorprotect-success' => 'ආරක්ෂණය සාර්ථකයි!',
+	'authorprotect-failure' => 'ආරක්ෂණය අසාර්ථකයි',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  * @author Teslaton
