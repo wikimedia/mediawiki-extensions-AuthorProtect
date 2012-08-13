@@ -1352,6 +1352,8 @@ $messages['sah'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'authorprotect-notauthor' => 'ඔබ මෙම පිටුවේ කතෘ නොවේ',
+	'authorprotect-confirm' => 'ආරක්‍ෂිත මට්ටම් වෙනස් කරන්න',
 	'authorprotect-success' => 'ආරක්ෂණය සාර්ථකයි!',
 	'authorprotect-failure' => 'ආරක්ෂණය අසාර්ථකයි',
 );
