@@ -1476,6 +1476,13 @@ $messages['sv'] = array(
 	'right-author' => 'Redigera författarlåsta sidor',
 );
 
+/** Tamil (தமிழ்)
+ * @author மதனாஹரன்
+ */
+$messages['ta'] = array(
+	'authorprotect-confirm' => 'காப்பு நிலைகளை மாற்றவும்',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  * @author వైజాసత్య
