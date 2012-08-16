@@ -1089,6 +1089,25 @@ $messages['ms'] = array(
 	'right-author' => 'Menyunting laman yang dilindungi oleh pengarang',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'authorprotect' => 'Ipproteġi l-paġna minn dawk li mhumiex awturi',
+	'authorprotect-desc' => "Tippermetti lil awtur ta' paġna li jipproteġieha minn utenti oħrajn",
+	'authorprotect-notauthor' => "Inti mintix l-awtur ta' din il-paġna",
+	'authorprotect-confirm' => "Biddel il-livelli ta' protezzjoni",
+	'authorprotect-edit' => 'Illimita l-immodifikar lill-awturi',
+	'authorprotect-move' => 'Illimita t-tmexxija lill-awturi',
+	'authorprotect-intro' => 'Uża din il-formola sabiex tipproteġi din il-paġna minnn dawk li mhumiex awturi',
+	'authorprotect-success' => 'Il-protezzjoni rnexxiet!',
+	'authorprotect-failure' => 'Il-protezzjoni falliet',
+	'protect-level-author' => 'Ipproteġi minn dawk li mhumiex awturi',
+	'restriction-level-author' => 'Protetta mill-awtur',
+	'right-authorprotect' => 'Jipproteġi l-paġni bl-awturi',
+	'right-author' => 'Jimmodifika paġni protetti mill-awtur',
+);
+
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
