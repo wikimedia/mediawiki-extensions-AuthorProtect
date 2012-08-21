@@ -827,8 +827,8 @@ $messages['it'] = array(
  * @author 青子守歌
  */
 $messages['ja'] = array(
-	'authorprotect' => '非作成者からページを保護',
-	'authorprotect-desc' => 'ページの作成者が他の利用者からそのページを保護できるようにする',
+	'authorprotect' => '作成者以外の利用者からページを保護',
+	'authorprotect-desc' => 'ページの作成者が、そのページを他の利用者から保護できるようにする',
 	'authorprotect-notauthor' => 'あなたはこのページの作成者ではありません',
 	'authorprotect-confirm' => '保護レベルを変更',
 	'authorprotect-edit' => '編集を作成者に制限',
