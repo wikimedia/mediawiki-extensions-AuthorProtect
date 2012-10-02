@@ -185,7 +185,7 @@ $messages['bar'] = array(
 	'right-authorprotect' => 'Auf Autornbeorweitung bschränkde Seiten beorweiden',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -375,7 +375,7 @@ $messages['de'] = array(
 	'right-author' => 'Auf die Bearbeitung durch den Autor beschränkte Seiten bearbeiten',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Kghbln
  * @author Umherirrender
  */
@@ -920,7 +920,7 @@ $messages['ksh'] = array(
 	'right-author' => 'Vum Schriever jeschözde Sigge ändere',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1108,7 +1108,7 @@ $messages['mt'] = array(
 	'right-author' => 'Jimmodifika paġni protetti mill-awtur',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1146,14 +1146,14 @@ $messages['nl'] = array(
 	'right-author' => "Pagina's die alleen door auteurs te bewerken zijn te bewerken",
 );
 
-/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
  * @author Siebrand
  */
 $messages['nl-informal'] = array(
 	'authorprotect-notauthor' => 'Je bent niet de auteur van deze pagina',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Gunnernett
  * @author Harald Khan
  * @author Nghtwlkr
@@ -1416,7 +1416,7 @@ $messages['sl'] = array(
 	'right-author' => 'Urejanje strani, ki so jih zaščitili avtorji',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
  */
@@ -1435,7 +1435,7 @@ $messages['sr-ec'] = array(
 	'right-authorprotect' => 'заштита страница од стране аутора',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Liangent
  * @author Michaello
  * @author Rancher
@@ -1657,7 +1657,7 @@ $messages['yi'] = array(
 	'authorprotect-move' => 'באַגרענעצן באַוועגן צו מחברים',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
  * @author PhiLiP
  * @author Yfdyh000
@@ -1678,7 +1678,7 @@ $messages['zh-hans'] = array(
 	'right-author' => '编辑被作者保护的页面',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Frankou
  * @author Gzdavidwong
  * @author Horacewai2
