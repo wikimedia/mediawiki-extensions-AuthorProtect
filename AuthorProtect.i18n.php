@@ -383,6 +383,14 @@ $messages['de-formal'] = array(
 	'authorprotect-notauthor' => 'Sie sind nicht der Autor dieser Seite.',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'restriction-level-author' => 'Nuskar-staryaye',
+	'right-authorprotect' => 'Peranê nuskarına star ke',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
