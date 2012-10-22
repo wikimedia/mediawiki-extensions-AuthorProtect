@@ -120,7 +120,7 @@ $messages['avk'] = array(
 	'authorprotect' => 'Bunendara dolge mesutesik',
 	'authorprotect-desc' => 'Nover da sutesik va bu dolge ar favesik nendar',
 	'authorprotect-notauthor' => 'Rin me til sutesik va batu bu',
-	'authorprotect-confirm' => 'Nendara',
+	'authorprotect-confirm' => 'Nendara', # Fuzzy
 	'authorprotect-edit' => 'Irutara va betara mu sutesik',
 	'authorprotect-move' => 'Irutara va arrundara mu sutesik',
 	'authorprotect-intro' => 'Favera va bata teza ta bunendara dolge mesutesik',
@@ -669,7 +669,7 @@ $messages['hi'] = array(
 	'authorprotect' => 'लेखक छोडके अन्य सदस्योंसे पन्ना सुरक्षित करें',
 	'authorprotect-desc' => 'एक लेखकको उसके द्वारा लिखे गये लेख को अन्य सदस्योंसे सुरक्षित करने की अनुमति देता हैं',
 	'authorprotect-notauthor' => 'आप इस लेख के लेखक नहीं हैं',
-	'authorprotect-confirm' => 'सुरक्षित करें',
+	'authorprotect-confirm' => 'सुरक्षित करें', # Fuzzy
 	'authorprotect-edit' => 'सिर्फ लेखकोंको बदलाव करने की अनुमति दें',
 	'authorprotect-move' => 'सिर्फ लेखकोंको नाम बदलने की अनुमति दें',
 	'authorprotect-intro' => 'लेखक छोडकर अन्य सदस्योंसे यह पन्ना सुरक्षित करने के लिये इस फ़ार्म का इस्तेमाल करें',
@@ -795,7 +795,7 @@ $messages['is'] = array(
 	'authorprotect' => 'Vernda síðu gegn öðrum en höfundum hennar',
 	'authorprotect-desc' => 'Heimilar höfundi síðu að vernda hana gegn öðrum notendum',
 	'authorprotect-notauthor' => 'Þú ert ekki höfundur þessarar síðu',
-	'authorprotect-confirm' => 'Vernda',
+	'authorprotect-confirm' => 'Vernda', # Fuzzy
 	'authorprotect-edit' => 'Takamarka síðubreytingar við höfunda',
 	'authorprotect-move' => 'Takamarka síðufæringar við höfunda',
 	'authorprotect-intro' => 'Notaðu þetta eyðublað til að loka þessari síðu fyrir öðrum en höfunum hennar',
@@ -1265,10 +1265,10 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
- * @author 555
  * @author Giro720
  * @author Hamilton Abreu
  * @author Malafaya
+ * @author 555
  */
 $messages['pt'] = array(
 	'authorprotect' => 'Proteger a página de edições por utilizadores que não são autores',
@@ -1724,4 +1724,3 @@ $messages['zh-hk'] = array(
 	'restriction-level-author' => '作者被保護',
 	'right-authorprotect' => '保護已授權的頁面',
 );
-
