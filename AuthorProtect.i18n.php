@@ -94,6 +94,7 @@ $messages['ar'] = array(
 $messages['arc'] = array(
 	'authorprotect-success' => 'ܢܛܝܪܘܬܐ ܓܡܪܬ',
 	'authorprotect-failure' => 'ܢܛܝܪܘܬܐ ܠܐ ܓܡܪܬ',
+	'restriction-level-author' => 'ܢܛܘܪܘܬܐ ܕܣܝܘܡܐ',
 );
 
 /** Egyptian Spoken Arabic (مصرى)
