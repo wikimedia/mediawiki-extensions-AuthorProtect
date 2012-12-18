@@ -868,6 +868,25 @@ $messages['jv'] = array(
 	'restriction-level-author' => 'Direksa-pangripta',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'authorprotect' => 'გვერდების დაცვა არა-ავტორებისაგან',
+	'authorprotect-desc' => 'გვერდის ავტორს უფლებას აძლევს დაიცვას გვერდი სხვა მომხმარებელბის რედაქტირებისაგან',
+	'authorprotect-notauthor' => 'თქვენ არ ხართ ამ გვერდის ავტორი',
+	'authorprotect-confirm' => 'დაცვის დონის შეცვლა',
+	'authorprotect-edit' => 'რედაქტირება შეუძლიათ მხოლოდ ავტორებს',
+	'authorprotect-move' => 'გადატანა შეუძლიათ მხოლოდ ავტორებს',
+	'authorprotect-intro' => 'გამოიყენეთ ეს ფორმა, რათა დაიცვათ გვერდი მომხმარებლებისაგან, რომლების არ არიან ავტორები',
+	'authorprotect-success' => 'დაცვა წარმატებით დაყენდა!',
+	'authorprotect-failure' => 'დაცვის დაყენება ვერ მოხერხდა',
+	'protect-level-author' => 'დაცვა არა-ავტორებისაგან',
+	'restriction-level-author' => 'საავტორო დაცვა',
+	'right-authorprotect' => 'საავტორო გვერდების დაცვა',
+	'right-author' => 'საავტორო დაცული გვერდების რედაქტირება',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Lovekhmer
  * @author Thearith
