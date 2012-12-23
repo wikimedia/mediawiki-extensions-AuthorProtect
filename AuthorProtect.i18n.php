@@ -449,6 +449,7 @@ $messages['eo'] = array(
 	'protect-level-author' => 'Protekti kontraŭ ne-aŭtoroj',
 	'restriction-level-author' => 'Protektita per aŭtoro',
 	'right-authorprotect' => 'Protekti aŭtorajn paĝojn',
+	'right-author' => 'Redakti paĝojn protektitajn de uzantoj',
 );
 
 /** Spanish (español)
@@ -481,7 +482,10 @@ $messages['es'] = array(
  * @author Pikne
  */
 $messages['et'] = array(
+	'authorprotect-notauthor' => 'Sa ei ole selle lehekülje autor',
+	'authorprotect-confirm' => 'Muuda kaitse taset',
 	'authorprotect-success' => 'Kaitse edukas!',
+	'restriction-level-author' => 'Autori kaitse all',
 );
 
 /** Basque (euskara)
@@ -1524,10 +1528,13 @@ $messages['sv'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Karthi.dr
  * @author மதனாஹரன்
  */
 $messages['ta'] = array(
 	'authorprotect-confirm' => 'காப்பு நிலைகளை மாற்றவும்',
+	'authorprotect-success' => 'வெற்றிகரமாகக் காக்கப்பட்டது!',
+	'authorprotect-failure' => 'காப்பு தோல்வியுற்றது',
 );
 
 /** Telugu (తెలుగు)
