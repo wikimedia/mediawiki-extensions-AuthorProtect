@@ -1407,6 +1407,9 @@ $messages['si'] = array(
 	'authorprotect-confirm' => 'ආරක්‍ෂිත මට්ටම් වෙනස් කරන්න',
 	'authorprotect-success' => 'ආරක්ෂණය සාර්ථකයි!',
 	'authorprotect-failure' => 'ආරක්ෂණය අසාර්ථකයි',
+	'restriction-level-author' => 'කතෘ-ආරක්‍ෂිත',
+	'right-authorprotect' => 'කර්තෘ පිටු ආරක්ෂණය කරන්න',
+	'right-author' => 'කතෘ-ආරක්‍ෂිත පිටු සංස්කරණය කරන්න',
 );
 
 /** Slovak (slovenčina)
