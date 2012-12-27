@@ -152,6 +152,7 @@ $messages['az'] = array(
 
 /** Bashkir (башҡортса)
  * @author Assele
+ * @author Sagan
  */
 $messages['ba'] = array(
 	'authorprotect' => 'Битте автор булмаған ҡатнашыусыларҙан һаҡлау',
@@ -166,6 +167,7 @@ $messages['ba'] = array(
 	'protect-level-author' => 'Автор булмаған ҡатнашыусыларҙан һаҡлау',
 	'restriction-level-author' => 'Автор тарафынан һаҡланған',
 	'right-authorprotect' => 'Автор биттәрен һаҡлау',
+	'right-author' => 'Автор һаҡлаған биттәрҙе үҙгәртеү',
 );
 
 /** Bavarian (Boarisch)
@@ -1224,6 +1226,22 @@ $messages['oc'] = array(
 	'protect-level-author' => 'Protegir de non-autors',
 	'restriction-level-author' => 'Autor protegit',
 	'right-authorprotect' => 'Protegir la pagina dels autors',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Jnanaranjan Sahu
+ */
+$messages['or'] = array(
+	'authorprotect' => 'ଅଣ-ଲେଖକ ମାନଙ୍କଠାରୁ ପୃଷ୍ଠାଟିକୁ ସୁରକ୍ଷିତ କରିବେ',
+	'authorprotect-notauthor' => 'ଆପଣ ଏହି ପୃଷ୍ଠାର ଲେଖକ ନୁହନ୍ତି',
+	'authorprotect-confirm' => 'ସୁରକ୍ଷା ସ୍ତର ବଦଳାଇବେ',
+	'authorprotect-edit' => 'ଲେଖକମାନଙ୍କୁ ବଦଳାଇବାରୁ ବନ୍ଦ କରିବେ',
+	'authorprotect-success' => 'ସୁରକ୍ଷା ସଫଳ !',
+	'authorprotect-failure' => 'ସୁରକ୍ଷା ଅସଫଳ',
+	'protect-level-author' => 'ଅଣ-ଲେଖକ ମାନଙ୍କଠାରୁ ପୃଷ୍ଠାଟିକୁ ସୁରକ୍ଷିତ କରିବେ',
+	'restriction-level-author' => 'ଲେଖକ-ସୁରକ୍ଷିତ',
+	'right-authorprotect' => 'ଲେଖକଙ୍କ ପୃଷ୍ଠାଗୁଡିକୁ ସୁରକ୍ଷିତ କରିବେ',
+	'right-author' => 'ଲେଖକ-ସୁରକ୍ଷିତ ପୃଷ୍ଠାସବୁକୁ ବଦଳାଇବେ',
 );
 
 /** Ossetic (Ирон)
