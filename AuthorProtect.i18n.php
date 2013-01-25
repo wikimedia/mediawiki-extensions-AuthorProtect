@@ -1375,6 +1375,8 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'authorprotect-confirm' => 'Cange le levèlle de protezione',
+	'authorprotect-edit' => "Restringe le cangiaminde a l'auture",
+	'authorprotect-move' => 'Restringe le spustaminde a le auture',
 	'authorprotect-success' => 'Protezione riuscite!',
 	'authorprotect-failure' => 'Protezione none riuscite!',
 	'protect-level-author' => 'Protette da le none autore',
