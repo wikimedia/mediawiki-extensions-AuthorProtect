@@ -515,6 +515,7 @@ $messages['eu'] = array(
  * @author Ebraminio
  * @author Huji
  * @author Mardetanha
+ * @author Mehran
  */
 $messages['fa'] = array(
 	'authorprotect' => 'محافظت از صفحه در برابر غیرنویسنده‌ها',
@@ -525,6 +526,7 @@ $messages['fa'] = array(
 	'authorprotect-move' => 'محدودکردن انتقال به نویسنده‌ها',
 	'authorprotect-success' => 'محافظت موفقیت‌آمیز بود!',
 	'authorprotect-failure' => 'محافظت موفقیت‌آمیز نبود!',
+	'protect-level-author' => 'محافظت در برابر غیرنویسنده‌ها',
 );
 
 /** Finnish (suomi)
