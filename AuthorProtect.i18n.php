@@ -1376,6 +1376,7 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'authorprotect' => "Protegge 'a pàgene da ce no jè autore",
 	'authorprotect-confirm' => 'Cange le levèlle de protezione',
 	'authorprotect-edit' => "Restringe le cangiaminde a l'auture",
 	'authorprotect-move' => 'Restringe le spustaminde a le auture',
