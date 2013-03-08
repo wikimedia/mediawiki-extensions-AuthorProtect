@@ -198,6 +198,8 @@ class AuthorProtect {
 				}
 			}
 
+			// Give grep a chance to find the usages:
+			// authorprotect-edit, authorprotect-move
 			$checked = in_array( 'author', $rest );
 			$form .= Xml::checkLabel( wfMessage( "authorprotect-$type" ), "check-$type", "check-$type", $checked ) . $br;
 		}
