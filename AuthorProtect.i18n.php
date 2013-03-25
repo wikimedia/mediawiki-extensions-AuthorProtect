@@ -31,10 +31,42 @@ $messages['en'] = array(
  * @author Darth Kule
  * @author Purodha
  * @author Raymond
+ * @author Shirayuki
  * @author Umherirrender
  */
 $messages['qqq'] = array(
+	'authorprotect' => 'Used as page title.',
 	'authorprotect-desc' => 'Extension description displayed on [[Special:Version]].',
+	'authorprotect-notauthor' => 'Used as error message.
+
+The page title for this message is {{msg-mw|errorpagetitle}}.',
+	'authorprotect-confirm' => 'Used as Submit button text in the Author Protect form.',
+	'authorprotect-edit' => 'Used as checkbox label in the Author Protect form.
+
+See also:
+* {{msg-mw|Authorprotect-move}}',
+	'authorprotect-move' => 'Used as checkbox label in the Author Protect form.
+
+See also:
+* {{msg-mw|Authorprotect-edit}}',
+	'authorprotect-intro' => 'Used as intro text for the Author Protect form.
+
+This message is followed by the Author Protect form.',
+	'authorprotect-success' => 'Used as success message when Author Protecting.
+
+See also:
+* {{msg-mw|Authorprotect-failure}}',
+	'authorprotect-failure' => 'Used as failure message when Author Protecting.
+
+See also:
+* {{msg-mw|Authorprotect-success}}',
+	'protect-level-author' => 'Used as protect level.
+
+See also:
+* {{msg-mw|Protect-level-sysop}}
+* {{msg-mw|Restriction-level-author}}',
+	'restriction-level-author' => 'See also:
+* {{msg-mw|Protect-level-author}}',
 	'right-authorprotect' => '{{doc-right|authorprotect}}',
 	'right-author' => '{{doc-right|author}}',
 );
@@ -848,13 +880,13 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'authorprotect' => '作成者以外の利用者からページを保護',
 	'authorprotect-desc' => 'ページの作成者が、そのページを他の利用者から保護できるようにする',
-	'authorprotect-notauthor' => 'あなたはこのページの作成者ではありません',
+	'authorprotect-notauthor' => 'あなたはこのページの作成者ではありません。',
 	'authorprotect-confirm' => '保護レベルを変更',
 	'authorprotect-edit' => '編集を作成者に制限',
 	'authorprotect-move' => '移動を作成者に制限',
-	'authorprotect-intro' => 'このページを作成者以外から保護するには、このフォームを使用してください',
+	'authorprotect-intro' => 'このページを作成者以外から保護するには、このフォームを使用してください。',
 	'authorprotect-success' => '保護しました!',
-	'authorprotect-failure' => '保護に失敗しました',
+	'authorprotect-failure' => '保護に失敗しました。',
 	'protect-level-author' => '作成者以外から保護',
 	'restriction-level-author' => '作成者が保護',
 	'right-authorprotect' => '作成したページを保護',
