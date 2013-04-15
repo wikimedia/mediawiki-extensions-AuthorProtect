@@ -976,7 +976,7 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'authorprotect' => 'Donn di Sigg jäje Änderunge schötze, di nit fun Metschriiver aan dä Sigg kumme',
-	'authorprotect-desc' => 'Määt et müjjelesch, dat ene Schriiver en Sigg jäje Anderlüx Änderunge schötze kann.',
+	'authorprotect-desc' => 'Määd et möjjelesch, dat ene Schriiver en Sigg jäje Anderlüx Änderunge schötze kann.',
 	'authorprotect-notauthor' => 'Do bes keine Schriiver fun dä Sigg hee',
 	'authorprotect-confirm' => 'Schötze',
 	'authorprotect-edit' => 'Don et Ändere op de Schriiver fun dä Sigg beschränke',
