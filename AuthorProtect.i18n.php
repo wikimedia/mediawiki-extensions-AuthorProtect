@@ -493,6 +493,7 @@ $messages['eo'] = array(
  * @author Drini
  * @author Fitoschido
  * @author Imre
+ * @author MarcoAurelio
  * @author Sanbec
  */
 $messages['es'] = array(
@@ -1178,7 +1179,7 @@ $messages['mt'] = array(
 	'right-author' => 'Jimmodifika paġni protetti mill-awtur',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1223,7 +1224,7 @@ $messages['nl-informal'] = array(
 	'authorprotect-notauthor' => 'Je bent niet de auteur van deze pagina',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Gunnernett
  * @author Harald Khan
  * @author Nghtwlkr
@@ -1262,7 +1263,7 @@ $messages['oc'] = array(
 	'right-authorprotect' => 'Protegir la pagina dels autors',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(
