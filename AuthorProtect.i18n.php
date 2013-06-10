@@ -1717,6 +1717,7 @@ $messages['vep'] = array(
 
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
+ * @author Tuankiet65
  * @author Vinhtantran
  */
 $messages['vi'] = array(
@@ -1732,6 +1733,7 @@ $messages['vi'] = array(
 	'protect-level-author' => 'Khóa đối với những người không phải tác giả',
 	'restriction-level-author' => 'Khóa cho mức tác giả',
 	'right-authorprotect' => 'Khóa trang do mình viết',
+	'right-author' => 'Sửa trang bị tác giả khóa',
 );
 
 /** Volapük (Volapük)
