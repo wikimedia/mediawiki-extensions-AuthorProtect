@@ -542,6 +542,7 @@ $messages['eu'] = array(
 	'protect-level-author' => 'Babestu ez-egileetatik',
 	'restriction-level-author' => 'Auto-babesturik',
 	'right-authorprotect' => 'Autore orrialdeak babestu',
+	'right-author' => 'Egile-babesdun orrialdeak editatu',
 );
 
 /** Persian (فارسی)
