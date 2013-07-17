@@ -569,6 +569,7 @@ $messages['eu'] = array(
  * @author Huji
  * @author Mardetanha
  * @author Mehran
+ * @author Reza1615
  */
 $messages['fa'] = array(
 	'authorprotect' => 'محافظت از صفحه در برابر غیرنویسنده‌ها',
@@ -577,9 +578,13 @@ $messages['fa'] = array(
 	'authorprotect-confirm' => 'تغییر سطح‌های محافظت',
 	'authorprotect-edit' => 'محدودکردن ویرایش به نویسنده‌ها',
 	'authorprotect-move' => 'محدودکردن انتقال به نویسنده‌ها',
+	'authorprotect-intro' => 'از این فرم برای قفل کردن این صفحه از غیر نویسنده‌ها.',
 	'authorprotect-success' => 'محافظت موفقیت‌آمیز بود!',
 	'authorprotect-failure' => 'محافظت موفقیت‌آمیز نبود!',
 	'protect-level-author' => 'محافظت در برابر غیرنویسنده‌ها',
+	'restriction-level-author' => 'محافظت نویسنده',
+	'right-authorprotect' => 'محافظت صفحه‌های نویسنده',
+	'right-author' => 'ویرایش صفحات محافظت‌شده نویسنده',
 );
 
 /** Finnish (suomi)
