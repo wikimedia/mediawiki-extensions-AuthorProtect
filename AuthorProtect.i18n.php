@@ -1371,6 +1371,7 @@ $messages['ps'] = array(
 /** Portuguese (português)
  * @author Giro720
  * @author Hamilton Abreu
+ * @author Luckas
  * @author Malafaya
  * @author 555
  */
@@ -1378,12 +1379,12 @@ $messages['pt'] = array(
 	'authorprotect' => 'Proteger a página de edições por utilizadores que não são autores',
 	'authorprotect-desc' => 'Permite ao autor de uma página protegê-la de outros utilizadores',
 	'authorprotect-notauthor' => 'Não é o autor desta página',
-	'authorprotect-confirm' => 'Alterar níveis de protecção',
+	'authorprotect-confirm' => 'Alterar níveis de proteção',
 	'authorprotect-edit' => 'Restringir edição a autores',
 	'authorprotect-move' => 'Restringir a movimentação da página a autores',
 	'authorprotect-intro' => 'Use este formulário para bloquear a página contra edições por utilizadores que não são autores',
-	'authorprotect-success' => 'Protecção ocorreu com sucesso!',
-	'authorprotect-failure' => 'Protecção não foi bem sucedida',
+	'authorprotect-success' => 'Proteção ocorreu com sucesso!',
+	'authorprotect-failure' => 'Proteção não foi bem sucedida',
 	'protect-level-author' => 'Proteger de edições por utilizadores que não são autores',
 	'restriction-level-author' => 'Protegida pelo autor',
 	'right-authorprotect' => 'Proteger páginas com autor',
