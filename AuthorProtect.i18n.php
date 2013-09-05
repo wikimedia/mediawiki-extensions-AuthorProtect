@@ -1411,6 +1411,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
  * @author Eduardo.mps
  * @author Giro720
  */
@@ -1427,6 +1428,7 @@ $messages['pt-br'] = array(
 	'protect-level-author' => 'Proteger de não-autores',
 	'restriction-level-author' => 'Protegida pelo autor',
 	'right-authorprotect' => 'Proteger páginas de autoria própria',
+	'right-author' => 'Editar páginas protegidas pelo autor',
 );
 
 /** Romanian (română)
