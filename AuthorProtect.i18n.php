@@ -1169,6 +1169,7 @@ $messages['ml'] = array(
 /** Marathi (मराठी)
  * @author Htt
  * @author Kaustubh
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'authorprotect' => 'लेखक नसणार्‍यांपासून पान सुरक्षित करा',
@@ -1182,6 +1183,8 @@ $messages['mr'] = array(
 	'authorprotect-failure' => 'सुरक्षित करू शकलेलो नाही',
 	'protect-level-author' => 'लेखक नसणार्‍यांपासून सुरक्षित करा',
 	'restriction-level-author' => 'लेखक-सुरक्षित',
+	'right-authorprotect' => 'लेखक असणारी पाने सुरक्षित करा',
+	'right-author' => 'लेखक सुरक्षित पानांचे संपादन करा',
 );
 
 /** Malay (Bahasa Melayu)
