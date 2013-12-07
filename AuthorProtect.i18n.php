@@ -369,7 +369,7 @@ $messages['ca'] = array(
 	'right-author' => 'Modificar pàgines protegides pel seu autor',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Matěj Grabovský
  * @author Mormegil
  * @author Reaperman
