@@ -1001,19 +1001,19 @@ $messages['km'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'authorprotect' => '저자가 아닌 사람의 편집을 보호',
-	'authorprotect-desc' => '문서의 저자에게 문서 보호 기능 제공',
-	'authorprotect-notauthor' => '이 문서의 저자가 아닙니다',
+	'authorprotect' => '저자가 아닌 이의 편집을 보호',
+	'authorprotect-desc' => '문서의 저자가 다른 사용자로부터 보호할 수 있습니다',
+	'authorprotect-notauthor' => '이 문서의 저자가 아닙니다.',
 	'authorprotect-confirm' => '보호 수준 바꾸기',
 	'authorprotect-edit' => '저자의 편집 제한하기',
-	'authorprotect-move' => '저자의 이동 제한',
-	'authorprotect-intro' => '이 양식을 이용해 저자가 아닌 사람의 조작을 제한합니다',
-	'authorprotect-success' => '보호 완료!',
-	'authorprotect-failure' => '보호 실패',
-	'protect-level-author' => '저자가 아닌 사용자로부터 보호',
-	'restriction-level-author' => '저자보호',
+	'authorprotect-move' => '저자의 이동 제한하기',
+	'authorprotect-intro' => '이 양식을 사용해 이 문서를 저자가 아닌 이로부터 잠급니다.',
+	'authorprotect-success' => '보호를 성공했습니다!',
+	'authorprotect-failure' => '보호를 성공하지 못했습니다.',
+	'protect-level-author' => '저자가 아닌 이로부터 보호',
+	'restriction-level-author' => '저자가 보호함',
 	'right-authorprotect' => '작성한 문서를 보호하기',
-	'right-author' => '저자 보호된 문서를 편집하기',
+	'right-author' => '저자가 보호한 문서를 편집하기',
 );
 
 /** Colognian (Ripoarisch)
