@@ -180,7 +180,7 @@ class AuthorProtect {
 
 	private static function AuthorProtectMakeProtectForm( $title ) {
 		global $wgRestrictionTypes, $wgUser;
-		$token = $wgUser->editToken();
+		$token = $wgUser->getEditToken();
 		$form = Html::rawElement( 'p', array(), htmlspecialchars( wfMessage( 'authorprotect-intro' ) ) );
 		$form .= Html::openElement( 'form', array( 'method' => 'post', 'action' => $title->getLocalUrl( 'action=authorprotect' ) ) );
 
@@ -218,7 +218,7 @@ class AuthorProtect {
 		if ( !$title instanceOf Title ) {
 			return false; // quick hack to prevent the API from messing up.
 		}
-		
+
 		if ( $wgUser->getID() === 0 ) {
 			return false; // don't allow anons, they shouldn't even get this far but just in case...
 		}
