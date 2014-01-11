@@ -247,7 +247,7 @@ class AuthorProtect {
 	// forked from ProtectionForm::getExpiry and modified to rewrite '' to infinity
 	private static function AuthorProtectExpiry( $value ) {
 		if ( $value == 'infinite' || $value == 'indefinite' || $value == 'infinity' || $value == '' ) {
-			$time = Block::infinity();
+			$time = wfGetDB( DB_SLAVE )->getInfinity();
 		} else {
 			$unix = strtotime( $value );
 
