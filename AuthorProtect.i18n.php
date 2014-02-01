@@ -458,10 +458,11 @@ $messages['de-formal'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
 	'restriction-level-author' => 'Nuskar-staryaye',
-	'right-authorprotect' => 'Peranê nuskarına star ke',
+	'right-authorprotect' => 'Pelanê nuştoğan qeyd ke',
 );
 
 /** Lower Sorbian (dolnoserbski)
