@@ -1659,6 +1659,7 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Ravichandra
  * @author Veeven
  * @author వైజాసత్య
  */
@@ -1670,7 +1671,10 @@ $messages['te'] = array(
 	'authorprotect-move' => 'తరలింపుని రచయితలు మాత్రమే చేయనివ్వు',
 	'authorprotect-success' => 'సంరక్షణ విజయవంతం!',
 	'authorprotect-failure' => 'సంరక్షణ విఫలమైంది',
+	'protect-level-author' => 'రచయితలు కానివారి నుండి సంరక్షించు',
+	'restriction-level-author' => 'రచయిత-సంరక్షణ',
 	'right-authorprotect' => 'రచించిన పుటలను రక్షించుకోవగలగడం',
+	'right-author' => 'రచయిత సంరక్షణలోని పేజీలను మార్చు',
 );
 
 /** Tagalog (Tagalog)
