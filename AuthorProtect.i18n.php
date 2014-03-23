@@ -1310,6 +1310,7 @@ $messages['oc'] = array(
 	'protect-level-author' => 'Protegir de non-autors',
 	'restriction-level-author' => 'Autor protegit',
 	'right-authorprotect' => 'Protegir la pagina dels autors',
+	'right-author' => 'Modificar las paginas protegidas per son autor',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
