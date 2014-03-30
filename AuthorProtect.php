@@ -14,12 +14,13 @@ $wgExtensionCredits['other'][] = array(
 	'name' => 'Author Protect',
 	'author' => 'Ryan Schmidt',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AuthorProtect',
-	'version' => '1.3',
+	'version' => '1.4.0',
 	'descriptionmsg' => 'authorprotect-desc',
 );
 
 $wgAvailableRights[] = 'author'; // dynamically assigned to the author of a page, but can be set w/ wgGroupPermissions too
 $wgAvailableRights[] = 'authorprotect'; // users without this right cannot protect pages they author
+$wgMessagesDirs['AuthorProtect'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['AuthorProtect'] = dirname( __FILE__ ) . '/AuthorProtect.i18n.php';
 $wgGroupPermissions['sysop']['author'] = true; // sysops can edit every page despite author protection
 $wgGroupPermissions['user']['authorprotect'] = true; // registered users can protect pages they author
