@@ -12,7 +12,7 @@
     "authorprotect-notauthor": "이 문서의 저자가 아닙니다.",
     "authorprotect-confirm": "보호 수준 바꾸기",
     "authorprotect-edit": "저자의 편집 제한하기",
-    "authorprotect-move": "저자의 이동 제한하기",
+    "authorprotect-move": "저자의 옮기기 제한하기",
     "authorprotect-intro": "이 양식을 사용하여 이 문서를 저자가 아닌 이로부터 잠급니다.",
     "authorprotect-success": "보호를 성공했습니다!",
     "authorprotect-failure": "보호를 성공하지 못했습니다.",
