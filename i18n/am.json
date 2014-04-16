@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Elfalem"
-        ]
-    },
-    "authorprotect-success": "ቁለፋው ተሳክቷል!",
-    "authorprotect-failure": "ቁለፋው አልተሳካም!"
+	"@metadata": {
+		"authors": [
+			"Elfalem"
+		]
+	},
+	"authorprotect-success": "ቁለፋው ተሳክቷል!",
+	"authorprotect-failure": "ቁለፋው አልተሳካም!"
 }
