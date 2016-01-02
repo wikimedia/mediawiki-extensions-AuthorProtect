@@ -110,8 +110,7 @@ class AuthorProtect {
 		}
 		global $wgOut, $wgUser, $wgRequest, $wgRestrictionTypes;
 		if ( !$wgUser->isAllowed( 'authorprotect' ) ) {
-			$wgOut->permissionRequired( 'authorprotect' );
-			return false;
+			throw new PermissionsError( 'authorprotect' );
 		}
 		if ( !self::userIsAuthor( $article->getTitle() ) ) {
 			$wgOut->setPageTitle( wfMessage( 'errorpagetitle' ) );
