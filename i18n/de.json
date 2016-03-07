@@ -3,7 +3,8 @@
 		"authors": [
 			"Kghbln",
 			"Raimond Spekking",
-			"Umherirrender"
+			"Umherirrender",
+			"Metalhead64"
 		]
 	},
 	"authorprotect": "Seitenbearbeitung auf den Autor der Seite beschränken",
@@ -13,8 +14,8 @@
 	"authorprotect-edit": "Bearbeitungen auf die Autoren beschränken",
 	"authorprotect-move": "Verschiebungen auf die Autoren beschränken",
 	"authorprotect-intro": "Mit diesem Formular kann die Bearbeitung dieser Seite auf den Autor beschränkt werden.",
-	"authorprotect-success": "Die Seite wurde geschützt.",
-	"authorprotect-failure": "Die Seite konnte nicht geschützt werden.",
+	"authorprotect-success": "Seitenschutz festgelegt!",
+	"authorprotect-failure": "Seitenschutz fehlgeschlagen.",
 	"protect-level-author": "Bearbeitungen auf den Autor beschränken",
 	"restriction-level-author": "Bearbeitungen sind auf den Autor beschränkt",
 	"right-authorprotect": "Seiten auf die Bearbeitung durch den Autor beschränken",
