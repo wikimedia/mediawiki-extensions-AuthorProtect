@@ -5,7 +5,8 @@
 			"Hamilton Abreu",
 			"Luckas",
 			"Malafaya",
-			"555"
+			"555",
+			"Vitorvicentevalente"
 		]
 	},
 	"authorprotect": "Proteger a página de edições por utilizadores que não são autores",
@@ -16,7 +17,7 @@
 	"authorprotect-move": "Restringir a movimentação da página a autores",
 	"authorprotect-intro": "Use este formulário para bloquear a página contra edições por utilizadores que não são autores",
 	"authorprotect-success": "Proteção ocorreu com sucesso!",
-	"authorprotect-failure": "Proteção não foi bem sucedida",
+	"authorprotect-failure": "A proteção falhou",
 	"protect-level-author": "Proteger de edições por utilizadores que não são autores",
 	"restriction-level-author": "Protegida pelo autor",
 	"right-authorprotect": "Proteger páginas com autor",

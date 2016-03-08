@@ -4,7 +4,8 @@
 			"Derbeth",
 			"Leinad",
 			"Sp5uhe",
-			"Woytecr"
+			"Woytecr",
+			"Chrumps"
 		]
 	},
 	"authorprotect": "Zabezpiecz stronę przed wszystkimi poza autorami",
@@ -15,7 +16,7 @@
 	"authorprotect-move": "Ogranicz możliwość przenoszenia do autorów",
 	"authorprotect-intro": "Użyj tego formularza, by zabezpieczyć tę stronę przed edycją przez osoby, które nie są jej autorami",
 	"authorprotect-success": "Zabezpieczono!",
-	"authorprotect-failure": "Zabezpieczenie nie powiodło się",
+	"authorprotect-failure": "Zabezpieczenie nie powiodło się.",
 	"protect-level-author": "Zabezpieczenie przed wszystkimi poza autorami",
 	"restriction-level-author": "Tylko autorzy",
 	"right-authorprotect": "Zabezpieczanie stron autorskich",

@@ -5,7 +5,8 @@
 			"Ahonc",
 			"Prima klasy4na",
 			"Sodmy",
-			"Тест"
+			"Тест",
+			"Piramidion"
 		]
 	},
 	"authorprotect": "Захист сторінок від не-авторів",
@@ -15,7 +16,7 @@
 	"authorprotect-edit": "Редагувати можуть тільки автори",
 	"authorprotect-move": "Перейменовувати можуть тільки автори",
 	"authorprotect-intro": "Використовуйте цю форму для захисту сторінки від не-авторів",
-	"authorprotect-success": "Захист успішно встановлений!",
+	"authorprotect-success": "Захист встановлено!",
 	"authorprotect-failure": "Встановити захист не вдалося",
 	"protect-level-author": "Захист від не-авторів",
 	"restriction-level-author": "Авторський захист",

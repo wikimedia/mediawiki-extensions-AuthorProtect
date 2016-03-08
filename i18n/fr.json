@@ -4,7 +4,8 @@
 			"Crochet.david",
 			"Grondin",
 			"Peter17",
-			"Sherbrooke"
+			"Sherbrooke",
+			"Gomoko"
 		]
 	},
 	"authorprotect": "Protéger la page des non-auteurs",
@@ -14,8 +15,8 @@
 	"authorprotect-edit": "Restreindre l’édition aux auteurs",
 	"authorprotect-move": "Restreindre le renommage aux auteurs",
 	"authorprotect-intro": "Utilisez ce formulaire pour verrouiller cette pages des non-auteurs",
-	"authorprotect-success": "Protection réussie !",
-	"authorprotect-failure": "Échec de la protection",
+	"authorprotect-success": "Protection mise en place !",
+	"authorprotect-failure": "Échec de la protection.",
 	"protect-level-author": "Protéger des non-auteurs",
 	"restriction-level-author": "Auteur-protégé",
 	"right-authorprotect": "Protéger la page des auteurs",
