@@ -4,7 +4,8 @@
 			"Gzdavidwong",
 			"PhiLiP",
 			"Xiaomingyan",
-			"Yfdyh000"
+			"Yfdyh000",
+			"Liuxinyu970226"
 		]
 	},
 	"authorprotect": "防止非作者编辑页面",
@@ -14,8 +15,8 @@
 	"authorprotect-edit": "禁止除作者以外人士编辑",
 	"authorprotect-move": "禁止除作者以外人士移动",
 	"authorprotect-intro": "使用此表格禁止除作者以外人士编辑",
-	"authorprotect-success": "保护成功！",
-	"authorprotect-failure": "保护失败",
+	"authorprotect-success": "保护已设置！",
+	"authorprotect-failure": "保护已失败。",
 	"protect-level-author": "保护非作家用户编辑",
 	"restriction-level-author": "作者保护",
 	"right-authorprotect": "保护自己创作的页面禁止他人编辑",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
 	"authorprotect": "Protexer a páxina fronte á edición dos que non son os seus autores",
@@ -11,8 +12,8 @@
 	"authorprotect-edit": "Restrinxir o editado aos autores",
 	"authorprotect-move": "Restrinxir o movemento aos autores",
 	"authorprotect-intro": "Use isto para protexer esta páxina fronte á edición dos que non son os seus autores",
-	"authorprotect-success": "A protección foi un éxito!",
-	"authorprotect-failure": "A protección non se puido levar a cabo",
+	"authorprotect-success": "Protección aplicada!",
+	"authorprotect-failure": "Fallou a protección.",
 	"protect-level-author": "Protexer fronte á edición dos que non son os seus autores",
 	"restriction-level-author": "Protexido polo autor",
 	"right-authorprotect": "Protexer as páxinas de autores",
