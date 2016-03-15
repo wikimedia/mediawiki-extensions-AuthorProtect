@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ferrer",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"Okras"
 		]
 	},
 	"authorprotect": "Защита страницы от не-авторов",
@@ -12,8 +13,8 @@
 	"authorprotect-edit": "править могут только авторы",
 	"authorprotect-move": "переименовывать могут только авторы",
 	"authorprotect-intro": "Используйте эту форму, чтобы защитить страницу от участников, не являющихся авторами",
-	"authorprotect-success": "Защита успешно установлена!",
-	"authorprotect-failure": "Установить защиту не удалось",
+	"authorprotect-success": "Защита установлена!",
+	"authorprotect-failure": "Установить защиту не удалось.",
 	"protect-level-author": "Защита от не-авторов",
 	"restriction-level-author": "Авторская защита",
 	"right-authorprotect": "защита авторских страниц",
