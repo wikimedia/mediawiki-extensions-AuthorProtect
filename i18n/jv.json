@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Meursault2004"
+			"Meursault2004",
+			"NoiX180"
 		]
 	},
 	"authorprotect": "Reksa kaca saka non-pangripta",
 	"authorprotect-desc": "Marengaké pangripta sawijining kaca ngreksa saka panganggo liyané",
 	"authorprotect-notauthor": "Panjenengan dudu pangripta kaca iki",
 	"authorprotect-confirm": "Ngowahi tahap pangreksan",
-	"authorprotect-edit": "Watesana panyuntingan kanggo para pangripta waé",
+	"authorprotect-edit": "Watesi pambesut marang juru pangripta",
 	"authorprotect-move": "Watesana pangalihan kaca kanggo para pangripta",
 	"authorprotect-intro": "Enggonen formulir iki kanggo ngunci kaca iki saka non-pangripta",
 	"authorprotect-success": "Pangreksané sida kasil!",
