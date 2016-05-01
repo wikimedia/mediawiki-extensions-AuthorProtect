@@ -6,7 +6,8 @@
 			"Yknok29",
 			"아라",
 			"Revi",
-			"HDNua"
+			"HDNua",
+			"Ykhwong"
 		]
 	},
 	"authorprotect": "저자가 아닌 이의 편집을 보호",
@@ -16,7 +17,7 @@
 	"authorprotect-edit": "저자의 편집 제한하기",
 	"authorprotect-move": "저자의 이동 제한하기",
 	"authorprotect-intro": "이 양식을 사용하여 이 문서를 저자가 아닌 이로부터 잠급니다.",
-	"authorprotect-success": "보호를 성공했습니다!",
+	"authorprotect-success": "보호를 설정했습니다!",
 	"authorprotect-failure": "보호에 실패했습니다.",
 	"protect-level-author": "저자가 아닌 이로부터 보호",
 	"restriction-level-author": "저자가 보호함",
