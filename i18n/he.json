@@ -4,7 +4,8 @@
 			"Amire80",
 			"Rotemliss",
 			"StuB",
-			"YaronSh"
+			"YaronSh",
+			"Guycn2"
 		]
 	},
 	"authorprotect": "הגנה על הדף מפני לא־יוצרים",
@@ -18,6 +19,6 @@
 	"authorprotect-failure": "הפעלת ההגנה נכשלה",
 	"protect-level-author": "הגנה מפני לא־יוצרים",
 	"restriction-level-author": "מוגן ליוצר",
-	"right-authorprotect": "הגנה על דפים שנכתבו על ידי אותו המשתמש",
-	"right-author": "לערוך דפים המוגנים על־ידי המחבר"
+	"right-authorprotect": "הפעלת הגנה על דפים שנכתבו על־ידי המשתמש עצמו",
+	"right-author": "עריכת דפים המוגנים על־ידי המחבר"
 }
