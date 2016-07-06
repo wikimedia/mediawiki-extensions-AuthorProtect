@@ -3,7 +3,8 @@
 		"authors": [
 			"EugeneZelenko",
 			"Jim-by",
-			"Wizardist"
+			"Wizardist",
+			"Red Winged Duck"
 		]
 	},
 	"authorprotect": "Абарона старонак ад не-аўтараў",
@@ -13,7 +14,7 @@
 	"authorprotect-edit": "Дазволіць рэдагаваньне толькі аўтарам",
 	"authorprotect-move": "Дазволіць перанос толькі аўтарам",
 	"authorprotect-intro": "Выкарыстоўвайце гэтую формы для абароны гэтай старонкі ад не-аўтараў",
-	"authorprotect-success": "Старонка абароненая!",
+	"authorprotect-success": "Абарона ўсталяваная!",
 	"authorprotect-failure": "Старонка не абароненая",
 	"protect-level-author": "Абарона ад не-аўтараў",
 	"restriction-level-author": "Аўтарская абарона",
