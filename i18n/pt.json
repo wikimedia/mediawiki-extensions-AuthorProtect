@@ -6,7 +6,8 @@
 			"Luckas",
 			"Malafaya",
 			"555",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Fúlvio"
 		]
 	},
 	"authorprotect": "Proteger a página de edições por utilizadores que não são autores",
@@ -16,7 +17,7 @@
 	"authorprotect-edit": "Restringir edição a autores",
 	"authorprotect-move": "Restringir a movimentação da página a autores",
 	"authorprotect-intro": "Use este formulário para bloquear a página contra edições por utilizadores que não são autores",
-	"authorprotect-success": "Proteção ocorreu com sucesso!",
+	"authorprotect-success": "Proteção definida!",
 	"authorprotect-failure": "A proteção falhou",
 	"protect-level-author": "Proteger de edições por utilizadores que não são autores",
 	"restriction-level-author": "Protegida pelo autor",
