@@ -115,7 +115,7 @@ class AuthorProtect {
 		}
 		if ( !self::userIsAuthor( $article->getTitle() ) ) {
 			$wgOut->setPageTitle( wfMessage( 'errorpagetitle' ) );
-			$wgOut->addWikiMsg( 'authorprotect-notauthor' );
+			$wgOut->addWikiMsg( 'authorprotect-notauthor', $user->getName() );
 			return false;
 		}
 		$wgOut->setPageTitle( wfMessage( 'authorprotect' ) );
