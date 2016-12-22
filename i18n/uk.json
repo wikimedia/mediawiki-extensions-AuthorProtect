@@ -11,7 +11,7 @@
 	},
 	"authorprotect": "Захист сторінок від не-авторів",
 	"authorprotect-desc": "Дозволяє автору сторінки захищати її від редагувань інших користувачів",
-	"authorprotect-notauthor": "Ви не є автором цієї сторінки",
+	"authorprotect-notauthor": "{{GENDER:$1|Ви}} не є {{GENDER:$1|автором|авторкою}} цієї сторінки.",
 	"authorprotect-confirm": "Змінити рівні захисту",
 	"authorprotect-edit": "Редагувати можуть тільки автори",
 	"authorprotect-move": "Перейменовувати можуть тільки автори",

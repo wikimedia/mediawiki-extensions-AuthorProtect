@@ -6,7 +6,7 @@
 	},
 	"authorprotect": "Zaščitite stran pred ne avtorji",
 	"authorprotect-desc": "Omogoča avtorjem strani, da jih zaščitijo pred drugimi uporabniki",
-	"authorprotect-notauthor": "Niste avtor te strani",
+	"authorprotect-notauthor": "Niste {{GENDER:$1|avtor|avtorica}} te strani.",
 	"authorprotect-confirm": "Spremeni ravni zaščite",
 	"authorprotect-edit": "Omeji urejanje na avtorje",
 	"authorprotect-move": "Omeji prestavljanje na avtorje",

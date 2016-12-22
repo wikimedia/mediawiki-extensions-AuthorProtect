@@ -8,7 +8,7 @@
 	},
 	"authorprotect": "Защита страницы от не-авторов",
 	"authorprotect-desc": "Разрешает автору страницы защищать её от правок других участников",
-	"authorprotect-notauthor": "Вы не являетесь автором этой страницы",
+	"authorprotect-notauthor": "{{GENDER:$1|Вы}} не являетесь {{GENDER:$1|автором}} этой страницы.",
 	"authorprotect-confirm": "Изменить уровни защиты",
 	"authorprotect-edit": "править могут только авторы",
 	"authorprotect-move": "переименовывать могут только авторы",

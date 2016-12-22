@@ -14,7 +14,7 @@
 	},
 	"authorprotect": "Proteger página de quienes no sean autores",
 	"authorprotect-desc": "Permite al autor de una página protegerla de otros usuarios",
-	"authorprotect-notauthor": "No eres el autor de esta página.",
+	"authorprotect-notauthor": "No eres {{GENDER:$1|el autor|la autora}} de esta página.",
 	"authorprotect-confirm": "Cambiar niveles de protección",
 	"authorprotect-edit": "Restringir edición a autores",
 	"authorprotect-move": "Restringir traslado a autores",
