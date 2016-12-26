@@ -3,12 +3,13 @@
 		"authors": [
 			"Cainamarques",
 			"Eduardo.mps",
-			"Giro720"
+			"Giro720",
+			"Iagocds"
 		]
 	},
 	"authorprotect": "Proteger página contra não-autores",
 	"authorprotect-desc": "Permite ao autor de uma página protegê-la de outros utilizadores",
-	"authorprotect-notauthor": "Você não é o autor desta página",
+	"authorprotect-notauthor": "{{GENDER:$1|Você}} não é o {{GENDER:$1|autor}} desta página",
 	"authorprotect-confirm": "Alterar níveis de proteção",
 	"authorprotect-edit": "Restringir edição a autores",
 	"authorprotect-move": "Restringir a movimentação da página a autores",
