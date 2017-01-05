@@ -9,7 +9,7 @@
 		]
 	},
 	"authorprotect": "Used as page title.",
-	"authorprotect-desc": "Extension description displayed on [[Special:Version]].",
+	"authorprotect-desc": "{{desc|name=AuthorProtect|url=https://www.mediawiki.org/wiki/Extension:AuthorProtect}}",
 	"authorprotect-notauthor": "Used as error message.\n\nThe page title for this message is {{msg-mw|errorpagetitle}}.\n\nParameters:\n* $1 - user name for GENDER support",
 	"authorprotect-confirm": "Used as Submit button text in the Author Protect form.",
 	"authorprotect-edit": "Used as checkbox label in the Author Protect form.\n\nSee also:\n* {{msg-mw|Authorprotect-move}}",
