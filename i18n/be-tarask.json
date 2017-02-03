@@ -4,12 +4,13 @@
 			"EugeneZelenko",
 			"Jim-by",
 			"Wizardist",
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Renessaince"
 		]
 	},
 	"authorprotect": "Абарона старонак ад не-аўтараў",
 	"authorprotect-desc": "Дазваляе аўтару старонкі абараняць яе ад іншых удзельнікаў",
-	"authorprotect-notauthor": "Вы не зьяўляецеся аўтарам гэтай старонкі",
+	"authorprotect-notauthor": "Вы не зьяўляецеся {{GENDER:$1|аўтарам|аўтаркай}} гэтай старонкі.",
 	"authorprotect-confirm": "Зьмяніць узроўні абароны",
 	"authorprotect-edit": "Дазволіць рэдагаваньне толькі аўтарам",
 	"authorprotect-move": "Дазволіць перанос толькі аўтарам",
