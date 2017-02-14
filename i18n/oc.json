@@ -6,7 +6,7 @@
 	},
 	"authorprotect": "Protegir la pagina dels non-autors",
 	"authorprotect-desc": "Permet a l’autor d’una pagina de la protegir dels autres utilizaires",
-	"authorprotect-notauthor": "Sètz pas l’autor d'aquesta pagina",
+	"authorprotect-notauthor": "{{GENDER:$1|Sètz}} pas l'autor{{GENDER:$1||a}} d'aquesta pagina.",
 	"authorprotect-confirm": "Cambiar los nivèls de proteccion",
 	"authorprotect-edit": "Restrénher l’edicion als autors",
 	"authorprotect-move": "Restrénher lo cambiament de nom als autors",
