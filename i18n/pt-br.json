@@ -4,7 +4,8 @@
 			"Cainamarques",
 			"Eduardo.mps",
 			"Giro720",
-			"Iagocds"
+			"Iagocds",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"authorprotect": "Proteger página contra não-autores",
@@ -14,8 +15,8 @@
 	"authorprotect-edit": "Restringir edição a autores",
 	"authorprotect-move": "Restringir a movimentação da página a autores",
 	"authorprotect-intro": "Use este formulário para bloquear a página contra não-autores",
-	"authorprotect-success": "Proteção com sucesso!",
-	"authorprotect-failure": "Proteção sem sucesso",
+	"authorprotect-success": "Proteção definida!",
+	"authorprotect-failure": "A proteção falhou",
 	"protect-level-author": "Proteger de não-autores",
 	"restriction-level-author": "Protegida pelo autor",
 	"right-authorprotect": "Proteger páginas de autoria própria",
