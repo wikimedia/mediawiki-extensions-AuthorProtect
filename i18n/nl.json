@@ -7,7 +7,7 @@
 	},
 	"authorprotect": "Pagina beveiligen voor niet-auteurs",
 	"authorprotect-desc": "Staat de auteur van een pagina toe deze te beveiligen voor andere gebruikers",
-	"authorprotect-notauthor": "U bent niet de auteur van deze pagina",
+	"authorprotect-notauthor": "{{GENDER:$1|U}} bent niet de {{GENDER:$1|auteur}} van deze pagina",
 	"authorprotect-confirm": "Beveiligingsniveaus wijzigen",
 	"authorprotect-edit": "Alleen bewerken door auteurs",
 	"authorprotect-move": "Alleen hernoemen door auteurs",
