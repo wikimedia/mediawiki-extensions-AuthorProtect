@@ -225,7 +225,7 @@ class AuthorProtect {
 		}
 
 		$id = $title->getArticleID();
-		$dbr = wfGetDB( DB_SLAVE ); // grab the slave for reading
+		$dbr = wfGetDB( DB_REPLICA ); // grab the slave for reading
 		$aid = $dbr->selectField( 'revision', 'rev_user',  array( 'rev_page' => $id ), __METHOD__ );
 		return $wgUser->getID() == $aid;
 	}
@@ -248,7 +248,7 @@ class AuthorProtect {
 	// forked from ProtectionForm::getExpiry and modified to rewrite '' to infinity
 	private static function AuthorProtectExpiry( $value ) {
 		if ( $value == 'infinite' || $value == 'indefinite' || $value == 'infinity' || $value == '' ) {
-			$time = wfGetDB( DB_SLAVE )->getInfinity();
+			$time = wfGetDB( DB_REPLICA )->getInfinity();
 		} else {
 			$unix = strtotime( $value );
 
