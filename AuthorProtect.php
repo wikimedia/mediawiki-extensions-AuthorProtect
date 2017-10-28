@@ -22,7 +22,6 @@ $wgExtensionCredits['other'][] = array(
 $wgAvailableRights[] = 'author'; // dynamically assigned to the author of a page, but can be set w/ wgGroupPermissions too
 $wgAvailableRights[] = 'authorprotect'; // users without this right cannot protect pages they author
 $wgMessagesDirs['AuthorProtect'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['AuthorProtect'] = __DIR__ . '/AuthorProtect.i18n.php';
 $wgGroupPermissions['sysop']['author'] = true; // sysops can edit every page despite author protection
 $wgGroupPermissions['user']['authorprotect'] = true; // registered users can protect pages they author
 $wgHooks['SkinTemplateNavigation::Universal'][] = 'AuthorProtect::MakeContentAction';
