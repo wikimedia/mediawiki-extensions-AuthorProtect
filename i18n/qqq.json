@@ -6,10 +6,11 @@
 			"Raymond",
 			"Ryan Schmidt",
 			"Shirayuki",
-			"Umherirrender"
+			"Umherirrender",
+			"Beta16"
 		]
 	},
-	"action-authorprotect": "Used as action description, such as in permission error messages.",
+	"action-authorprotect": "{{Doc-action|authorprotect}}",
 	"authorprotect": "Used as page title.",
 	"authorprotect-desc": "{{desc|name=AuthorProtect|url=https://www.mediawiki.org/wiki/Extension:AuthorProtect}}",
 	"authorprotect-notauthor": "Used as error message.\n\nThe page title for this message is {{msg-mw|errorpagetitle}}.\n\nParameters:\n* $1 - user name for GENDER support",
