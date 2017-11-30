@@ -31,9 +31,6 @@
 			"merge_strategy": "array_merge"
 		}
 	},
-	"ExtensionMessagesFiles": {
-		"AuthorProtect": "AuthorProtect.i18n.php"
-	},
 	"AvailableRights": [
 		"author",
 		"authorprotect"
