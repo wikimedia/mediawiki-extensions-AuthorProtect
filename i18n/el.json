@@ -4,9 +4,11 @@
 			"Consta",
 			"Kiriakos",
 			"Omnipaedista",
-			"ZaDiak"
+			"ZaDiak",
+			"KATRINE1992"
 		]
 	},
+	"action-authorprotect": "προστασία από μη-συγγραφείς",
 	"authorprotect": "Προστασία σελίδων από μη-συγγραφείς",
 	"authorprotect-desc": "Επιτρέπει στον συγγραφέα μιας σελίδας να την προστατέψει από άλλους χρήστες",
 	"authorprotect-notauthor": "Δεν είστε ο συγγραφέας αυτής της σελίδας",
@@ -15,7 +17,6 @@
 	"authorprotect-move": "Περιορισμός μετακίνησης στους συγγραφείς",
 	"authorprotect-intro": "Χρησιμοποιείστε αυτή τη φόρμα για να κλειδώσετε τη σελίδα από μη-συγγραφείς",
 	"authorprotect-success": "Επιτυχής προστασία!",
-	"authorprotect-failure": "Ανεπιτυχής προστασία",
 	"protect-level-author": "Προστασία από μη-συγγραφείς",
 	"restriction-level-author": "Συγγραφικά-προστατευμένο",
 	"right-authorprotect": "Συγγραφικά προστατευμένες σελίδες"
