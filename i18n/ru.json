@@ -14,7 +14,6 @@
 	"authorprotect-move": "переименовывать могут только авторы",
 	"authorprotect-intro": "Используйте эту форму, чтобы защитить страницу от участников, не являющихся авторами",
 	"authorprotect-success": "Защита установлена!",
-	"authorprotect-failure": "Установить защиту не удалось.",
 	"protect-level-author": "Защита от не-авторов",
 	"restriction-level-author": "Авторская защита",
 	"right-authorprotect": "защита авторских страниц",

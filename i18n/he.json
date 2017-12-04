@@ -16,7 +16,6 @@
 	"authorprotect-move": "הגבלת העברה ליוצרים בלבד",
 	"authorprotect-intro": "ניתן להשתמש בטופס זה כדי להגן על דף זה מפני משתמשים שלא יצרו אותו",
 	"authorprotect-success": "ההגנה הופעלה בהצלחה!",
-	"authorprotect-failure": "הפעלת ההגנה נכשלה",
 	"protect-level-author": "הגנה מפני לא־יוצרים",
 	"restriction-level-author": "מוגן ליוצר",
 	"right-authorprotect": "הפעלת הגנה על דפים שנכתבו על־ידי המשתמש עצמו",

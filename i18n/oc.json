@@ -12,7 +12,6 @@
 	"authorprotect-move": "Restrénher lo cambiament de nom als autors",
 	"authorprotect-intro": "Utilizatz aqueste formulari per verrolhar aquesta pagina dels non-autors",
 	"authorprotect-success": "Proteccion aplicada !",
-	"authorprotect-failure": "Fracàs de la proteccion.",
 	"protect-level-author": "Protegir de non-autors",
 	"restriction-level-author": "Autor protegit",
 	"right-authorprotect": "Protegir la pagina dels autors",

@@ -17,7 +17,6 @@
 	"authorprotect-move": "Перейменовувати можуть тільки автори",
 	"authorprotect-intro": "Використовуйте цю форму для захисту сторінки від не-авторів",
 	"authorprotect-success": "Захист встановлено!",
-	"authorprotect-failure": "Встановити захист не вдалося",
 	"protect-level-author": "Захист від не-авторів",
 	"restriction-level-author": "Авторський захист",
 	"right-authorprotect": "Захист авторських сторінок",

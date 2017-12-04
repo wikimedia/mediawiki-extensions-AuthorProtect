@@ -17,7 +17,6 @@
 	"authorprotect-move": "Rajoita siirtäminen tekijöille",
 	"authorprotect-intro": "Käytä tätä lomaketta lukitaksesi sivun niiltä, jotka eivät ole tekijöitä",
 	"authorprotect-success": "Suojaus onnistui!",
-	"authorprotect-failure": "Suojaus ei onnistunut",
 	"protect-level-author": "Suojaa ei-tekijöiltä",
 	"restriction-level-author": "Tekijä-suojattu",
 	"right-authorprotect": "Tekijäsivujen suojaus",

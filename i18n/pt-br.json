@@ -16,7 +16,6 @@
 	"authorprotect-move": "Restringir a movimentação da página a autores",
 	"authorprotect-intro": "Use este formulário para bloquear a página contra não-autores",
 	"authorprotect-success": "Proteção definida!",
-	"authorprotect-failure": "A proteção falhou",
 	"protect-level-author": "Proteger de não-autores",
 	"restriction-level-author": "Protegida pelo autor",
 	"right-authorprotect": "Proteger páginas de autoria própria",
