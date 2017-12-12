@@ -8,6 +8,7 @@
 			"Eduardo Addad de Oliveira"
 		]
 	},
+	"action-authorprotect": "proteger contra não autores",
 	"authorprotect": "Proteger página contra não-autores",
 	"authorprotect-desc": "Permite ao autor de uma página protegê-la de outros utilizadores",
 	"authorprotect-notauthor": "{{GENDER:$1|Você}} não é o {{GENDER:$1|autor}} desta página",
