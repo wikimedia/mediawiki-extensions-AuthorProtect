@@ -4,12 +4,14 @@
 			"An13sa",
 			"Kobazulo",
 			"Pi",
-			"Theklan"
+			"Theklan",
+			"Mikel Ibaiba"
 		]
 	},
+	"action-authorprotect": "babestu ez-egileetatik",
 	"authorprotect": "Babestu orria ez-egileetatik",
 	"authorprotect-desc": "Egileari orrialdea beste erabiltzaileez babesteko aukera ematen dio",
-	"authorprotect-notauthor": "Ez zara orrialde honen egilea",
+	"authorprotect-notauthor": "Ez {{GENDER:$1|zara}} orrialde honen {{GENDER:$1|egilea}}.",
 	"authorprotect-confirm": "Aldatu babeste mailak",
 	"authorprotect-edit": "Mugatu editatzea egileei",
 	"authorprotect-move": "Mugatu mugitzea egileei",
