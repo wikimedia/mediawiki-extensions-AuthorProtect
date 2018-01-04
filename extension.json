@@ -6,7 +6,7 @@
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:AuthorProtect",
 	"descriptionmsg": "authorprotect-desc",
-	"license-name": "GPL-2.0+",
+	"license-name": "GPL-2.0-or-later",
 	"AutoloadClasses": {
 		"AuthorProtect": "AuthorProtect.hooks.php",
 		"AuthorProtectAction": "AuthorProtectAction.php"
