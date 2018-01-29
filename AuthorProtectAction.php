@@ -16,7 +16,7 @@ class AuthorProtectAction extends FormAction {
 			throw new ErrorPageError( 'errorpagetitle', 'authorprotect-notauthor', [ $user->getName() ] );
 		}
 
-		$errors = array_values ($this->getTitle()->getUserPermissionsErrors( 'protect', $user, 'secure', [ 'badaccess-groups' ] ) );
+		$errors = array_values( $this->getTitle()->getUserPermissionsErrors( 'protect', $user, 'secure', [ 'badaccess-groups' ] ) );
 		if ( $errors ) {
 			throw new PermissionsError( 'authorprotect', $errors );
 		}
@@ -126,17 +126,16 @@ class AuthorProtectAction extends FormAction {
 
 		$fields['Reason'] = [
 			'type' => 'text',
-			'label-message' => [ 'protectcomment', 'reason' ] 
+			'label-message' => [ 'protectcomment', 'reason' ]
 		];
 
 		return $fields;
 	}
 
-
 	// forked from ProtectionForm::getExpiry and modified to rewrite '' to infinity
 	private function getExpiry( $value ) {
 		if ( $value == 'infinite' || $value == 'indefinite' || $value == 'infinity' || $value == '' ) {
-			$time = wfGetDB( DB_SLAVE )->getInfinity();
+			$time = wfGetDB( DB_REPLICA )->getInfinity();
 		} else {
 			$unix = strtotime( $value );
 

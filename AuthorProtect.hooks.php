@@ -30,7 +30,7 @@ class AuthorProtect {
 	}
 
 	public static function UserIsAuthor( $user, $title, $checkMaster = false ) {
-		if ( !$title instanceOf Title ) {
+		if ( !$title instanceof Title ) {
 			return false; // quick hack to prevent the API from messing up.
 		}
 
@@ -39,7 +39,7 @@ class AuthorProtect {
 		}
 
 		$id = $title->getArticleID();
-		$dbr = wfGetDB( $checkMaster ? DB_MASTER : DB_SLAVE );
+		$dbr = wfGetDB( $checkMaster ? DB_MASTER : DB_REPLICA );
 		$aid = $dbr->selectField(
 			'revision',
 			'rev_user',
