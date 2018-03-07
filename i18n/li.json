@@ -5,9 +5,10 @@
 			"Pahles"
 		]
 	},
+	"action-authorprotect": "beveilig taenge neet-sjrievers",
 	"authorprotect": "Pagina beveilige veur neet-auteurs",
 	"authorprotect-desc": "Sjteit de auteur van 'n pagina toe um deze te beveilige veur ander gebroekers",
-	"authorprotect-notauthor": "Doe bis neet de auteur van dees pagina",
+	"authorprotect-notauthor": "{{GENDER:$1|Doe}} bös neet de {{GENDER:$1|sjriever}} van dees pagina.",
 	"authorprotect-confirm": "Beveiligingsniveau verangere",
 	"authorprotect-edit": "Elein bewirke door auteurs",
 	"authorprotect-move": "Elein hernoeme door auteurs",
