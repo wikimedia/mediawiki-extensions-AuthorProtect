@@ -5,9 +5,11 @@
 			"Schu",
 			"Shirayuki",
 			"青子守歌",
-			"Omotecho"
+			"Omotecho",
+			"Yusuke1109"
 		]
 	},
+	"action-authorprotect": "作成者以外から保護",
 	"authorprotect": "作成者以外の利用者からページを保護",
 	"authorprotect-desc": "ページの作成者が、そのページを他の利用者から保護できるようにする",
 	"authorprotect-notauthor": "{{GENDER:$1|あなた}}はこのページの{{GENDER:$1|作成者}}ではありません。",
