@@ -9,7 +9,8 @@
 			"Piramidion"
 		]
 	},
-	"authorprotect": "Захист сторінок від не-авторів",
+	"action-authorprotect": "встановлення захисту від не-авторів",
+	"authorprotect": "Захист сторінки від не-авторів",
 	"authorprotect-desc": "Дозволяє автору сторінки захищати її від редагувань інших користувачів",
 	"authorprotect-notauthor": "{{GENDER:$1|Ви}} не є {{GENDER:$1|автором|авторкою}} цієї сторінки.",
 	"authorprotect-confirm": "Змінити рівні захисту",
