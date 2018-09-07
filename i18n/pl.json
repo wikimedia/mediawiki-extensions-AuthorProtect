@@ -5,9 +5,11 @@
 			"Leinad",
 			"Sp5uhe",
 			"Woytecr",
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
+	"action-authorprotect": "zabezpieczania przed wszystkimi poza autorami",
 	"authorprotect": "Zabezpiecz stronę przed wszystkimi poza autorami",
 	"authorprotect-desc": "Umożliwia autorowi strony zabezpieczenie jej przed innymi użytkownikami",
 	"authorprotect-notauthor": "Nie {{GENDER:$1|jesteś}} {{GENDER:$1|autorem|autorką}} tej strony.",
