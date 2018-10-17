@@ -3,12 +3,14 @@
 		"authors": [
 			"Joseph",
 			"Karduelis",
-			"Khutuck"
+			"Khutuck",
+			"TmY e12"
 		]
 	},
+	"action-authorprotect": "Yazar-olmayanlardan koru",
 	"authorprotect": "Sayfayı yazar-olmayanlardan koru",
 	"authorprotect-desc": "Bir sayfanın yazarının, sayfayı diğer kullanıcılardan korumasına izin verir",
-	"authorprotect-notauthor": "Bu sayfanın yazarı değilsiniz",
+	"authorprotect-notauthor": "{{GENDER:$1Siz}} bu sayfanın {{GENDER:$1|yazarı}} değilsiniz",
 	"authorprotect-confirm": "Koruma seviyesini değiştir",
 	"authorprotect-edit": "Yazarlara değiştirmeyi kısıtla",
 	"authorprotect-move": "Yazarlara taşımayı kısıtla",
