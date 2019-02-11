@@ -2,11 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
-			"StanProg"
+			"StanProg",
+			"Vlad5250"
 		]
 	},
+	"action-authorprotect": "защита от неавтори",
+	"authorprotect": "Защита на страницата от неавтори",
 	"authorprotect-desc": "Позволява на автора на страница да я защити от другите потребители",
 	"authorprotect-notauthor": "{{GENDER:$1|Не сте}} {{GENDER:$1|автор}} на тази страница.",
 	"authorprotect-confirm": "Промяна степента на защита",
-	"authorprotect-success": "Защитата е установена!"
+	"authorprotect-edit": "Само автори могат да редактират",
+	"authorprotect-move": "Само автори могат да преместват",
+	"authorprotect-intro": "Използвайте този формуляр за да заключите страницата от неавтори",
+	"authorprotect-success": "Защитата е установена!",
+	"protect-level-author": "Защита от неавтори",
+	"restriction-level-author": "Авторска защита",
+	"right-authorprotect": "Защитаване на авторски страници",
+	"right-author": "Редактиране на страници защитени от автора"
 }
