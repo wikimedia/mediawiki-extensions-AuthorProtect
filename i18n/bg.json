@@ -3,7 +3,8 @@
 		"authors": [
 			"DCLXVI",
 			"StanProg",
-			"Vlad5250"
+			"Vlad5250",
+			"Vodnokon4e"
 		]
 	},
 	"action-authorprotect": "защита от неавтори",
@@ -18,5 +19,5 @@
 	"protect-level-author": "Защита от неавтори",
 	"restriction-level-author": "Авторска защита",
 	"right-authorprotect": "Защитаване на авторски страници",
-	"right-author": "Редактиране на страници защитени от автора"
+	"right-author": "Редактиране на страници, защитени от автора"
 }
