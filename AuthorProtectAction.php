@@ -150,4 +150,8 @@ class AuthorProtectAction extends FormAction {
 
 		return $time;
 	}
+
+	protected function usesOOUI() {
+		return true;
+	}
 }
