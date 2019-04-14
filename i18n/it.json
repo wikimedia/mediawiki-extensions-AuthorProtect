@@ -8,7 +8,6 @@
 			"Pietrodn"
 		]
 	},
-	"action-authorprotect": "proteggere la pagina dai non-autori",
 	"authorprotect": "Proteggi la pagina dai non-autori",
 	"authorprotect-desc": "Permette all'autore di una pagina di proteggerla dagli altri utenti",
 	"authorprotect-notauthor": "{{GENDER:$1|Tu}} non sei l'{{GENDER:$1|autore|autrice}} di questa pagina.",
@@ -19,6 +18,7 @@
 	"authorprotect-success": "Protezione impostata!",
 	"protect-level-author": "Protetta dai non-autori",
 	"restriction-level-author": "Protetta dall'autore",
+	"action-authorprotect": "proteggere la pagina dai non-autori",
 	"right-authorprotect": "Protegge le pagine con autori",
 	"right-author": "Modifica le pagine protette dall'autore"
 }

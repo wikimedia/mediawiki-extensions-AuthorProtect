@@ -7,7 +7,6 @@
 			"Vodnokon4e"
 		]
 	},
-	"action-authorprotect": "защита от неавтори",
 	"authorprotect": "Защита на страницата от неавтори",
 	"authorprotect-desc": "Позволява на автора на страница да я защити от другите потребители",
 	"authorprotect-notauthor": "{{GENDER:$1|Не сте}} {{GENDER:$1|автор}} на тази страница.",
@@ -18,6 +17,7 @@
 	"authorprotect-success": "Защитата е установена!",
 	"protect-level-author": "Защита от неавтори",
 	"restriction-level-author": "Авторска защита",
+	"action-authorprotect": "защита от неавтори",
 	"right-authorprotect": "Защитаване на авторски страници",
 	"right-author": "Редактиране на страници, защитени от автора"
 }

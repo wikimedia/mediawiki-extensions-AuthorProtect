@@ -7,10 +7,10 @@
 			"Sherbrooke",
 			"Gomoko",
 			"Wladek92",
-			"Urhixidur"
+			"Urhixidur",
+			"Pols12"
 		]
 	},
-	"action-authorprotect": "protection contre les non-auteurs",
 	"authorprotect": "Protéger la page des non-auteurs",
 	"authorprotect-desc": "Permet à l’auteur d’une page de la protéger des autres utilisateurs",
 	"authorprotect-notauthor": "Vous n’êtes pas l’auteur{{GENDER:$1||e}} de cette page.",
@@ -21,6 +21,8 @@
 	"authorprotect-success": "Protection mise en place !",
 	"protect-level-author": "Protéger des non-auteurs",
 	"restriction-level-author": "Auteur-protégé",
+	"action-authorprotect": "protection contre les non-auteurs",
 	"right-authorprotect": "Protéger la page des auteurs",
+	"action-author": "modifier les pages protégées par leur auteur",
 	"right-author": "Modifier les pages protégées par son auteur"
 }

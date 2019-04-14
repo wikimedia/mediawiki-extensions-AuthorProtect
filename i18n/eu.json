@@ -8,7 +8,6 @@
 			"Mikel Ibaiba"
 		]
 	},
-	"action-authorprotect": "babestu ez-egileetatik",
 	"authorprotect": "Babestu orria ez-egileetatik",
 	"authorprotect-desc": "Egileari orrialdea beste erabiltzaileez babesteko aukera ematen dio",
 	"authorprotect-notauthor": "Ez {{GENDER:$1|zara}} orrialde honen {{GENDER:$1|egilea}}.",
@@ -19,6 +18,7 @@
 	"authorprotect-success": "Behar bezala babestu da!",
 	"protect-level-author": "Babestu ez-egileetatik",
 	"restriction-level-author": "Auto-babesturik",
+	"action-authorprotect": "babestu ez-egileetatik",
 	"right-authorprotect": "Autore orrialdeak babestu",
 	"right-author": "Egile-babesdun orrialdeak editatu"
 }

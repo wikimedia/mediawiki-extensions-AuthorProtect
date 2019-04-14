@@ -4,7 +4,6 @@
 			"Xuacu"
 		]
 	},
-	"action-authorprotect": "protexer de los que nun son los autores",
 	"authorprotect": "Protexer la páxina de los que nun son los autores",
 	"authorprotect-desc": "Permite al autor d'una páxina protexela d'otros usuarios",
 	"authorprotect-notauthor": "Nun yes {{GENDER:$1|l'autor|l'autora}} d'esta páxina.",
@@ -15,6 +14,7 @@
 	"authorprotect-success": "¡Protección aplicada!",
 	"protect-level-author": "Protexer de los que nun son los autores",
 	"restriction-level-author": "Protexida pol autor",
+	"action-authorprotect": "protexer de los que nun son los autores",
 	"right-authorprotect": "Protexer les páxines con autor",
 	"right-author": "Editar les páxines protexíes pol autor"
 }

@@ -10,7 +10,6 @@
 			"01miki10"
 		]
 	},
-	"action-authorprotect": "suojata sivua muilta kuin tekijöiltä",
 	"authorprotect": "Suojaa sivu muilta kuin tekijöiltä",
 	"authorprotect-desc": "Mahdollistaa sivun tekijän suojata se muilta käyttäjiltä.",
 	"authorprotect-notauthor": "{{GENDER:$1|Et}} ole tämän sivun {{GENDER:$1|luoja}}.",
@@ -21,6 +20,7 @@
 	"authorprotect-success": "Suojaus asetettu!",
 	"protect-level-author": "Suojaa muilta kuin tekijöiltä",
 	"restriction-level-author": "Tekijä-suojattu",
+	"action-authorprotect": "suojata sivua muilta kuin tekijöiltä",
 	"right-authorprotect": "Tekijäsivujen suojaus",
 	"right-author": "Muokata tekijän suojaamia sivuja"
 }

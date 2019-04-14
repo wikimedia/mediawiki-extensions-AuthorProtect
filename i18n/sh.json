@@ -4,7 +4,6 @@
 			"Vlad5250"
 		]
 	},
-	"action-authorprotect": "zaštitu od neautora",
 	"authorprotect": "Zaštiti stranicu od ne-autora",
 	"authorprotect-desc": "Omogućava autoru jedne stranice da je zaštiti od drugih korisnika",
 	"authorprotect-notauthor": "{{GENDER:$1|Vi}} niste {{GENDER:$1|autor|autorica}} ove stranice.",
@@ -15,6 +14,7 @@
 	"authorprotect-success": "Zaštita je uspostavljena!",
 	"protect-level-author": "Zaštiti od ne-autora",
 	"restriction-level-author": "Autorska zaštita",
+	"action-authorprotect": "zaštitu od neautora",
 	"right-authorprotect": "Zaštiti autorske stranice",
 	"right-author": "Uređivanje stranica zaštićenih autorima"
 }

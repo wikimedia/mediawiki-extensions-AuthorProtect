@@ -7,7 +7,6 @@
 			"Metalhead64"
 		]
 	},
-	"action-authorprotect": "Seiten für Nicht-Autoren zu schützen",
 	"authorprotect": "Seitenbearbeitung auf den Autor der Seite beschränken",
 	"authorprotect-desc": "Ermöglicht es dem Autor einer Seite, diese für die Bearbeitung durch andere Benutzer zu sperren",
 	"authorprotect-notauthor": "{{GENDER:$1|Du}} bist nicht {{GENDER:$1|der Autor|die Autorin}} dieser Seite.",
@@ -18,6 +17,7 @@
 	"authorprotect-success": "Seitenschutz festgelegt!",
 	"protect-level-author": "Bearbeitungen auf den Autor beschränken",
 	"restriction-level-author": "Bearbeitungen sind auf den Autor beschränkt",
+	"action-authorprotect": "Seiten für Nicht-Autoren zu schützen",
 	"right-authorprotect": "Seiten auf die Bearbeitung durch den Autor beschränken",
 	"right-author": "Auf die Bearbeitung durch den Autor beschränkte Seiten bearbeiten"
 }

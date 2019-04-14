@@ -7,7 +7,6 @@
 			"Facenapalm"
 		]
 	},
-	"action-authorprotect": "защиты от не-авторов",
 	"authorprotect": "Защита страницы от не-авторов",
 	"authorprotect-desc": "Разрешает автору страницы защищать её от правок других участников",
 	"authorprotect-notauthor": "{{GENDER:$1|Вы}} не являетесь {{GENDER:$1|автором}} этой страницы.",
@@ -18,6 +17,7 @@
 	"authorprotect-success": "Защита установлена!",
 	"protect-level-author": "Защита от не-авторов",
 	"restriction-level-author": "Авторская защита",
+	"action-authorprotect": "защиты от не-авторов",
 	"right-authorprotect": "защита авторских страниц",
 	"right-author": "правка авторски-защищённых страниц"
 }

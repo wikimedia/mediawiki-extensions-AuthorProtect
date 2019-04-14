@@ -6,7 +6,6 @@
 			"គីមស៊្រុន"
 		]
 	},
-	"action-authorprotect": "ការពារពីអ្នកដែលមិនមែនជាអ្នកនិពន្ធ",
 	"authorprotect": "ការពារទំព័រពីអ្នកដែលមិនមែនជាអ្នកនិពន្ធ។",
 	"authorprotect-desc": "អនុញ្ញាតឱ្យអ្នកនិពន្ធទំព័រមួយការពារវាពីអ្នកប្រើប្រាស់ដ៏ទៃ",
 	"authorprotect-notauthor": "{{GENDER:$1|អ្នក}}មិនមែនជា{{GENDER:$1|អ្នកនិពន្ធ}}ទំព័រនេះទេ។",
@@ -17,5 +16,6 @@
 	"authorprotect-success": "ការពារហើយ!",
 	"protect-level-author": "ការពារពីអ្នកដែលមិនមែនជាអ្នកនិពន្ធ",
 	"restriction-level-author": "ត្រូវបានការពារដោយអ្នកនិពន្ធ",
+	"action-authorprotect": "ការពារពីអ្នកដែលមិនមែនជាអ្នកនិពន្ធ",
 	"right-authorprotect": "ការពារទំព័រដែលមានអ្នកនិពន្ធ"
 }

@@ -5,7 +5,6 @@
 			"Jon Harald Søby"
 		]
 	},
-	"action-authorprotect": "beskytte fra ikke-forfattere",
 	"authorprotect": "Beskytt siden for andre enn forfatteren",
 	"authorprotect-desc": "Lar forfatteren av en side beskytte den mot endringer fra andre brukere",
 	"authorprotect-notauthor": "{{GENDER:$1|Du}} er ikke forfatteren av denne siden",
@@ -16,6 +15,7 @@
 	"authorprotect-success": "Beskytting lyktes!",
 	"protect-level-author": "Beskytt for andre enn forfattere",
 	"restriction-level-author": "Beskyttet for forfattere",
+	"action-authorprotect": "beskytte fra ikke-forfattere",
 	"right-authorprotect": "Beskytt forfattede sider",
 	"right-author": "Rediger forfatter-beskyttede sider"
 }

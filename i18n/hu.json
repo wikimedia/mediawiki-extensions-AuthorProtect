@@ -7,7 +7,6 @@
 			"Bencemac"
 		]
 	},
-	"action-authorprotect": "védelem nem-szerzőktől",
 	"authorprotect": "Lap védelme a nem-szerzőkkel szemben",
 	"authorprotect-desc": "Lehetővé teszi egy lap szerzője számára, hogy levédje azt más szerkesztőkkel szemben",
 	"authorprotect-notauthor": "{{GENDER:$1|Te}} nem vagy {{GENDER:$1|szerzője}} ennek a lapnak",
@@ -18,6 +17,7 @@
 	"authorprotect-success": "Levédés sikeres!",
 	"protect-level-author": "Csak a szerző",
 	"restriction-level-author": "Szerző-védett",
+	"action-authorprotect": "védelem nem-szerzőktől",
 	"right-authorprotect": "szerzői lapok védelme",
 	"right-author": "szerzői védelem alatt álló lapok szerkesztése"
 }

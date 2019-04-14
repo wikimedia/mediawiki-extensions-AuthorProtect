@@ -6,10 +6,10 @@
 			"Prima klasy4na",
 			"Sodmy",
 			"Тест",
-			"Piramidion"
+			"Piramidion",
+			"Vlad5250"
 		]
 	},
-	"action-authorprotect": "встановлення захисту від не-авторів",
 	"authorprotect": "Захист сторінки від не-авторів",
 	"authorprotect-desc": "Дозволяє автору сторінки захищати її від редагувань інших користувачів",
 	"authorprotect-notauthor": "{{GENDER:$1|Ви}} не є {{GENDER:$1|автором|авторкою}} цієї сторінки.",
@@ -20,6 +20,8 @@
 	"authorprotect-success": "Захист встановлено!",
 	"protect-level-author": "Захист від не-авторів",
 	"restriction-level-author": "Авторський захист",
+	"action-authorprotect": "встановлення захисту від не-авторів",
 	"right-authorprotect": "Захист авторських сторінок",
+	"action-author": "редагування захищених автором сторінок",
 	"right-author": "Редагування захищених автором сторінок"
 }

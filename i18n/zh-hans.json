@@ -8,7 +8,6 @@
 			"Liuxinyu970226"
 		]
 	},
-	"action-authorprotect": "保护非作者编辑",
 	"authorprotect": "防止非作者编辑页面",
 	"authorprotect-desc": "允许页面的作者禁止其他用户编辑",
 	"authorprotect-notauthor": "{{GENDER:$1|您}}不是该页面的{{GENDER:$1|作者}}。",
@@ -19,6 +18,7 @@
 	"authorprotect-success": "保护已设置！",
 	"protect-level-author": "保护非作家用户编辑",
 	"restriction-level-author": "作者保护",
+	"action-authorprotect": "保护非作者编辑",
 	"right-authorprotect": "保护自己创作的页面禁止他人编辑",
 	"right-author": "编辑被作者保护的页面"
 }

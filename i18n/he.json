@@ -8,7 +8,6 @@
 			"Guycn2"
 		]
 	},
-	"action-authorprotect": "להגן על דפים מפני משתמשים שלא יצרו אותם",
 	"authorprotect": "הגנה על הדף מפני משתמשים שלא יצרו אותו",
 	"authorprotect-desc": "מתן אפשרות ליוצר של דף להגן עליו מפני משתמשים אחרים",
 	"authorprotect-notauthor": "אינך {{GENDER:$1|היוצר|היוצרת}} של דף זה.",
@@ -19,6 +18,7 @@
 	"authorprotect-success": "ההגנה הופעלה בהצלחה!",
 	"protect-level-author": "הגנה מפני משתמשים שלא יצרו את הדף",
 	"restriction-level-author": "הגנה מפני משתמשים שלא יצרו את הדף",
+	"action-authorprotect": "להגן על דפים מפני משתמשים שלא יצרו אותם",
 	"right-authorprotect": "הפעלת הגנה על דפים שנכתבו על־ידי המשתמש עצמו",
 	"right-author": "עריכת דפים המוגנים על־ידי המחבר"
 }
