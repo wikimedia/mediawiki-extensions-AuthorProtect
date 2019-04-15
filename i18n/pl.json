@@ -21,5 +21,6 @@
 	"restriction-level-author": "Tylko autorzy",
 	"action-authorprotect": "zabezpieczania przed wszystkimi poza autorami",
 	"right-authorprotect": "Zabezpieczanie stron autorskich",
+	"action-author": "edytowania stron zabezpieczonych przez autora",
 	"right-author": "Edycja stron zabezpieczonych przez autora"
 }
