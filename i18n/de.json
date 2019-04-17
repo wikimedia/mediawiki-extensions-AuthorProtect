@@ -19,5 +19,6 @@
 	"restriction-level-author": "Bearbeitungen sind auf den Autor beschränkt",
 	"action-authorprotect": "Seiten für Nicht-Autoren zu schützen",
 	"right-authorprotect": "Seiten auf die Bearbeitung durch den Autor beschränken",
+	"action-author": "auf die Bearbeitung durch den Autor beschränkte Seiten zu bearbeiten",
 	"right-author": "Auf die Bearbeitung durch den Autor beschränkte Seiten bearbeiten"
 }
