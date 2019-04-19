@@ -4,7 +4,8 @@
 			"Ferrer",
 			"Александр Сигачёв",
 			"Okras",
-			"Facenapalm"
+			"Facenapalm",
+			"Vlad5250"
 		]
 	},
 	"authorprotect": "Защита страницы от не-авторов",
@@ -19,5 +20,6 @@
 	"restriction-level-author": "Авторская защита",
 	"action-authorprotect": "защиты от не-авторов",
 	"right-authorprotect": "защита авторских страниц",
+	"action-author": "правка авторски-защищённых страниц",
 	"right-author": "правка авторски-защищённых страниц"
 }

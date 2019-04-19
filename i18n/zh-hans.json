@@ -5,7 +5,8 @@
 			"PhiLiP",
 			"Xiaomingyan",
 			"Yfdyh000",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"佛壁灯"
 		]
 	},
 	"authorprotect": "防止非作者编辑页面",
@@ -20,5 +21,6 @@
 	"restriction-level-author": "作者保护",
 	"action-authorprotect": "保护非作者编辑",
 	"right-authorprotect": "保护自己创作的页面禁止他人编辑",
+	"action-author": "编辑被作者保护的页面",
 	"right-author": "编辑被作者保护的页面"
 }
