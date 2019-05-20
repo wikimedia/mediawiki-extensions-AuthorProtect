@@ -22,5 +22,6 @@
 	"restriction-level-author": "저자가 보호함",
 	"action-authorprotect": "저자가 아닌 이로부터 보호",
 	"right-authorprotect": "작성한 문서를 보호하기",
+	"action-author": "저자가 보호한 문서를 편집하기",
 	"right-author": "저자가 보호한 문서를 편집하기"
 }
