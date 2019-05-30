@@ -16,5 +16,6 @@
 	"restriction-level-author": "Protexida pol autor",
 	"action-authorprotect": "protexer de los que nun son los autores",
 	"right-authorprotect": "Protexer les páxines con autor",
+	"action-author": "editar les páxines protexíes pol autor",
 	"right-author": "Editar les páxines protexíes pol autor"
 }
