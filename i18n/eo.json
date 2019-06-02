@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Michawiki",
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
 	"authorprotect": "Pretektu paĝon kontraŭ ne-aŭtoroj",
 	"authorprotect-desc": "Permesas al la aŭtoro de paĝo protekti ĝin de aliaj uzantoj",
-	"authorprotect-notauthor": "Vi ne estas la aŭtoro de ĉi tiu paĝo",
+	"authorprotect-notauthor": "{{GENDER:$1|Vi}} ne estas la {{GENDER:$1|aŭtoro}} de ĉi tiu paĝo.",
 	"authorprotect-confirm": "Ŝanĝi nivelojn de protektado",
 	"authorprotect-edit": "Limigi redaktadon por aŭtoroj",
 	"authorprotect-move": "Limigi movado por aŭtoroj",
@@ -15,6 +16,8 @@
 	"authorprotect-success": "Protektado sukcesis!",
 	"protect-level-author": "Protekti kontraŭ ne-aŭtoroj",
 	"restriction-level-author": "Protektita per aŭtoro",
+	"action-authorprotect": "protekti kontraŭ ne-aŭtoroj",
 	"right-authorprotect": "Protekti aŭtorajn paĝojn",
+	"action-author": "redakti paĝojn protektatan de la aŭtoroj",
 	"right-author": "Redakti paĝojn protektitajn de uzantoj"
 }
