@@ -5,12 +5,13 @@
 			"Huji",
 			"Mardetanha",
 			"Mehran",
-			"Reza1615"
+			"Reza1615",
+			"FarsiNevis"
 		]
 	},
 	"authorprotect": "محافظت از صفحه در برابر غیرنویسنده‌ها",
 	"authorprotect-desc": "به نویسنده اجازه بده تا صفحه را در مقابل سایر کاربرها محافظت کند",
-	"authorprotect-notauthor": "شما نویسندهٔ این صفحه نیستید",
+	"authorprotect-notauthor": "{{GENDER:$1|شما}} {{GENDER:$1|نویسندهٔ}} این صفحه نیستید.",
 	"authorprotect-confirm": "تغییر سطح‌های محافظت",
 	"authorprotect-edit": "محدودکردن ویرایش به نویسنده‌ها",
 	"authorprotect-move": "محدودکردن انتقال به نویسنده‌ها",
@@ -18,6 +19,8 @@
 	"authorprotect-success": "محافظت موفقیت‌آمیز بود!",
 	"protect-level-author": "محافظت در برابر غیرنویسنده‌ها",
 	"restriction-level-author": "محافظت نویسنده",
+	"action-authorprotect": "محافظت در برابر غیرنویسنده‌ها",
 	"right-authorprotect": "محافظت صفحه‌های نویسنده",
+	"action-author": "ویرایش صفحه‌های محافظت‌شده توسط نویسنده",
 	"right-author": "ویرایش صفحات محافظت‌شده نویسنده"
 }
