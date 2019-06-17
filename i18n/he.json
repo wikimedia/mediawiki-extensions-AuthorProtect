@@ -5,7 +5,8 @@
 			"Rotemliss",
 			"StuB",
 			"YaronSh",
-			"Guycn2"
+			"Guycn2",
+			"Steeve815"
 		]
 	},
 	"authorprotect": "הגנה על הדף מפני משתמשים שלא יצרו אותו",
@@ -20,5 +21,6 @@
 	"restriction-level-author": "הגנה מפני משתמשים שלא יצרו את הדף",
 	"action-authorprotect": "להגן על דפים מפני משתמשים שלא יצרו אותם",
 	"right-authorprotect": "הפעלת הגנה על דפים שנכתבו על־ידי המשתמש עצמו",
+	"action-author": "עריכת דפים המוגנים על־ידי המחבר",
 	"right-author": "עריכת דפים המוגנים על־ידי המחבר"
 }
