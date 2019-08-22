@@ -17,5 +17,6 @@
 	"restriction-level-author": "Beskyttet for forfattere",
 	"action-authorprotect": "beskytte fra ikke-forfattere",
 	"right-authorprotect": "Beskytt forfattede sider",
+	"action-author": "redigere forfatterbeskyttede sider",
 	"right-author": "Rediger forfatter-beskyttede sider"
 }
