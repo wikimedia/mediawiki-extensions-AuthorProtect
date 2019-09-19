@@ -3,12 +3,13 @@
 		"authors": [
 			"Matěj Grabovský",
 			"Mormegil",
-			"Reaperman"
+			"Reaperman",
+			"MrJaroslavik"
 		]
 	},
 	"authorprotect": "Zabránit neautorským úpravám",
 	"authorprotect-desc": "Umožní autorovi stránky zabránit ostatním uživatelům upravovat ji",
-	"authorprotect-notauthor": "Nejste autorem této stránky",
+	"authorprotect-notauthor": "Nejste {{GENDER:$1|autorem|autorkou}} této stránky.",
 	"authorprotect-confirm": "Změnit úroveň ochrany",
 	"authorprotect-edit": "Umožnit úpravy pouze autorům",
 	"authorprotect-move": "Umožnit přesouvání jen autorům",
