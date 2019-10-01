@@ -19,5 +19,6 @@
 	"restriction-level-author": "Авторска защита",
 	"action-authorprotect": "защита от неавтори",
 	"right-authorprotect": "Защитаване на авторски страници",
+	"action-author": "редактиране на страници защитени от автора",
 	"right-author": "Редактиране на страници, защитени от автора"
 }
