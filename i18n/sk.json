@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Teslaton"
+			"Teslaton",
+			"Vlad5250"
 		]
 	},
 	"authorprotect": "Zabrániť neautorským úpravám",
@@ -15,6 +16,8 @@
 	"authorprotect-success": "Ochrana prebehla úspešne!",
 	"protect-level-author": "Ochrániť pred neautorskými úpravami",
 	"restriction-level-author": "Len pre autorov",
+	"action-authorprotect": "ochrániť pred neautorskými úpravami",
 	"right-authorprotect": "Chrániť autorské stránky",
+	"action-author": "upravovať stránky chránené pred neautorskými úpravami",
 	"right-author": "Upravovať stránky chránené pred neautorskými úpravami"
 }
