@@ -24,5 +24,6 @@
 	"restriction-level-author": "Protegido por autor",
 	"action-authorprotect": "proteger contra no autores",
 	"right-authorprotect": "Proteger las páginas que he creado",
+	"action-author": "editar páginas protegidas por su autor",
 	"right-author": "Editar páginas protegidas por el autor"
 }
