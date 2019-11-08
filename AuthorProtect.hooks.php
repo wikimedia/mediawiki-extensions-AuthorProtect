@@ -30,26 +30,29 @@ class AuthorProtect {
 	}
 
 	public static function UserIsAuthor( $user, $title, $checkMaster = false ) {
-		if ( !$title instanceof Title ) {
-			return false; // quick hack to prevent the API from messing up.
-		}
-
-		if ( $user->getID() === 0 ) {
-			return false; // don't allow anons, they shouldn't even get this far but just in case...
-		}
-
-		$id = $title->getArticleID();
-		$dbr = wfGetDB( $checkMaster ? DB_MASTER : DB_REPLICA );
-		$aid = $dbr->selectField(
-			'revision',
-			'rev_user',
-			[ 'rev_page' => $id ],
-			__METHOD__,
-			[ 'ORDER BY' => 'rev_timestamp ASC' ]
-		);
-
-		return $user->getID() == $aid;
-	}
+                if ( !$title instanceof Title ) {
+                        return false; // quick hack to prevent the API from messing up.
+                }
+                if ( $user->getID() === 0 ) {
+                        return false; // don't allow anons, they shouldn't even get this far but just in case...
+                }
+                $id = $title->getArticleID();
+                $dbr = wfGetDB( $checkMaster ? DB_MASTER : DB_REPLICA );
+                $aid = $dbr->selectField( //revised to get actor id from revision_actor_temp table
+                        'revision_actor_temp',
+                        'revactor_actor',
+                        [ 'revactor_page' => $id ],
+                        __METHOD__,
+                        [ 'ORDER BY' => 'revactor_timestamp ASC' ]
+                );
+                 $uid = $dbr->selectField( //select corresponding user id from actor table
+                        'actor',
+                        'actor_user',
+                        [ 'actor_id' => $aid ],
+                        __METHOD__
+                );
+                return $user->getID() == $uid;
+        } 
 
 	private static function AuthorProtectMessage( $title ) {
 		foreach ( $title->getRestrictionTypes() as $type ) {
