@@ -5,7 +5,8 @@
 			"BrokenArrow",
 			"Darth Kule",
 			"OrbiliusMagister",
-			"Pietrodn"
+			"Pietrodn",
+			"Tizven"
 		]
 	},
 	"authorprotect": "Proteggi la pagina dai non-autori",
@@ -20,5 +21,6 @@
 	"restriction-level-author": "Protetta dall'autore",
 	"action-authorprotect": "proteggere la pagina dai non-autori",
 	"right-authorprotect": "Protegge le pagine con autori",
+	"action-author": "Modifica le pagine protette dall'autore",
 	"right-author": "Modifica le pagine protette dall'autore"
 }
