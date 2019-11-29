@@ -5,7 +5,8 @@
 			"Karduelis",
 			"Khutuck",
 			"TmY e12",
-			"ToprakM"
+			"ToprakM",
+			"BaRaN6161 TURK"
 		]
 	},
 	"authorprotect": "Sayfayı yazar-olmayanlardan koru",
@@ -20,5 +21,6 @@
 	"restriction-level-author": "Yazar-korumalı",
 	"action-authorprotect": "Yazar-olmayanlardan koru",
 	"right-authorprotect": "Yazarlı sayfaları koru",
+	"action-author": "yazar korumalı sayfaları düzenle",
 	"right-author": "Yarı korumadaki sayfaları düzenle"
 }
