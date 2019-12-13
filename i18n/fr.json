@@ -8,7 +8,8 @@
 			"Gomoko",
 			"Wladek92",
 			"Urhixidur",
-			"Pols12"
+			"Pols12",
+			"Thibaut120094"
 		]
 	},
 	"authorprotect": "Protéger la page des non-auteurs",
@@ -18,7 +19,7 @@
 	"authorprotect-edit": "Restreindre l’édition aux auteurs",
 	"authorprotect-move": "Restreindre le renommage aux auteurs",
 	"authorprotect-intro": "Utilisez ce formulaire pour verrouiller cette pages des non-auteurs",
-	"authorprotect-success": "Protection mise en place !",
+	"authorprotect-success": "Protection mise en place !",
 	"protect-level-author": "Protéger des non-auteurs",
 	"restriction-level-author": "Auteur-protégé",
 	"action-authorprotect": "protection contre les non-auteurs",
