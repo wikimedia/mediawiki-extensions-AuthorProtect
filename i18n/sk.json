@@ -3,17 +3,18 @@
 		"authors": [
 			"Helix84",
 			"Teslaton",
-			"Vlad5250"
+			"Vlad5250",
+			"Luky001"
 		]
 	},
 	"authorprotect": "Zabrániť neautorským úpravám",
 	"authorprotect-desc": "Umožní autorovi stránky zabrániť ostatným používateľom upravovať ju",
-	"authorprotect-notauthor": "Nie ste autorom tejto stránky",
+	"authorprotect-notauthor": "Nie ste {{GENDER:$1|autorom|autorkou}} tejto stránky.",
 	"authorprotect-confirm": "Zmeniť úrovne ochrany",
 	"authorprotect-edit": "Povoliť výlučne úpravy autorov",
 	"authorprotect-move": "Povoliť presúvanie výlučne pre autorov",
 	"authorprotect-intro": "Tento formulár slúži na zamknutie tejto stránky ostatným používateľom okrem jej autorov.",
-	"authorprotect-success": "Ochrana prebehla úspešne!",
+	"authorprotect-success": "Ochrana nastavená!",
 	"protect-level-author": "Ochrániť pred neautorskými úpravami",
 	"restriction-level-author": "Len pre autorov",
 	"action-authorprotect": "ochrániť pred neautorskými úpravami",
