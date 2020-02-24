@@ -4,19 +4,22 @@
 			"Жељко Тодоровић",
 			"Михајло Анђелковић",
 			"Сербијана",
-			"Obsuser"
+			"Obsuser",
+			"BadDog"
 		]
 	},
-	"authorprotect": "Заштити чланак од не-аутора",
-	"authorprotect-desc": "Омогућава аутору чланка да га заштити од других корисника",
-	"authorprotect-notauthor": "{{GENDER:$1|Ви}} нисте {{GENDER:$1|аутор}} ове странице.",
+	"authorprotect": "Заштита страница од неаутора",
+	"authorprotect-desc": "Омогућава аутору неке странице да је заштити од других корисника",
+	"authorprotect-notauthor": "Нисте {{GENDER:$1|аутор|ауторка}} странице.",
 	"authorprotect-confirm": "Промени нивое заштите",
-	"authorprotect-edit": "Ограничи право измене на ауторе",
-	"authorprotect-move": "Ограничи право премештања само на ауторе",
-	"authorprotect-intro": "Користите ову форму да бисте закључали овај чланак за не-ауторе",
-	"authorprotect-success": "Заштита постављена!",
-	"protect-level-author": "Заштити од не-аутора",
-	"restriction-level-author": "Кориснички заштићено",
-	"right-authorprotect": "заштита страница од стране аутора",
-	"right-author": "Уређивање странице заштићене за аутора"
+	"authorprotect-edit": "Само аутори могу да уређују",
+	"authorprotect-move": "Само аутори могу да премештају",
+	"authorprotect-intro": "Користите овај образац да бисте закључали страницу неауторима.",
+	"authorprotect-success": "Заштита је постављена.",
+	"protect-level-author": "Заштити од неаутора",
+	"restriction-level-author": "Ауторска заштита",
+	"action-authorprotect": "заштитите од не-аутора",
+	"right-authorprotect": "заштита ауторских страница",
+	"action-author": "уређујете странице које је заштитио аутор",
+	"right-author": "уређивање страница које је заштитио аутор"
 }
