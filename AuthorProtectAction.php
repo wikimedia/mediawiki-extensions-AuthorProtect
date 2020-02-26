@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class AuthorProtectAction extends FormAction {
 	public function getName() {
 		return 'authorprotect';
@@ -16,7 +18,26 @@ class AuthorProtectAction extends FormAction {
 			throw new ErrorPageError( 'errorpagetitle', 'authorprotect-notauthor', [ $user->getName() ] );
 		}
 
-		$errors = array_values( $this->getTitle()->getUserPermissionsErrors( 'protect', $user, 'secure', [ 'badaccess-groups' ] ) );
+		if ( class_exists( 'MediaWiki\Permissions\PermissionManager' ) ) {
+			// MW 1.33+
+			$errors = MediaWikiServices::getInstance()->getPermissionManager()
+				->getPermissionErrors(
+					'protect',
+					$user,
+					$this->getTitle(),
+					'secure',
+					[ 'badaccess-groups' ]
+				);
+		} else {
+			$errors = $this->getTitle()->getUserPermissionsErrors(
+				'protect',
+				$user,
+				'secure',
+				[ 'badaccess-groups' ]
+			);
+		}
+
+		$errors = array_values( $errors );
 		if ( $errors ) {
 			throw new PermissionsError( 'authorprotect', $errors );
 		}
