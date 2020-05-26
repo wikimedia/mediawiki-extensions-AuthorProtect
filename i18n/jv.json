@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"Meursault2004",
 			"NoiX180"
 		]
 	},
 	"authorprotect": "Reksa kaca saka non-pangripta",
-	"authorprotect-desc": "Marengaké pangripta sawijining kaca ngreksa saka panganggo liyané",
+	"authorprotect-desc": "Marengaké pangripta sawijining kaca ngreksa saka naraguna liyané",
 	"authorprotect-notauthor": "Panjenengan dudu pangripta kaca iki",
 	"authorprotect-confirm": "Owahi tataran rereksan",
 	"authorprotect-edit": "Watesi pambesut marang juru pangripta",
