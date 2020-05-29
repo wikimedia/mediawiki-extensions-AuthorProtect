@@ -39,13 +39,15 @@ class AuthorProtect {
 		}
 
 		$id = $title->getArticleID();
+		$actorQuery = ActorMigration::newMigration()->getJoin( 'rev_user' );
 		$dbr = wfGetDB( $checkMaster ? DB_MASTER : DB_REPLICA );
 		$aid = $dbr->selectField(
-			'revision',
-			'rev_user',
+			[ 'revision' ] + $actorQuery['tables'],
+			$actorQuery['fields']['rev_user'],
 			[ 'rev_page' => $id ],
 			__METHOD__,
-			[ 'ORDER BY' => 'rev_timestamp ASC' ]
+			[ 'ORDER BY' => 'rev_timestamp ASC' ],
+			$actorQuery['joins']
 		);
 
 		return $user->getID() == $aid;
