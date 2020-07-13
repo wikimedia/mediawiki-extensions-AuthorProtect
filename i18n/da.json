@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Saederup92",
 			"Sarrus"
 		]
 	},
@@ -11,7 +12,7 @@
 	"authorprotect-edit": "Begræns redigering til forfattere",
 	"authorprotect-move": "Begræns flytning til forfattere",
 	"authorprotect-intro": "Brug denne formular til at låse denne side fra ikke-forfattere",
-	"authorprotect-success": "Siden er beskyttet!",
+	"authorprotect-success": "Beskyttelsen blev sat!",
 	"protect-level-author": "Beskyt mod ikke-forfattere",
 	"restriction-level-author": "Forfatterbeskyttet"
 }
