@@ -3,6 +3,7 @@
 		"authors": [
 			"El libre",
 			"Jordi Roqué",
+			"Mguix",
 			"SMP",
 			"Solde"
 		]
@@ -14,7 +15,7 @@
 	"authorprotect-edit": "Restricció d'edició als autors",
 	"authorprotect-move": "Restricció de reanomenament als autors",
 	"authorprotect-intro": "Useu aquesta pantalla per a blocar aquesta pàgina als no-autors",
-	"authorprotect-success": "Protegida!",
+	"authorprotect-success": "Protecció aplicada!",
 	"protect-level-author": "Protecció dels no-autors",
 	"restriction-level-author": "Restringida a l'autor",
 	"right-authorprotect": "Protegir les pàgines amb autoria",
