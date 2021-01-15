@@ -3,18 +3,28 @@
 use MediaWiki\MediaWikiServices;
 
 class AuthorProtectAction extends FormAction {
+
+	/**
+	 * @inheritDoc
+	 */
 	public function getName() {
 		return 'authorprotect';
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function getRestriction() {
 		return 'authorprotect';
 	}
 
+	/**
+	 * @param User $user
+	 */
 	protected function checkCanExecute( User $user ) {
 		parent::checkCanExecute( $user );
 
-		if ( !AuthorProtect::UserIsAuthor( $user, $this->getTitle() ) ) {
+		if ( !AuthorProtect::userIsAuthor( $user, $this->getTitle() ) ) {
 			throw new ErrorPageError( 'errorpagetitle', 'authorprotect-notauthor', [ $user->getName() ] );
 		}
 
@@ -43,23 +53,40 @@ class AuthorProtectAction extends FormAction {
 		}
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	protected function getPageTitle() {
 		return wfMessage( 'authorprotect' )->escaped();
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	protected function getDescription() {
 		// page subtitle
 		return '';
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	protected function preText() {
 		return $this->msg( 'authorprotect-intro' )->parseAsBlock();
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	public function onSuccess() {
 		$this->getOutput()->addWikiMsg( 'authorprotect-success' );
 	}
 
+	/**
+	 * @param mixed $data
+	 *
+	 * @return bool
+	 */
 	public function onSubmit( $data ) {
 		$title = $this->getTitle();
 		$user = $this->getUser();
@@ -103,7 +130,8 @@ class AuthorProtectAction extends FormAction {
 		$success = $article->doUpdateRestrictions(
 			$restrictions,
 			$expiration,
-			$cascade, // cascading protection disabled, need to pass by reference
+			// cascading protection disabled, need to pass by reference
+			$cascade,
 			$data['Reason'],
 			$user
 		);
@@ -111,6 +139,9 @@ class AuthorProtectAction extends FormAction {
 		return $success;
 	}
 
+	/**
+	 * @return string[] html
+	 */
 	protected function getFormFields() {
 		$title = $this->getTitle();
 		$request = $this->getRequest();
@@ -125,7 +156,9 @@ class AuthorProtectAction extends FormAction {
 
 			if ( $rest !== [] ) {
 				if ( !call_user_func_array( [ $user, 'isAllowedAll' ], $rest ) ) {
-					continue; // it's protected at a level higher than them, so don't let them change it so they can now mess with stuff
+					// it's protected at a level higher than them,
+					// so don't let them change it so they can now mess with stuff
+					continue;
 				}
 			}
 
@@ -153,7 +186,13 @@ class AuthorProtectAction extends FormAction {
 		return $fields;
 	}
 
-	// forked from ProtectionForm::getExpiry and modified to rewrite '' to infinity
+	/**
+	 * Forked from ProtectionForm::getExpiry and modified to rewrite '' to infinity
+	 *
+	 * @param string $value
+	 *
+	 * @return string
+	 */
 	private function getExpiry( $value ) {
 		if ( $value == 'infinite' || $value == 'indefinite' || $value == 'infinity' || $value == '' ) {
 			$time = wfGetDB( DB_REPLICA )->getInfinity();
@@ -172,6 +211,9 @@ class AuthorProtectAction extends FormAction {
 		return $time;
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	protected function usesOOUI() {
 		return true;
 	}

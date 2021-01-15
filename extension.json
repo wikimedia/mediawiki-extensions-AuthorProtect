@@ -11,8 +11,8 @@
 		"MediaWiki": ">= 1.31.0"
 	},
 	"AutoloadClasses": {
-		"AuthorProtect": "AuthorProtect.hooks.php",
-		"AuthorProtectAction": "AuthorProtectAction.php"
+		"AuthorProtect": "includes/AuthorProtect.php",
+		"AuthorProtectAction": "includes/AuthorProtectAction.php"
 	},
 	"MessagesDirs": {
 		"AuthorProtect": [
@@ -20,8 +20,8 @@
 		]
 	},
 	"Hooks": {
-		"SkinTemplateNavigation::Universal": "AuthorProtect::MakeContentAction",
-		"UserGetRights": "AuthorProtect::AssignAuthor"
+		"SkinTemplateNavigation::Universal": "AuthorProtect::makeContentAction",
+		"UserGetRights": "AuthorProtect::assignAuthor"
 	},
 	"Actions": {
 		"authorprotect": "AuthorProtectAction"

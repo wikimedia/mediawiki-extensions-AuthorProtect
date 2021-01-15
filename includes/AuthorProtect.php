@@ -1,10 +1,17 @@
 <?php
 
 class AuthorProtect {
-	public static function AssignAuthor( $user, &$aRights ) {
+
+	/**
+	 * @param User $user
+	 * @param array &$aRights
+	 *
+	 * @return bool
+	 */
+	public static function assignAuthor( $user, &$aRights ) {
 		$title = RequestContext::getMain()->getTitle();
 
-		if ( self::UserIsAuthor( $user, $title ) ) {
+		if ( self::userIsAuthor( $user, $title ) ) {
 			$aRights[] = 'author';
 			$aRights = array_unique( $aRights );
 		}
@@ -12,16 +19,25 @@ class AuthorProtect {
 		return true;
 	}
 
-	public static function MakeContentAction( $skin, &$links ) {
+	/**
+	 * @param Skin $skin
+	 * @param string[] &$links
+	 *
+	 * @return bool
+	 */
+	public static function makeContentAction( $skin, &$links ) {
 		$title = $skin->getTitle();
 		$user = $skin->getUser();
 		$request = $skin->getRequest();
 
-		if ( self::UserIsAuthor( $user, $title ) && $user->isAllowed( 'authorprotect' ) && !$user->isAllowed( 'protect' ) ) {
+		if ( self::userIsAuthor( $user, $title )
+			&& $user->isAllowed( 'authorprotect' )
+			&& !$user->isAllowed( 'protect' )
+		) {
 			$action = $request->getText( 'action' );
 			$links['actions']['authorprotect'] = [
 				'class' => $action == 'authorprotect' ? 'selected' : false,
-				'text' => wfMessage( self::AuthorProtectMessage( $title ) ),
+				'text' => wfMessage( self::authorProtectMessage( $title ) ),
 				'href' => $title->getLocalUrl( 'action=authorprotect' ),
 			];
 		}
@@ -29,13 +45,22 @@ class AuthorProtect {
 		return true;
 	}
 
-	public static function UserIsAuthor( $user, $title, $checkMaster = false ) {
+	/**
+	 * @param User $user
+	 * @param Title $title
+	 * @param bool|string $checkMaster
+	 *
+	 * @return string
+	 */
+	public static function userIsAuthor( $user, $title, $checkMaster = false ) {
 		if ( !$title instanceof Title ) {
-			return false; // quick hack to prevent the API from messing up.
+			// quick hack to prevent the API from messing up.
+			return false;
 		}
 
 		if ( $user->getID() === 0 ) {
-			return false; // don't allow anons, they shouldn't even get this far but just in case...
+			// don't allow anons, they shouldn't even get this far but just in case...
+			return false;
 		}
 
 		$id = $title->getArticleID();
@@ -53,7 +78,12 @@ class AuthorProtect {
 		return $user->getID() == $aid;
 	}
 
-	private static function AuthorProtectMessage( $title ) {
+	/**
+	 * @param Title $title
+	 *
+	 * @return string
+	 */
+	private static function authorProtectMessage( $title ) {
 		foreach ( $title->getRestrictionTypes() as $type ) {
 			if ( in_array( 'author', $title->getRestrictions( $type ) ) ) {
 				return 'unprotect';

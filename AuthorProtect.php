@@ -13,5 +13,5 @@ if ( function_exists( 'wfLoadExtension' ) ) {
 		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
 	);
 } else {
-	die( 'This version of the AuthorProtect extension requires MediaWiki 1.29+' );
+	die( 'This version of the AuthorProtect extension requires MediaWiki 1.31+' );
 }
