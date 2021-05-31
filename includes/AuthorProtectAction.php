@@ -127,7 +127,7 @@ class AuthorProtectAction extends FormAction {
 
 		$article = Article::newFromTitle( $title, $this->getContext() );
 		$cascade = false;
-		$success = $article->doUpdateRestrictions(
+		$success = $article->getPage()->doUpdateRestrictions(
 			$restrictions,
 			$expiration,
 			// cascading protection disabled, need to pass by reference
