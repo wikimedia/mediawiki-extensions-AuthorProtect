@@ -14,6 +14,8 @@
 	"authorprotect-success": "Protection applicate!",
 	"protect-level-author": "Proteger contra non-autores",
 	"restriction-level-author": "Protegite per le autor",
+	"action-authorprotect": "proteger contra non-autores",
 	"right-authorprotect": "Proteger paginas scribite per autores",
+	"action-author": "modificar paginas protegite per le autor",
 	"right-author": "Modificar paginas protegite per le autor"
 }

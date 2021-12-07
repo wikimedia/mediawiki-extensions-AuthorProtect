@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Siebrand"
+			"Siebrand",
+			"McDutchie"
 		]
 	},
-	"authorprotect-notauthor": "Je bent niet de auteur van deze pagina"
+	"authorprotect-notauthor": "{{GENDER:$1|Jij}} bent niet de {{GENDER:$1|auteur}} van deze pagina"
 }
