@@ -4,17 +4,18 @@
 			"El libre",
 			"Jordi Roqué",
 			"SMP",
-			"Solde"
+			"Solde",
+			"Mguix"
 		]
 	},
 	"authorprotect": "Protegir pàgina de no-autors",
 	"authorprotect-desc": "Permet a l'autor d'una pàgina protegir-la d'altres usuaris",
-	"authorprotect-notauthor": "No sou l'autor d'aquesta pàgina",
+	"authorprotect-notauthor": "No sou l’autor{{GENDER:$1||a}} d'aquesta pàgina",
 	"authorprotect-confirm": "Canvi dels nivells de protecció",
 	"authorprotect-edit": "Restricció d'edició als autors",
 	"authorprotect-move": "Restricció de reanomenament als autors",
 	"authorprotect-intro": "Useu aquesta pantalla per a blocar aquesta pàgina als no-autors",
-	"authorprotect-success": "Protegida!",
+	"authorprotect-success": "Protecció aplicada!",
 	"protect-level-author": "Protecció dels no-autors",
 	"restriction-level-author": "Restringida a l'autor",
 	"right-authorprotect": "Protegir les pàgines amb autoria",

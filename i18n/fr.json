@@ -9,21 +9,22 @@
 			"Sherbrooke",
 			"Thibaut120094",
 			"Urhixidur",
-			"Wladek92"
+			"Wladek92",
+			"Verdy p"
 		]
 	},
 	"authorprotect": "Protéger la page des non-auteurs",
 	"authorprotect-desc": "Permet à l’auteur d’une page de la protéger des autres utilisateurs",
 	"authorprotect-notauthor": "Vous n’êtes pas l’auteur{{GENDER:$1||e}} de cette page.",
-	"authorprotect-confirm": "Modifier le niveau de protection",
-	"authorprotect-edit": "Restreindre l’édition aux auteurs",
+	"authorprotect-confirm": "Modifier les niveaux de protection",
+	"authorprotect-edit": "Restreindre la modification aux auteurs",
 	"authorprotect-move": "Restreindre le renommage aux auteurs",
-	"authorprotect-intro": "Utilisez ce formulaire pour verrouiller cette pages des non-auteurs",
-	"authorprotect-success": "Protection mise en place !",
+	"authorprotect-intro": "Utilisez ce formulaire pour verrouiller cette page des non-auteurs.",
+	"authorprotect-success": "Protection mise en place !",
 	"protect-level-author": "Protéger des non-auteurs",
-	"restriction-level-author": "Auteur-protégé",
-	"action-authorprotect": "protection contre les non-auteurs",
-	"right-authorprotect": "Protéger la page des auteurs",
+	"restriction-level-author": "Protégé pour l’auteur",
+	"action-authorprotect": "protéger des non-auteurs",
+	"right-authorprotect": "Protéger des pages pour leurs auteurs",
 	"action-author": "modifier les pages protégées par leur auteur",
-	"right-author": "Modifier les pages protégées par son auteur"
+	"right-author": "Modifier des pages protégées pour leurs auteurs"
 }
