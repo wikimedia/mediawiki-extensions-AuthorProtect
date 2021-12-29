@@ -6,7 +6,7 @@
 	},
 	"authorprotect": "ป้องกันหน้าจากผู้ที่ไม่ใช่ผู้เขียน",
 	"authorprotect-desc": "อนุญาตให้ผู้เขียนป้องกันหน้าไม่ให้ผู้ใช้อื่นแก้ไข",
-	"authorprotect-notauthor": "คุณไม่ใช่ผู้เขียนหน้านี้",
+	"authorprotect-notauthor": "{{GENDER:$1|คุณ}}ไม่ใช่{{GENDER:$1|ผู้เขียน}}หน้านี้",
 	"authorprotect-confirm": "เปลี่ยนระดับการป้องกัน",
 	"authorprotect-edit": "จำกัดสิทธิ์การแก้ไขให้กับผู้เขียนเท่านั้น",
 	"authorprotect-move": "จำกัดสิทธิ์การย้ายให้กับผู้เขียนเท่านั้น",
