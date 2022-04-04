@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beginneruser",
 			"Ebraminio",
 			"FarsiNevis",
 			"Huji",
@@ -22,5 +23,5 @@
 	"action-authorprotect": "محافظت در برابر غیرنویسنده‌ها",
 	"right-authorprotect": "محافظت صفحه‌های نویسنده",
 	"action-author": "ویرایش صفحه‌های محافظت‌شده توسط نویسنده",
-	"right-author": "ویرایش صفحات محافظت‌شده نویسنده"
+	"right-author": "ویرایش صفحه‌های محافظت‌شده نویسنده"
 }
