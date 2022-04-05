@@ -6,7 +6,8 @@
 			"Huji",
 			"Mardetanha",
 			"Mehran",
-			"Reza1615"
+			"Reza1615",
+			"Beginneruser"
 		]
 	},
 	"authorprotect": "محافظت از صفحه در برابر غیرنویسنده‌ها",
@@ -22,5 +23,5 @@
 	"action-authorprotect": "محافظت در برابر غیرنویسنده‌ها",
 	"right-authorprotect": "محافظت صفحه‌های نویسنده",
 	"action-author": "ویرایش صفحه‌های محافظت‌شده توسط نویسنده",
-	"right-author": "ویرایش صفحات محافظت‌شده نویسنده"
+	"right-author": "ویرایش صفحه‌های محافظت‌شده نویسنده"
 }
