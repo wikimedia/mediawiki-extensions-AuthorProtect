@@ -91,7 +91,14 @@ class AuthorProtectAction extends FormAction {
 		$title = $this->getTitle();
 		$user = $this->getUser();
 		$out = $this->getOutput();
-		$restrictionTypes = $title->getRestrictionTypes();
+		if ( method_exists( MediaWikiServices::class, 'getRestrictionStore' ) ) {
+			// MW 1.37+
+			$restrictionStore = MediaWikiServices::getInstance()->getRestrictionStore();
+		} else {
+			$restrictionStore = null;
+		}
+		$restrictionTypes = $restrictionStore ?
+			$restrictionStore->listApplicableRestrictionTypes( $title ) : $title->getRestrictionTypes();
 
 		$restrictions = [];
 		$expiration = [];
@@ -101,12 +108,15 @@ class AuthorProtectAction extends FormAction {
 			// FIXME: schema supports multiple restrictions on a page, but there is no real functionality
 			// to work with this in MediaWiki core. Once core fully supports multiple restrictions, this will
 			// need to be updated to work with that. Otherwise, we could be accidentally obliterating restrictions.
-			$rest = $title->getRestrictions( $type );
+			$rest = $restrictionStore ?
+				$restrictionStore->getRestrictions( $title, $type ) : $title->getRestrictions( $type );
 			if ( $rest !== [] ) {
 				if ( !call_user_func_array( [ $user, 'isAllowedAll' ], $rest ) ) {
 					// don't let them lower the protection level
 					$restrictions[$type] = implode( '', $rest );
-					$expiration[$type] = $title->getRestrictionExpiry( $type );
+					$expiration[$type] = $restrictionStore
+						? $restrictionStore->getRestrictionExpiry( $title, $type )
+						: $title->getRestrictionExpiry( $type );
 					continue;
 				}
 			}
@@ -120,7 +130,9 @@ class AuthorProtectAction extends FormAction {
 					$expiration[$type] = '';
 				} else {
 					$restrictions[$type] = implode( '', $rest );
-					$expiration[$type] = $title->getRestrictionExpiry( $type );
+					$expiration[$type] = $restrictionStore ?
+						$restrictionStore->getRestrictionExpiry( $title, $type )
+						: $title->getRestrictionExpiry( $type );
 				}
 			}
 		}
@@ -147,12 +159,20 @@ class AuthorProtectAction extends FormAction {
 		$request = $this->getRequest();
 		$user = $this->getUser();
 		$out = $this->getOutput();
-		$restrictionTypes = $title->getRestrictionTypes();
+		if ( method_exists( MediaWikiServices::class, 'getRestrictionStore' ) ) {
+			// MW 1.37+
+			$restrictionStore = MediaWikiServices::getInstance()->getRestrictionStore();
+		} else {
+			$restrictionStore = null;
+		}
+		$restrictionTypes = $restrictionStore ?
+			$restrictionStore->listApplicableRestrictionTypes( $title ) : $title->getRestrictionTypes();
 
 		$fields = [];
 
-		foreach ( $title->getRestrictionTypes() as $type ) {
-			$rest = $title->getRestrictions( $type );
+		foreach ( $restrictionTypes as $type ) {
+			$rest = $restrictionStore ?
+				$restrictionStore->getRestrictions( $title, $type ) : $title->getRestrictions( $type );
 
 			if ( $rest !== [] ) {
 				if ( !call_user_func_array( [ $user, 'isAllowedAll' ], $rest ) ) {

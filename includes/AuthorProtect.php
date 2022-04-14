@@ -84,9 +84,19 @@ class AuthorProtect {
 	 * @return string
 	 */
 	private static function authorProtectMessage( $title ) {
-		foreach ( $title->getRestrictionTypes() as $type ) {
-			if ( in_array( 'author', $title->getRestrictions( $type ) ) ) {
-				return 'unprotect';
+		if ( method_exists( MediaWikiServices::class, 'getRestrictionStore' ) ) {
+			// MW 1.37+
+			$restrictionStore = MediaWikiServices::getInstance()->getRestrictionStore();
+			foreach ( $restrictionStore->listApplicableRestrictionTypes( $title ) as $type ) {
+				if ( in_array( 'author', $restrictionStore->getRestrictions( $title, $type ) ) ) {
+					return 'unprotect';
+				}
+			}
+		} else {
+			foreach ( $title->getRestrictionTypes() as $type ) {
+				if ( in_array( 'author', $title->getRestrictions( $type ) ) ) {
+					return 'unprotect';
+				}
 			}
 		}
 		return 'protect';
