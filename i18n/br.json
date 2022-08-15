@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Fulup",
+			"Huñvreüs",
 			"Y-M D"
 		]
 	},
 	"authorprotect": "Gwareziñ ar bajenn diouzh ar re n'int ket aozerien anezhi",
 	"authorprotect-desc": "Aotren a ra aozer ur bajenn d'he gwareziñ diouzh an implijerien all",
-	"authorprotect-notauthor": "N'oc'h ket c'hwi aozer ar bajenn-mañ",
+	"authorprotect-notauthor": "{{GENDER:$1|N'oc'h}} ket aozer{{GENDER:$1||ez}} ar bajenn-mañ.",
 	"authorprotect-confirm": "Kemmañ al liveoù gwareziñ",
 	"authorprotect-edit": "Strishaat ar gwir kemmañ d'an aozerien hepken",
 	"authorprotect-move": "Strishaat ar gwir adenvel d'an aozerien hepken",
