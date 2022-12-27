@@ -6,15 +6,18 @@
 			"Rancher"
 		]
 	},
-	"authorprotect": "Zaštiti članak od ne-autora",
-	"authorprotect-desc": "Omogućava autoru članka da ga zaštiti od drugih korisnika",
-	"authorprotect-notauthor": "Vi niste autor ovog članka",
+	"authorprotect": "Zaštita stranica od neautora",
+	"authorprotect-desc": "Omogućava autoru neke stranice da je zaštiti od drugih korisnika",
+	"authorprotect-notauthor": "Niste {{GENDER:$1|autor|autorka}} stranice.",
 	"authorprotect-confirm": "Promeni nivoe zaštite",
-	"authorprotect-edit": "Ograniči pravo izmene na autore",
-	"authorprotect-move": "Ograniči pravo premeštanja samo na autore",
-	"authorprotect-intro": "Koristite ovu formu da biste zaključali ovaj članak za ne-autore",
-	"authorprotect-success": "Zaštita uspešna!",
-	"protect-level-author": "Zaštiti od ne-autora",
-	"restriction-level-author": "Korisnički zaštićeno",
-	"right-authorprotect": "zaštita stranica od strane autora"
+	"authorprotect-edit": "Samo autori mogu da uređuju",
+	"authorprotect-move": "Samo autori mogu da premeštaju",
+	"authorprotect-intro": "Koristite ovaj obrazac da biste zaključali stranicu neautorima.",
+	"authorprotect-success": "Zaštita je postavljena.",
+	"protect-level-author": "Zaštiti od neautora",
+	"restriction-level-author": "Autorska zaštita",
+	"action-authorprotect": "zaštitite od ne-autora",
+	"right-authorprotect": "zaštita autorskih stranica",
+	"action-author": "uređujete stranice koje je zaštitio autor",
+	"right-author": "uređivanje stranica koje je zaštitio autor"
 }
