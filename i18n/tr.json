@@ -5,6 +5,7 @@
 			"Joseph",
 			"Karduelis",
 			"Khutuck",
+			"Rapsar",
 			"TmY e12",
 			"ToprakM"
 		]
@@ -22,5 +23,5 @@
 	"action-authorprotect": "yazar olmayanlardan koru",
 	"right-authorprotect": "Yazarlı sayfaları koru",
 	"action-author": "yazar korumalı sayfaları düzenle",
-	"right-author": "Yarı korumadaki sayfaları düzenle"
+	"right-author": "Yarı korumadaki sayfaları değiştir"
 }
