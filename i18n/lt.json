@@ -19,6 +19,8 @@
 	"authorprotect-success": "Apsauga nustatyta!",
 	"protect-level-author": "Apsaugoti puslapį nuo ne autorių",
 	"restriction-level-author": "Autorius apsaugotas",
+	"action-authorprotect": "apsaugoti nuo ne autorių",
 	"right-authorprotect": "Apsaugoti autorius puslapių",
+	"action-author": "redaguoti autoriaus saugomus puslapius",
 	"right-author": "Redaguoti pusiau užrakintus puslapius"
 }
