@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Narazeni"
+		]
+	},
+	"authorprotect-notauthor": "{{GENDER:$1|თქვა}} ვა რეთ ათე ხასჷლაშ {{GENDER:$1|ავტორი}}.",
+	"authorprotect-confirm": "თხილუაშ დონეშ თირუა",
+	"authorprotect-edit": "რედაქტირაფა შეულებჷნა ხვალე ავტორეფს",
+	"authorprotect-move": "გინოღალა შეულებჷნა ხვალე ავტორეფს",
+	"authorprotect-intro": "გჷმირინეთ ათე ფორმა, ნამჷ-და დოთხილუათ ხასჷლა მახვარებუეფშე, ნამუეფჷთ ვა რენა ავტორეფი.",
+	"authorprotect-success": "თხილუა გერინაფილი რე!",
+	"protect-level-author": "თხილუა ვა ავტორეფშე",
+	"restriction-level-author": "საავტორე თხილუა",
+	"action-authorprotect": "თხილუა ვა ავტორეფშე",
+	"right-authorprotect": "საავტორე ხასჷლეფიშ თხილუა",
+	"action-author": "საავტორე თხილერი ხასჷლეფიშ რედაქტირაფა"
+}
