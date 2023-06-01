@@ -10,7 +10,7 @@
 	"authorprotect": "Zaštiti stranicu od ne-autora.",
 	"authorprotect-desc": "Dozvoli autoru stranice da je zaštiti od drugih korsinika.",
 	"authorprotect-notauthor": "{{GENDER:$1|Vi}} niste {{GENDER:$1|autor|autorica}} ove stranice.",
-	"authorprotect-confirm": "Izmjeni stepen zaštite.",
+	"authorprotect-confirm": "Izmijeni stepen zaštite",
 	"authorprotect-edit": "Zabrani uređivanje autorima.",
 	"authorprotect-move": "Zabrani preusmjeravanje autorima.",
 	"authorprotect-intro": "Koristi ovaj formular za zaključavanje stranice ne-autorima.",
