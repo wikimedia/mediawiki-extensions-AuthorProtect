@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Assele",
-			"Sagan"
+			"Sagan",
+			"З. ӘЙЛЕ"
 		]
 	},
 	"authorprotect": "Битте автор булмаған ҡатнашыусыларҙан һаҡлау",
 	"authorprotect-desc": "Биттең авторына уны башҡа ҡатнашыусылар үҙгәртеүенән һаҡларға мөмкинлек бирә",
-	"authorprotect-notauthor": "Һеҙ был биттең авторы түгел",
+	"authorprotect-notauthor": "Был биттең {{GENDER:$1|авторы}} {{GENDER:$1|Һеҙ}} түгел",
 	"authorprotect-confirm": "Һаҡлау дәрәжәләрен үҙгәртергә",
 	"authorprotect-edit": "Авторҙар ғына үҙгәртә ала",
 	"authorprotect-move": "Авторҙар ғына исемен үҙгәртә ала",
