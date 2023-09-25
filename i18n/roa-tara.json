@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Joetaras"
 		]
 	},
@@ -10,7 +11,7 @@
 	"authorprotect-confirm": "Cange le levèlle de protezione",
 	"authorprotect-edit": "Restringe le cangiaminde a l'auture",
 	"authorprotect-move": "Restringe le spustaminde a le auture",
-	"authorprotect-intro": "Ause stu module pe bloccà sta pàgene da chidde ca no sò  l'autore.",
+	"authorprotect-intro": "Ause stu module pe bloccà sta pàgene da chidde ca no sò l'autore.",
 	"authorprotect-success": "Protezione 'mbostate!",
 	"protect-level-author": "Protette da le none autore",
 	"restriction-level-author": "Protette da l'autore",
