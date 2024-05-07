@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Joao Xavier",
 			"Lakaoso",
 			"Malafaya"
 		]
 	},
-	"authorprotect-notauthor": "{{GENDER:$1|Vu}} ne es la {{GENDER:$1|autoro}} di ca pagino."
+	"authorprotect-notauthor": "{{GENDER:$1|Vu}} ne es la {{GENDER:$1|autoro}} di ca pagino.",
+	"right-author": "Redaktar uzero-pagini protektita"
 }
