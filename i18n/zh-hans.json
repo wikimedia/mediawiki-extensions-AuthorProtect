@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gzdavidwong",
+			"LittlePaw365",
 			"Liuxinyu970226",
 			"PhiLiP",
 			"SolidBlock",
@@ -10,18 +11,18 @@
 			"佛壁灯"
 		]
 	},
-	"authorprotect": "防止非作者编辑页面",
-	"authorprotect-desc": "允许页面的作者禁止其他用户编辑",
+	"authorprotect": "保护页面免受非作者操作",
+	"authorprotect-desc": "允许页面作者保护页面免受其他用户操作",
 	"authorprotect-notauthor": "{{GENDER:$1|您}}不是该页面的{{GENDER:$1|作者}}。",
-	"authorprotect-confirm": "更改保护级别",
-	"authorprotect-edit": "禁止除作者以外人士编辑",
-	"authorprotect-move": "禁止除作者以外人士移动",
-	"authorprotect-intro": "使用此表格禁止除作者以外人士编辑",
+	"authorprotect-confirm": "更改保护等级",
+	"authorprotect-edit": "仅限作者编辑",
+	"authorprotect-move": "仅限作者移动",
+	"authorprotect-intro": "使用此表单锁定该页面，防止非作者操作。",
 	"authorprotect-success": "保护已设置！",
-	"protect-level-author": "保护非作者",
-	"restriction-level-author": "作者保护",
-	"action-authorprotect": "保护非作者编辑",
-	"right-authorprotect": "保护自己创作的页面禁止他人编辑",
-	"action-author": "编辑被作者保护的页面",
-	"right-author": "编辑被作者保护的页面"
+	"protect-level-author": "防止非作者操作",
+	"restriction-level-author": "受作者保护",
+	"action-authorprotect": "防止非作者操作",
+	"right-authorprotect": "保护创作的页面",
+	"action-author": "编辑受作者保护的页面",
+	"right-author": "编辑受作者保护的页面"
 }
