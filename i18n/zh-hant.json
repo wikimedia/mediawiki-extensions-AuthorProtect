@@ -9,13 +9,14 @@
 			"Liangent",
 			"Mark85296341",
 			"Waihorace",
-			"Wrightbus"
+			"Wrightbus",
+			"Cookai1205"
 		]
 	},
 	"authorprotect": "防止非作者編輯頁面",
 	"authorprotect-desc": "允許頁面的作者禁止其他使用者編輯",
 	"authorprotect-notauthor": "{{GENDER:$1|您}}並非本頁面的{{GENDER:$1|作者}}。",
-	"authorprotect-confirm": "變更保護等級",
+	"authorprotect-confirm": "變更保護層級",
 	"authorprotect-edit": "禁止除作者以外人士編輯",
 	"authorprotect-move": "禁止除作者以外人士移動",
 	"authorprotect-intro": "使用此表格禁止除作者以外人士編輯",
