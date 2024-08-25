@@ -50,11 +50,10 @@ class AuthorProtect {
 	/**
 	 * @param User $user
 	 * @param Title $title
-	 * @param bool|string $checkMaster
 	 *
 	 * @return string
 	 */
-	public static function userIsAuthor( $user, $title, $checkMaster = false ) {
+	public static function userIsAuthor( $user, $title ) {
 		if ( !$title instanceof Title ) {
 			// quick hack to prevent the API from messing up.
 			return false;
@@ -67,7 +66,7 @@ class AuthorProtect {
 
 		$id = $title->getArticleID();
 		$actorQuery = ActorMigration::newMigration()->getJoin( 'rev_user' );
-		$dbr = wfGetDB( $checkMaster ? DB_MASTER : DB_REPLICA );
+		$dbr = wfGetDB( DB_REPLICA );
 		$aid = $dbr->selectField(
 			[ 'revision' ] + $actorQuery['tables'],
 			$actorQuery['fields']['rev_user'],
