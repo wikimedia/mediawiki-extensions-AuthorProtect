@@ -67,7 +67,7 @@ class AuthorProtect {
 
 		$id = $title->getArticleID();
 		$actorQuery = ActorMigration::newMigration()->getJoin( 'rev_user' );
-		$dbr = wfGetDB( $checkMaster ? DB_MASTER : DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 		$aid = $dbr->selectField(
 			[ 'revision' ] + $actorQuery['tables'],
 			$actorQuery['fields']['rev_user'],
