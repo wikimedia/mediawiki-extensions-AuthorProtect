@@ -215,7 +215,7 @@ class AuthorProtectAction extends FormAction {
 	 */
 	private function getExpiry( $value ) {
 		if ( $value == 'infinite' || $value == 'indefinite' || $value == 'infinity' || $value == '' ) {
-			$time = wfGetDB( DB_REPLICA )->getInfinity();
+			$time = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA )->getInfinity();
 		} else {
 			$unix = strtotime( $value );
 
