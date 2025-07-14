@@ -1,6 +1,8 @@
 <?php
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
+use MediaWiki\User\ActorMigration;
 
 class AuthorProtect {
 
@@ -85,19 +87,10 @@ class AuthorProtect {
 	 * @return string
 	 */
 	private static function authorProtectMessage( $title ) {
-		if ( method_exists( MediaWikiServices::class, 'getRestrictionStore' ) ) {
-			// MW 1.37+
-			$restrictionStore = MediaWikiServices::getInstance()->getRestrictionStore();
-			foreach ( $restrictionStore->listApplicableRestrictionTypes( $title ) as $type ) {
-				if ( in_array( 'author', $restrictionStore->getRestrictions( $title, $type ) ) ) {
-					return 'unprotect';
-				}
-			}
-		} else {
-			foreach ( $title->getRestrictionTypes() as $type ) {
-				if ( in_array( 'author', $title->getRestrictions( $type ) ) ) {
-					return 'unprotect';
-				}
+		$restrictionStore = MediaWikiServices::getInstance()->getRestrictionStore();
+		foreach ( $restrictionStore->listApplicableRestrictionTypes( $title ) as $type ) {
+			if ( in_array( 'author', $restrictionStore->getRestrictions( $title, $type ) ) ) {
+				return 'unprotect';
 			}
 		}
 		return 'protect';
