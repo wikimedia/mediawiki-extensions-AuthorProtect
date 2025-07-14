@@ -28,24 +28,14 @@ class AuthorProtectAction extends FormAction {
 			throw new ErrorPageError( 'errorpagetitle', 'authorprotect-notauthor', [ $user->getName() ] );
 		}
 
-		if ( class_exists( 'MediaWiki\Permissions\PermissionManager' ) ) {
-			// MW 1.33+
-			$errors = MediaWikiServices::getInstance()->getPermissionManager()
-				->getPermissionErrors(
-					'protect',
-					$user,
-					$this->getTitle(),
-					'secure',
-					[ 'badaccess-groups' ]
-				);
-		} else {
-			$errors = $this->getTitle()->getUserPermissionsErrors(
+		$errors = MediaWikiServices::getInstance()->getPermissionManager()
+			->getPermissionErrors(
 				'protect',
 				$user,
+				$this->getTitle(),
 				'secure',
 				[ 'badaccess-groups' ]
 			);
-		}
 
 		$errors = array_values( $errors );
 		if ( $errors ) {
@@ -57,7 +47,7 @@ class AuthorProtectAction extends FormAction {
 	 * @inheritDoc
 	 */
 	protected function getPageTitle() {
-		return wfMessage( 'authorprotect' )->escaped();
+		return wfMessage( 'authorprotect' );
 	}
 
 	/**
@@ -91,12 +81,7 @@ class AuthorProtectAction extends FormAction {
 		$title = $this->getTitle();
 		$user = $this->getUser();
 		$out = $this->getOutput();
-		if ( method_exists( MediaWikiServices::class, 'getRestrictionStore' ) ) {
-			// MW 1.37+
-			$restrictionStore = MediaWikiServices::getInstance()->getRestrictionStore();
-		} else {
-			$restrictionStore = null;
-		}
+		$restrictionStore = MediaWikiServices::getInstance()->getRestrictionStore();
 		$restrictionTypes = $restrictionStore ?
 			$restrictionStore->listApplicableRestrictionTypes( $title ) : $title->getRestrictionTypes();
 
@@ -159,12 +144,7 @@ class AuthorProtectAction extends FormAction {
 		$request = $this->getRequest();
 		$user = $this->getUser();
 		$out = $this->getOutput();
-		if ( method_exists( MediaWikiServices::class, 'getRestrictionStore' ) ) {
-			// MW 1.37+
-			$restrictionStore = MediaWikiServices::getInstance()->getRestrictionStore();
-		} else {
-			$restrictionStore = null;
-		}
+		$restrictionStore = MediaWikiServices::getInstance()->getRestrictionStore();
 		$restrictionTypes = $restrictionStore ?
 			$restrictionStore->listApplicableRestrictionTypes( $title ) : $title->getRestrictionTypes();
 
