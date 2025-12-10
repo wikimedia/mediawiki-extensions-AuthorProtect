@@ -4,15 +4,15 @@
 			"MacTire02"
 		]
 	},
-	"authorprotect": "Coadee y duillag veih neu-ughtaryn",
-	"authorprotect-desc": "T'eh shoh lhiggey da ughtar duillag erbee ee dy choadee veih ymmydeyryn elley",
-	"authorprotect-notauthor": "Cha nel shiu ughtar y duillag shoh",
-	"authorprotect-confirm": "Caghlaa kiartyn coadee",
-	"authorprotect-edit": "Lhig da ughtaryn ynrican dy reaghey",
-	"authorprotect-move": "Lhig da ughtaryn ynrican dy scughey",
-	"authorprotect-intro": "Jean ymmyd jeh'n form shoh dy chur glass er y duillag shoh veih neu-ughtaryn",
-	"authorprotect-success": "Va'n coadey rahoil!",
+	"authorprotect": "Coadee yn duillag veih neu-ughtaryn",
+	"authorprotect-desc": "T’eh shoh lhiggey da ughtar duillag erbee dy choadee ee veih ymmydeyryn elley",
+	"authorprotect-notauthor": "Cha nee {{GENDER:$1|uss}} {{GENDER:$1|ughtar}} yn duillag shoh.",
+	"authorprotect-confirm": "Ceaghil keimyn coadee",
+	"authorprotect-edit": "Lhiettal reaghaghyn da ughtaryn ny lomarcan",
+	"authorprotect-move": "Lhiettal scughaghyn da ughtaryn ny lomarcan",
+	"authorprotect-intro": "Jean ymmyd jeh’n form shoh dy chur glass er y duillag shoh veih neu-ughtaryn",
+	"authorprotect-success": "Ta’n coadey soit!",
 	"protect-level-author": "Coadee veih neu-ughtaryn",
-	"restriction-level-author": "Coadit liorish yn ughtar",
+	"restriction-level-author": "Coadit lesh yn ughtar",
 	"right-authorprotect": "Coadee duillagyn ughtarit"
 }
