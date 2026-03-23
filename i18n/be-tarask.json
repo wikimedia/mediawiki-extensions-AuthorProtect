@@ -5,13 +5,14 @@
 			"Jim-by",
 			"Red Winged Duck",
 			"Renessaince",
+			"Ucukor",
 			"Wizardist"
 		]
 	},
 	"authorprotect": "Абарона старонак ад не-аўтараў",
 	"authorprotect-desc": "Дазваляе аўтару старонкі абараняць яе ад іншых удзельнікаў",
 	"authorprotect-notauthor": "Вы не зьяўляецеся {{GENDER:$1|аўтарам|аўтаркай}} гэтай старонкі.",
-	"authorprotect-confirm": "Зьмяніць узроўні абароны",
+	"authorprotect-confirm": "Зьмяніць роўні абароны",
 	"authorprotect-edit": "Дазволіць рэдагаваньне толькі аўтарам",
 	"authorprotect-move": "Дазволіць перанос толькі аўтарам",
 	"authorprotect-intro": "Выкарыстоўвайце гэтую формы для абароны гэтай старонкі ад не-аўтараў",
