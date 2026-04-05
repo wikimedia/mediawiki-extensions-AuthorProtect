@@ -61,8 +61,8 @@ class AuthorProtect {
 			return false;
 		}
 
-		if ( $user->getID() === 0 ) {
-			// don't allow anons, they shouldn't even get this far but just in case...
+		if ( !$user->isNamed() ) {
+			// don't allow anons or temporary users, they shouldn't even get this far but just in case...
 			return false;
 		}
 
