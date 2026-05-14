@@ -21,5 +21,6 @@
 	"restriction-level-author": "Auto-babesturik",
 	"action-authorprotect": "babestu ez-egileetatik",
 	"right-authorprotect": "Babestu sortu ditudan orriak",
+	"action-author": "editatu egileak babestutako orrialdeak",
 	"right-author": "Egile-babesdun orrialdeak editatu"
 }
