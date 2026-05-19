@@ -4,5 +4,18 @@
 			"AhmedG612"
 		]
 	},
-	"action-authorprotect": "Ka ilaali kuwa aan ahayn qorayaasha"
+	"authorprotect": "Ka ilaali bogga kuwa aan qorin",
+	"authorprotect-desc": "U oggolaanaya qoraaga bogga inuu ka ilaaliyo isticmaalayaasha kale",
+	"authorprotect-notauthor": "{{GENDER:$1|Adiga}} ma tihid {{GENDER:$1|qoraaga}} boggan.",
+	"authorprotect-confirm": "Beddel heerarka ilaalinta",
+	"authorprotect-edit": "Ku xaddid wax ka beddelka qoraayaasha",
+	"authorprotect-move": "Ku xaddid wareejinta qoraayaasha",
+	"authorprotect-intro": "Isticmaal foomkan si aad uga xirto boggan kuwa aan ahayn qoraayaasha.",
+	"authorprotect-success": "Ilaalinta waa la dejiyey!",
+	"protect-level-author": "Ka ilaali kuwa aan qoraayaasha ahayn",
+	"restriction-level-author": "Qoraaga ayaa ilaaliyey",
+	"action-authorprotect": "Ka ilaali kuwa aan ahayn qorayaasha",
+	"right-authorprotect": "Ilaali bogagga uu qoray qoraaga",
+	"action-author": "Wax ka beddel bogagga uu qoray qoraagu ee la ilaaliyey",
+	"right-author": "Wax ka beddel bogagga uu qoray qoraagu ee la ilaaliyey"
 }
