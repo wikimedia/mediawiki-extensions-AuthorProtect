@@ -6,12 +6,13 @@
 			"Eduardo.mps",
 			"Eduardoaddad",
 			"Giro720",
-			"Iagocds"
+			"Iagocds",
+			"NenhumaFênix"
 		]
 	},
 	"authorprotect": "Proteger página contra não-autores",
 	"authorprotect-desc": "Permite ao autor de uma página protegê-la de outros utilizadores",
-	"authorprotect-notauthor": "{{GENDER:$1|Você}} não é o {{GENDER:$1|autor}} desta página",
+	"authorprotect-notauthor": "{{GENDER:$1|Você}} não é {{GENDER:$1|o autor|a autora|autor(a)}} desta página",
 	"authorprotect-confirm": "Alterar níveis de proteção",
 	"authorprotect-edit": "Restringir edição a autores",
 	"authorprotect-move": "Restringir a movimentação da página a autores",
